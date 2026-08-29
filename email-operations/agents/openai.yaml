@@ -1,0 +1,4 @@
+interface:
+  display_name: "Email Operations"
+  short_description: "Apply exact account-specific email rules"
+  default_prompt: "Use $email-operations with the named account profile and perform only its authorized email actions."

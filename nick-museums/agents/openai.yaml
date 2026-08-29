@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nick Museums"
+  short_description: "Personal museum discovery and trip planning"
+  default_prompt: "Use $nick-museums to plan my next museum visit."

@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../olivellc/olive-skills"
+		},
+		{
+			"path": "../../dwsw/dwsw-skills"
+		},
+		{
+			"path": "../../wis/wis-skills"
+		}
+	],
+	"settings": {}
+}

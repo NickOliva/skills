@@ -1,0 +1,4 @@
+interface:
+  display_name: "Employment Opportunity Dossier"
+  short_description: "Research roles and build interview-ready dossiers"
+  default_prompt: "Use $build-employment-opportunity-dossier to research this opportunity and create an interview-ready dossier in my work vault."

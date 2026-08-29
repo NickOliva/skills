@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nick Coach"
+  short_description: "Turn fuzzy goals into focused, researched briefs"
+  default_prompt: "Use $nick-coach to help me clarify this idea through a brief interview and save a decision-ready requirements brief."
