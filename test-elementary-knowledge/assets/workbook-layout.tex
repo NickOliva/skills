@@ -1,0 +1,17 @@
+% Printable workspace; keep prompt and workspace together using the Lua filter.
+\setlength{\parindent}{0pt}
+% Full-width question blocks must not reserve KOMA's extra paragraph-end space.
+\AtBeginDocument{\setlength{\parfillskip}{0pt plus 1fil}}
+\raggedbottom
+\newcommand{\workarea}[1]{%
+  \par\nobreak\vspace{2mm}%
+  \begingroup
+  \setlength{\fboxsep}{2mm}%
+  \color{black!30}%
+  \noindent\fbox{%
+    \parbox[t][#1][t]{\dimexpr\linewidth-2\fboxsep-2\fboxrule\relax}{%
+      \color{black!50}\footnotesize Work space\par
+    }%
+  }%
+  \endgroup\par
+}

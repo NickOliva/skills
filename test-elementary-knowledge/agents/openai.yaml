@@ -1,0 +1,4 @@
+interface:
+  display_name: "Test Elementary Knowledge"
+  short_description: "Concept outlines, solved examples, and practice PDFs"
+  default_prompt: "Use $test-elementary-knowledge to outline every relevant concept with five solved examples each, or make a 20-page Pandoc/Eisvogel practice PDF for my selected concept and grade."
