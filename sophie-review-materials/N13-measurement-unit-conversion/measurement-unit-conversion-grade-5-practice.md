@@ -199,7 +199,7 @@ Solve and label each answer.
 \workarea{55mm}
 :::
 ::: {.problem #p11-02}
-**2.** A $6$-liter jug is shared equally among $8$ bottles. How many liters go in each bottle?
+**2.** A jug contains $6$ liters of water. All the water is shared equally among $8$ empty bottles. How many liters go in each bottle?
 
 \workarea{55mm}
 :::
@@ -299,7 +299,7 @@ For a rectangular prism, use $V=length\times width\times height$.
 # Practice 17: Temperature
 Name: ____________________  Date: __________
 
-Read the scales carefully. For these problems, use whole-number temperatures.
+Find the temperature change or new temperature. Include degrees Celsius in your answers.
 
 ::: {.problem #p17-01}
 **1.** The temperature is $18^\circ$C in the morning and $25^\circ$C in the afternoon. How many degrees did it rise?
@@ -307,7 +307,7 @@ Read the scales carefully. For these problems, use whole-number temperatures.
 \workarea{55mm}
 :::
 ::: {.problem #p17-02}
-**2.** The freezer is $-12^\circ$C. It warms by $7^\circ$C. What is the new temperature?
+**2.** A greenhouse is $12^\circ$C. It warms by $7^\circ$C. What is the new temperature?
 
 \workarea{55mm}
 :::

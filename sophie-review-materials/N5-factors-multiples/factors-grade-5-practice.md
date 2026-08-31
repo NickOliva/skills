@@ -93,7 +93,7 @@ The greatest common factor (GCF) is the largest factor shared by two or more num
 :::
 
 ::: {.problem #p05-02}
-**2.** A teacher has 45 pencils and 60 erasers. What is the greatest number of identical supply kits she can make? How many pencils and erasers go in each kit?
+**2.** A teacher has 45 pencils and 60 erasers. Using all the supplies with none left over, what is the greatest number of identical supply kits she can make? How many pencils and erasers go in each kit?
 
 \workarea{52mm}
 :::
@@ -201,7 +201,7 @@ A factor tree breaks a composite number into factors until every branch ends in 
 :::
 
 ::: {.problem #p11-02}
-**2.** Draw a different factor tree for 90. Explain why its prime factorization matches any other correct tree.
+**2.** Draw two different factor trees for 90. Explain why their prime factorizations match.
 
 \workarea{60mm}
 :::
@@ -273,7 +273,7 @@ Use inverse operations and factor knowledge to find an unknown factor.
 :::
 
 ::: {.problem #p15-02}
-**2.** A number has factors 1, 2, 4, 8, 16, and 32. What is the number? Explain why no other factor is needed in the list.
+**2.** A number has exactly these positive factors: 1, 2, 4, 8, 16, and 32. What is the number? Explain why no other factor is needed in the list.
 
 \workarea{50mm}
 :::
@@ -339,7 +339,7 @@ In a division statement, the remainder must be less than the divisor. Use that r
 Choose a strategy and write enough work for another reader to follow.
 
 ::: {.problem #p19-01}
-**1.** Find the GCF and LCM of 18 and 24. Describe how the two answers are related to the factor lists.
+**1.** Find the GCF and LCM of 18 and 24. Describe how the GCF comes from factor lists and the LCM comes from multiple lists.
 
 \workarea{60mm}
 :::
@@ -357,7 +357,7 @@ Choose a strategy and write enough work for another reader to follow.
 Use factorization, divisibility, and clear mathematical language.
 
 ::: {.problem #p20-01}
-**1.** Find the smallest positive number with exactly three distinct prime factors and a total of 24 positive factors. Show your reasoning.
+**1.** Find the smallest positive whole number with exactly three distinct prime factors. List all its positive factors and show your reasoning.
 
 \workarea{65mm}
 :::

@@ -10,15 +10,15 @@ classoption: oneside
 
 # Worked Answer Key
 
-1. **P1-1:** 3:35; “thirty-five minutes past three.” **P1-2:** 8:45; 15 minutes before 9.
-2. **P2-1:** 12:30 a.m. is 30 minutes after midnight and before noon. **P2-2:** 19:45.
+1. **P1-1:** 3:35; “thirty-five minutes past three.” **P1-2:** 8:45; “eight forty-five.” A quarter hour is 15 minutes, so “quarter to 9” means 15 minutes before 9.
+2. **P2-1:** 12:30 a.m. is 30 minutes after midnight and before noon on the same day. **P2-2:** Add 12 to the hour for this p.m. time: 7+12=19, so **19:45**.
 3. **P3-1:** 2:35 to 3:35 = 1 h; to 4:10 = 35 min; **1 h 35 min**. **P3-2:** 8:47 to 9:00 = 13 min; plus 32 = **45 min**.
 4. **P4-1:** 11:40 + 20 = noon; +35 = **12:35 p.m.** **P4-2:** 10:35 to midnight = 1 h 25 min; +1 h 20 min = **2 h 45 min**.
 5. **P5-1:** 3×60+18 = **198 min**. **P5-2:** 250 = 4×60+10, so **4 h 10 min**.
 6. **P6-1:** 9:55 to 10:05 = **10 min**. **P6-2:** 9:10 to 11:25 = **2 h 15 min**.
 7. **P7-1:** 18 minutes before 7:10 is 6:52; **6:50 is earlier**. **P7-2:** **12:05 a.m., 11:50 a.m., 12:15 p.m., 11:50 p.m.**
 8. **P8-1:** **$7.06**, or **7.06 dollars**. **P8-2:** 75+20+20+7 = **122¢ = $1.22**.
-9. **P9-1:** 12.75+8.49 = **$21.24**. **P9-2:** 3.85+6.27 = **$10.12**.
+9. **P9-1:** 75¢+49¢=124¢; regroup 100¢ as $1, leaving 24¢. The dollars total 12+8+1=21, so the sum is **$21.24**. **P9-2:** 3.85+6.27 = **$10.12**.
 10. **P10-1:** 20.00−13.68 = **$6.32**. **P10-2:** 35.50−18.75 = **$16.75**.
 11. **P11-1:** 10.00−7.46 = **$2.54**. **P11-2:** $20−$14.83 = $5.17; e.g., 5-dollar bill, dime, nickel, 2 pennies.
 12. **P12-1:** 8.95+14.50+2.35 = **$25.80**. **P12-2:** 12.49+9.75 = 22.24; 30−22.24 = **$7.76**; yes.
@@ -28,5 +28,5 @@ classoption: oneside
 16. **P16-1:** 25−8.50−6.75 = **$9.75**. **P16-2:** 8×7.25=58; 100−58 = **$42**, enough.
 17. **P17-1:** 40−8 = **$32**. **P17-2:** tax = 12.50×0.08 = **$1.00**; final = **$13.50**.
 18. **P18-1:** 15×6 = **$90**. **P18-2:** 9:30 + 2 h = 11:30; +45 = **12:15 p.m.**
-19. **P19-1:** Change = 25−16.80 = $8.20. Given 1 bill + 2 quarters + 3 dimes = 8.80, so **incorrect; it is 60¢ too much**. **P19-2:** 4:15 + 1 h 35 min = **5:50 p.m.**
+19. **P19-1:** The correct change is 25−16.80 = **$8.20**. The coins total 2×25¢+3×10¢=80¢. The bill would need to be worth $8.20−$0.80=$7.40. There is no U.S. bill worth $7.40, so **the change is incorrect**. The exact amount given cannot be found without knowing the bill's value. **P19-2:** 4:15 + 1 h 35 min = **5:50 p.m.**
 20. **P20-1:** 9:45 to midnight = 2 h 15 min; +20 min = **2 h 35 min**. Cost 18.75+3.60 = **$22.35**. **P20-2:** 2×12.95=25.90; 3×4.25=12.75; total 38.65; 50−38.65 = **$11.35**.

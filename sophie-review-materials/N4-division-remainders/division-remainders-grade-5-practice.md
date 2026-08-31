@@ -229,7 +229,7 @@ Circle the reasonable answer and explain why.
 :::
 
 ::: {.problem #p12-02}
-**2.** $8{,}190 \div 27$ is 30 or 300. Which is reasonable?
+**2.** Which is a reasonable estimate for $8{,}190 \div 27$: 30 or 300?
 
 \workarea{24mm}
 :::
@@ -334,7 +334,7 @@ Include units in your answer.
 # Practice 18: Error Analysis
 Name: ____________________  Date: __________
 
-Find and correct the error. Explain your correction.
+Decide whether each claim is correct. Correct any error and explain your reasoning.
 
 ::: {.problem #p18-01}
 **1.** Jordan says $685 \div 8 = 85$ R $5$. Is Jordan correct?
@@ -375,7 +375,7 @@ Name: ____________________  Date: __________
 Explain your reasoning clearly.
 
 ::: {.problem #p20-01}
-**1.** A camp has 2,375 campers. Buses hold 48 campers. How many buses are needed, and how many campers ride the last bus?
+**1.** A camp has 2,375 campers. Buses hold 48 campers. Fill each bus before using the next. How many buses are needed, and how many campers ride the last bus?
 
 \workarea{26mm}
 :::

@@ -28,6 +28,7 @@ Write each number in standard form.
 :::: {.practice-page #page-02}
 # Practice 2: Expanded form
 Write each number in expanded form.
+
 ::: {.problem #p02-01}
 
 **1.** 4,305,070
@@ -43,6 +44,7 @@ Write each number in expanded form.
 :::: {.practice-page #page-03}
 # Practice 3: Digit values
 Give the value of the bold digit.
+
 ::: {.problem #p03-01}
 
 **1.** 63,**8**14,205
@@ -57,7 +59,7 @@ Give the value of the bold digit.
 
 :::: {.practice-page #page-04}
 # Practice 4: Place names
-Name the place of the underlined digit.
+Name the place of the bold digit.
 
 ::: {.problem #p04-01}
 
@@ -83,7 +85,7 @@ Use the clues to write one number.
 :::
 ::: {.problem #p05-02}
 
-**2.** 9 in the hundred-millions, 4 in the thousands, 7 in the tens, 5 in the tenths place is not allowed: write a whole number using the first three clues.
+**2.** Write a whole number with 9 in the hundred-millions place, 4 in the thousands place, and 7 in the tens place.
 \workarea{55mm}
 :::
 ::::
@@ -270,9 +272,9 @@ Multiply or divide by the power of ten.
 ::::
 
 :::: {.practice-page #page-17}
-# Practice 17: Regrouping digits
+# Practice 17: Replacing digits
 
-Move the indicated digit and write the new number.
+Replace the indicated digit and write the new number.
 
 ::: {.problem #p17-01}
  

@@ -43,7 +43,7 @@ State the rule and complete the sequence.
 \workarea{20mm}
 :::
 ::: {.problem #p02-03}
-**3.** A row has 5 chairs. Each new row has 4 more chairs. Write the first five row totals.
+**3.** The first row has 5 chairs. Each new row has 4 more chairs than the row before it. Write the first five row totals.
 \workarea{20mm}
 :::
 ::::
@@ -303,7 +303,7 @@ Use the rule to find the requested term.
 \workarea{20mm}
 :::
 ::: {.problem #p15-03}
-**3.** Term 1 is 12; subtract 3 each time. Find term 8.
+**3.** Term 1 is 30; subtract 3 each time. Find term 8.
 \workarea{20mm}
 :::
 ::::
@@ -355,7 +355,7 @@ Name: ____________________  Date: __________
 Model each situation with a rule or equation.
 
 ::: {.problem #p18-01}
-**1.** A theater row has 8 seats; each next row has 2 more. How many seats are in row 7?
+**1.** The first theater row has 8 seats; each next row has 2 more than the row before it. How many seats are in row 7?
 \workarea{20mm}
 :::
 ::: {.problem #p18-02}
@@ -363,7 +363,7 @@ Model each situation with a rule or equation.
 \workarea{20mm}
 :::
 ::: {.problem #p18-03}
-**3.** Four notebooks cost $20. Write an equation for the price $c$ of one notebook and solve it.
+**3.** Four equally priced notebooks cost \$20. Write an equation for the price $c$ of one notebook and solve it.
 \workarea{20mm}
 :::
 ::::

@@ -9,7 +9,7 @@ footer-left: "Worked answer key"
 
 # Page 1
 1. $7 \times 8 = 56$.
-2. $40 \times 6 = (4 \times 6) \times 10 = 24 \times 10 = 240$.
+2. $40 \times 6 = (4 \times 6) \times 10 = 24 \times 10 = 240$. The zero in 40 shows there are no ones: 40 is 4 tens. Six groups of 4 tens make 24 tens, or 240, which also has no ones.
 
 # Page 2
 1. $9 \times 12 = 9 \times (10+2)=90+18=108$.
@@ -60,12 +60,12 @@ footer-left: "Worked answer key"
 2. $62\approx60$, $49\approx50$; $60\times50=3{,}000$. Estimate: **3,000**.
 
 # Page 14
-1. Exact: $197\times31=197\times(30+1)=5{,}910+197=6{,}107$. Estimate $200\times30=6{,}000$, so it is reasonable.
-2. Exact: $2{,}908\times5=14{,}540$. Estimate $3{,}000\times5=15{,}000$, so it is reasonable.
+1. Exact: $197\times31=197\times(30+1)=5{,}910+197=6{,}107$. Estimate $200\times30=6{,}000$. The exact product is close to the estimate (107 more), so it is reasonable.
+2. Exact: $2{,}908\times5=14{,}540$. Estimate $3{,}000\times5=15{,}000$. The exact product is close to and below the estimate (460 less), as expected because 2,908 was rounded up.
 
 # Page 15
-1. $3.4\times6=20.4$.
-2. $2.35\times4=9.40=9.4$.
+1. $3.4\times6=20.4$. Since 3.4 is 34 tenths, $34\times6=204$ tenths. The decimal belongs one place from the right: 20.4.
+2. $2.35\times4=9.40=9.4$. Since 2.35 is 235 hundredths, $235\times4=940$ hundredths. The decimal belongs two places from the right: 9.40.
 
 # Page 16
 1. $1.2\times0.5=0.60=0.6$.
@@ -76,8 +76,8 @@ footer-left: "Worked answer key"
 2. $18\times12=216$ tiles.
 
 # Page 18
-1. Equation: $26\times48=48\times(20+6)=960+288=1{,}248$. **1,248 pencils**.
-2. Equation: $35\times24=35\times(20+4)=700+140=840$. **840 seats**.
+1. Equation: $26\times48=48\times(20+6)=960+288=1{,}248$. The school orders **1,248 pencils**.
+2. Equation: $35\times24=35\times(20+4)=700+140=840$. The theater has **840 seats**.
 
 # Page 19
 1. $8\times15=120$ stickers; $120-27=93$. **93 remain**.
@@ -85,4 +85,4 @@ footer-left: "Worked answer key"
 
 # Page 20
 1. $2{,}406\times17=2{,}406\times(10+7)=24{,}060+16{,}842=40{,}902$.
-2. $7.5\times6=45.0=45$ meters.
+2. One piece is $7.5\div6=1.25$ meters long. Six such pieces have a total length of $1.25\times6=7.50=7.5$ meters, the length of the original ribbon.

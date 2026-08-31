@@ -22,16 +22,16 @@ footer-left: "Worked solutions"
 2. $864\div8=108$; $8\times108=864$.
 
 ## Page 4
-1. $924\div22=42$; $22\times42=924$.
-2. $1,176\div28=42$; $28\times42=1,176$.
+1. Area model: split an area of 924 into $880+44=(22\times40)+(22\times2)$. With one side 22, the other side is $40+2=42$, so $924\div22=42$.
+2. Area model: split an area of 1,176 into $1,120+56=(28\times40)+(28\times2)$. With one side 28, the other side is $40+2=42$, so $1,176\div28=42$.
 
 ## Page 5
 1. $4,032\div6=672$; $6\times672=4,032$.
 2. $5,040\div7=720$; $7\times720=5,040$.
 
 ## Page 6
-1. $157\div6=26$ R $1$; $6\times26+1=157$.
-2. $389\div9=43$ R $2$; $9\times43+2=389$.
+1. $157\div6=26$ R $1$; $6\times26+1=157$, and $1<6$.
+2. $389\div9=43$ R $2$; $9\times43+2=389$, and $2<9$.
 
 ## Page 7
 1. $2,365\div14=168$ R $13$; check $14\times168+13=2,352+13=2,365$.
@@ -54,8 +54,8 @@ footer-left: "Worked solutions"
 2. Estimate $6,284\div31\approx6,200\div31=200$. Exact: $6,284\div31=202$ R $22$.
 
 ## Page 12
-1. **392**; $3,528\div9=392$ (a four-digit number divided by 9 should be a few hundred).
-2. **300**; $8,190\div27\approx303$.
+1. **392**; $3,528$ is close to $3,600$, and $3,600\div9=400$. Thus 392 is reasonable, while 3,920 is much too large. Check: $9\times392=3,528$.
+2. **300** is the reasonable estimate: $8,190$ is close to $8,100$, and $8,100\div27=300$. In contrast, $27\times30=810$, far below $8,190$.
 
 ## Page 13
 1. Digit sum $=4+5+7+2=18$. Divisible by 3 and 9; even, so also divisible by 6.
@@ -78,8 +78,8 @@ footer-left: "Worked solutions"
 2. $3,456\div24=144$ meters per section.
 
 ## Page 18
-1. Incorrect: $8\times85+5=685$ is actually correct. The answer is **85 R 5**; the remainder 5 is less than 8.
-2. Incorrect: $1,248\div16=78$, since $16\times78=1,248$. Also 708 is far too large by estimation.
+1. Jordan is correct: $8\times85+5=680+5=685$. The answer is **85 R 5**; the remainder 5 is less than 8.
+2. Incorrect. Estimate: $1,248\div16\approx1,280\div16=80$, so 708 is far too large. The correct quotient is **78**, since $16\times78=1,248$.
 
 ## Page 19
 1. $7,245\div15=483$; check $15\times483=7,245$.
@@ -87,4 +87,4 @@ footer-left: "Worked solutions"
 
 ## Page 20
 1. $2,375\div48=49$ R $23$. Forty-nine full buses carry 2,352 campers; **50 buses** are needed, with **23 campers on the last bus**.
-2. $1,234\times9+7=11,106+7=11,113$. The number is **11,113**; $11,113\div9=1,234$ R $7$.
+2. $1,234\times9+7=11,106+7=11,113$. The number **11,113** has five digits; $11,113\div9=1,234$ R $7$, and $7<9$ makes the remainder valid.

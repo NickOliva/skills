@@ -123,7 +123,7 @@ Find the amount for one unit.
 
 
 ::: {.problem #p07-02}
-**2.** A car travels 240 miles in 4 hours. What is its rate in miles per hour?
+**2.** A car travels 240 miles in 4 hours. What is its average rate in miles per hour?
 \workarea{35mm}
 :::
 
@@ -131,7 +131,7 @@ Find the amount for one unit.
 
 :::: {.practice-page #page-08}
 # Practice 8: Rate tables
-Complete the table using a constant rate.
+Make a table or use multiplication to apply the constant rate.
 
 ::: {.problem #p08-01}
 **1.** At 5 pages per minute, how many pages can be read in 3, 7, and 10 minutes?

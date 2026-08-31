@@ -11,6 +11,8 @@ footer-left: "Practice workbook"
 # Practice 1: Likelihood language
 Name: ____________________  Date: __________
 
+Throughout this workbook, dice are fair and numbered 1–6, and coins are fair. Each object is equally likely to be drawn, and each equal-sized spinner section is equally likely. P(event) means the probability of that event.
+
 Use impossible, unlikely, equally likely, likely, or certain. Explain your choice.
 
 ::: {.problem #p01-01}
@@ -123,7 +125,7 @@ Use P(event) + P(not event) = 1.
 # Practice 8: Fairness
 
 ::: {.problem #p08-01}
-**1.** A game uses a fair coin. Is calling heads a fair way to choose between two players? Explain.
+**1.** A game uses a fair coin. One player wins on heads and the other on tails. Is this a fair way to choose between them? Explain.
 
 \workarea{50mm}
 :::
@@ -272,7 +274,7 @@ Write a clear conclusion with an equation or fraction.
 \workarea{50mm}
 :::
 ::: {.problem #p17-02}
-**2.** In a class survey, 15 of 24 students prefer apples. What fraction prefer another fruit? Simplify.
+**2.** In a class survey, each of 24 students chooses one favorite fruit. Of these students, 15 choose apples. What fraction choose another fruit? Simplify.
 
 \workarea{50mm}
 :::

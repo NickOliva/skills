@@ -277,7 +277,7 @@ A survey of 40 students found 15 prefer apples, 10 bananas, 8 oranges, and 7 pea
 
 :::: {.practice-page #page-16}
 # Practice 16: Probability from data
-A bag contains 5 red, 3 blue, and 2 green marbles.
+A bag contains 5 red, 3 blue, and 2 green marbles. Each marble is equally likely to be chosen.
 
 ::: {.problem #p16-01}
 **1.** What is the probability of choosing a blue marble? Give a fraction.
@@ -341,7 +341,7 @@ The number of rainy days in four months was March 8, April 5, May 11, and June 7
 
 :::: {.practice-page #page-20}
 # Practice 20: Mixed data review
-The table shows votes for a class choice.
+The table shows votes for a class choice. Each student voted for exactly one choice.
 
 | Choice | Field trip | Movie | Game day | Art day |
 |---|---:|---:|---:|---:|

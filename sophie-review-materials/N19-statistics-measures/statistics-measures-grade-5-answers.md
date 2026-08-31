@@ -48,7 +48,7 @@ For a mean, add all values and divide by the number of values. For a median, ord
 
 ## Page 10
 1. 21 − 9 = **12**.
-2. Read “fifty-five” as 55: 60 − 45 = **15 seconds**.
+2. 60 − 45 = **15 seconds**.
 
 ## Page 11
 1. Set A range 12 − 4 = 8. Set B range 14 − 2 = 12. **Set B** has greater spread.
@@ -84,8 +84,8 @@ For a mean, add all values and divide by the number of values. For a median, ord
 
 ## Page 19
 1. Ordered 18, 18, 18, 21, 24, 27, 30; sum 156; mean 156 ÷ 7 = **22 2/7** (about 22.29); median **21**; mode **18**; range 30 − 18 = **12**.
-2. Greatest = least + range = 5 + 9 = **14**. (The other stated measures describe the rest of the set; range alone determines this greatest value.)
+2. Greatest = least + range = 5 + 9 = **14**. The median and mode are not needed for this calculation.
 
 ## Page 20
 1. Sum 45; mean 45 ÷ 5 = **9**. Ordered 6, 8, 8, 10, 13; median **8**; mode **8**; range 13 − 6 = **7**.
-2. One valid set is **6, 8, 8, 9, 11, 18**. Sum 60, so mean 10; middle values 9 and 11 give median 10; 8 occurs most often, so mode 8; range 18 − 6 = 12.
+2. One valid set is **3, 8, 8, 12, 14, 15**. Sum 60, so mean 60 ÷ 6 = **10**; middle values 8 and 12 give median (8 + 12) ÷ 2 = **10**; only 8 repeats, so mode **8**; range 15 − 3 = **12**. Other sets are valid if all four measures match.

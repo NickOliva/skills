@@ -14,7 +14,7 @@ lang: en-US
 
 **Page 4:** 1. $9:6=3:2$. 2. Total $8+12=20$; fiction fraction $8/20=2/5$, ratio fiction to all $8:20=2:5$.
 
-**Page 5:** 1. First is $6/4=1.5$; second is $9/7\approx1.29$, so the first has more blue per red. 2. Yes: $3\times4=12$ and $4\times4=16$.
+**Page 5:** 1. Compare with the same number of red: $6:4=42:28$ and $9:7=36:28$. Since $42>36$, the first group has more blue per red. 2. Yes: $3\times4=12$ and $4\times4=16$.
 
 **Page 6:** 1. $8\div2=4$ groups; $3\times4=12$ walking laps. 2. $12\div4=3$ groups; $3\times3=9$ lemons.
 
@@ -42,6 +42,6 @@ lang: en-US
 
 **Page 18:** 1. $8\%$ of $50=\$4$; total $50+4=\$54$. 2. $20\%$ of $25=\$5$; total $25+5=\$30$.
 
-**Page 19:** 1. $6\times4=24$ miles. 2. $18/24=3/4=75$%.
+**Page 19:** 1. Use a rate because each inch represents the same number of miles: $6\times4=24$ miles. 2. Use a percent because the question asks what part of all the games were wins, expressed per hundred: $18/24=3/4=75$%.
 
 **Page 20:** 1. $240\div12=20$ boxes; $25\%=1/4$; $20\div4=5$ blue boxes. 2. $36\div3=12$ miles/hour; $12\times5=60$ miles; $60/100=60$%.

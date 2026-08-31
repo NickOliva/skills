@@ -15,7 +15,7 @@ Name: ____________________  Date: __________
 Write each time in words and in digital form.
 
 ::: {.problem #p01-01}
-**1.** The minute hand is on 7 and the hour hand is just past 3. Write the time.
+**1.** The minute hand is on 7 and the hour hand is between 3 and 4, a little closer to 4. Write the time.
 
 \workarea{45mm}
 :::
@@ -232,7 +232,7 @@ Use the schedule: swim 9:10–9:55; snack 10:05–10:20; science 10:30–11:25.
 \workarea{45mm}
 :::
 ::: {.problem #p17-02}
-**2.** A $12.50 item has 8% tax. Find the tax ($1.00) and final price.
+**2.** A $12.50 item has sales tax equal to 0.08 times its price. Find the tax and final price.
 \workarea{50mm}
 :::
 ::::
@@ -245,7 +245,7 @@ Use the schedule: swim 9:10–9:55; snack 10:05–10:20; science 10:30–11:25.
 \workarea{50mm}
 :::
 ::: {.problem #p18-02}
-**2.** A museum opens at 9:30 a.m. A visit lasts 2 hours 45 minutes. What time does it end?
+**2.** A museum opens at 9:30 a.m. A visit begins when it opens and lasts 2 hours 45 minutes. What time does the visit end?
 \workarea{50mm}
 :::
 ::::

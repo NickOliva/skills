@@ -14,7 +14,7 @@ Name: ____________________  Date: __________
 Write each fraction and identify its numerator and denominator.
 
 ::: {.problem #p01-01}
-**1.** Shade or describe $3/8$ of a rectangle. Which number is the numerator? Which is the denominator?
+**1.** Draw and shade a rectangle to show $3/8$, or describe how you would do so. Which number is the numerator? Which is the denominator?
 \workarea{45mm}
 :::
 ::: {.problem #p01-02}
@@ -27,7 +27,7 @@ Write each fraction and identify its numerator and denominator.
 # Practice 2: Fractions on a number line
 Name: ____________________  Date: __________
 
-Place each fraction on a number line from 0 to 1. Explain its location.
+Draw a number line from 0 to 1 for Problem 1. Explain each answer.
 
 ::: {.problem #p02-01}
 **1.** Place $2/5$ and $4/5$ on a number line.

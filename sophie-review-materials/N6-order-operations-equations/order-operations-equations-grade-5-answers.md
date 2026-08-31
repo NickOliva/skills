@@ -35,15 +35,15 @@ footer-left: "Worked solutions"
 
 ## Page 5
 
-1. $9+18\div3=9+6=15$.
-2. $6\times7-20=42-20=22$.
-3. $45\div5+4\times3=9+12=21$.
+1. $9+\underline{18\div3}=9+6=15$.
+2. $\underline{6\times7}-20=42-20=22$.
+3. $\underline{45\div5}+4\times3=9+4\times3=9+12=21$.
 
 ## Page 6
 
-1. $3\times(12-5)+8=3\times7+8=29$.
-2. $64\div(4+4)+7=64\div8+7=15$.
-3. $40-2\times(6+3)=40-18=22$.
+1. $3\times(12-5)+8=3\times7+8=21+8=29$.
+2. $64\div(4+4)+7=64\div8+7=8+7=15$.
+3. $40-2\times(6+3)=40-2\times9=40-18=22$.
 
 ## Page 7
 
@@ -79,13 +79,13 @@ footer-left: "Worked solutions"
 
 1. $d=9\times5=45$.
 2. $e=11\times8=88$.
-3. $f=156\div12=13$.
+3. $f=156\div12=13$. Check: $12\times13=156$.
 
 ## Page 13
 
-1. $2x+5=19$; $2x=14$; $x=7$.
-2. $3y-4=20$; $3y=24$; $y=8$.
-3. $n\div4+6=15$; $n\div4=9$; $n=36$.
+1. $2x+5=19$; $2x=14$; $x=7$. Check: $2\times7+5=14+5=19$.
+2. $3y-4=20$; $3y=24$; $y=8$. Check: $3\times8-4=24-4=20$.
+3. $n\div4+6=15$; $n\div4=9$; $n=36$. Check: $36\div4+6=9+6=15$.
 
 ## Page 14
 
@@ -115,7 +115,7 @@ footer-left: "Worked solutions"
 
 1. $7(20+3)=7\times20+7\times3=140+21=161$.
 2. Yes. Both equal $36$ by the commutative property of multiplication.
-3. $(12+3)\times4=60$.
+3. $(12+3)\times4=15\times4=60$. The parentheses make addition come first.
 
 ## Page 19
 
@@ -125,6 +125,6 @@ footer-left: "Worked solutions"
 
 ## Page 20
 
-1. $5(x+2)=45$; $x+2=9$; $x=7$.
-2. Answers vary. For example, $4\times9-4=32$ and $(6+2)\times4=32$.
+1. Divide both sides by $5$, then subtract $2$: $5(x+2)=45$; $x+2=9$; $x=7$.
+2. Answers vary. For example, $4\times9-4=36-4=32$ (multiply first) and $(6+2)\times4=8\times4=32$ (add inside parentheses first).
 3. Division comes before addition: $12\div4=3$, so $8+3=11$. Leo incorrectly added first.

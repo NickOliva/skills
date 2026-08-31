@@ -230,11 +230,11 @@ The table shows number of pets owned. Use the repeated values.
 # Practice 17: Reason about changes
 
 ::: {.problem #p17-01}
-**1.** Data are 4, 6, 8, 10. Add 12. What happens to the mean? Find both means.
+**1.** Data are 4, 6, 8, 10. Include 12 as one more data value. What happens to the mean? Find both means.
 \workarea{72mm}
 :::
 ::: {.problem #p17-02}
-**2.** Data are 3, 5, 5, 7, 9. Add 20. What happens to the median and range?
+**2.** Data are 3, 5, 5, 7, 9. Include 20 as one more data value. What happens to the median and range?
 \workarea{72mm}
 :::
 ::::
@@ -260,7 +260,7 @@ The table shows number of pets owned. Use the repeated values.
 \workarea{75mm}
 :::
 ::: {.problem #p19-02}
-**2.** A data set has mean 14, median 13, mode 12, and range 9. What is the greatest value if the least value is 5?
+**2.** A data set has median 13, mode 12, and range 9. What is the greatest value if the least value is 5?
 \workarea{68mm}
 :::
 ::::

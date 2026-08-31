@@ -195,7 +195,7 @@ Name: ____________________  Date: __________
 ::::
 
 :::: {.practice-page #page-09}
-# Practice 9: Missing numerators
+# Practice 9: Missing numerators and denominators
 Name: ____________________  Date: __________
 
 ::: {.problem #p09-01}
@@ -268,7 +268,7 @@ Name: ____________________  Date: __________
 Name: ____________________  Date: __________
 
 ::: {.problem #p12-01}
-**1.** Mia ate $2/6$ of a pizza. Ben ate $1/3$. Did they eat the same amount? Explain.
+**1.** Mia ate $2/6$ of a pizza. Ben ate $1/3$ of the same pizza. Did they eat the same amount? Explain.
 
 \workarea{20mm}
 :::
@@ -321,7 +321,7 @@ Show your two rectangles clearly.
 :::
 
 ::: {.problem #p14-02}
-**2.** Shade a model showing $3/4 = 9/12$.
+**2.** Draw and shade a model showing $3/4 = 9/12$.
 Label the parts you shade.
 
 \workarea{20mm}
@@ -329,7 +329,7 @@ Label the parts you shade.
 
 ::: {.problem #p14-03}
 **3.** Draw a set model showing $2/5 = 6/15$.
-Make each set part equal in size.
+Make each group contain the same number of objects.
 
 \workarea{20mm}
 :::
@@ -386,7 +386,7 @@ Name: ____________________  Date: __________
 Name: ____________________  Date: __________
 
 ::: {.problem #p17-01}
-**1.** If 4 parts represent $2/3$ of a collection, how many parts represent the whole? Explain.
+**1.** If 4 counters represent $2/3$ of a collection, how many counters are in the whole collection? Explain.
 
 \workarea{20mm}
 :::
@@ -409,7 +409,7 @@ Name: ____________________  Date: __________
 Name: ____________________  Date: __________
 
 ::: {.problem #p18-01}
-**1.** Jordan changes $3/5$ to $6/10$ by adding 3 and 5. Is this reasoning valid? Correctly explain.
+**1.** Jordan changes $3/5$ to $6/10$ by adding 3 to the numerator and 5 to the denominator. Is this reasoning valid? Explain.
 
 \workarea{20mm}
 :::

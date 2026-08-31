@@ -271,7 +271,7 @@ Undo the operations in reverse order. Check your answer.
 # Practice 14: Equations with parentheses
 Name: ____________________  Date: __________
 
-Solve each equation by simplifying the grouped part first.
+Use inverse operations to solve. Calculate parentheses first when they contain only numbers.
 
 ::: {.problem #p14-01}
 **1.** $(x + 3) \times 4 = 28$
@@ -318,7 +318,7 @@ Write an expression before solving each problem.
 \workarea{35mm}
 :::
 ::: {.problem #p16-02}
-**2.** Maya has $60$. She spends $14, then divides the rest equally among 2 savings jars. How much goes in each jar?
+**2.** Maya has \$60. She spends \$14, then divides the rest equally among 2 savings jars. How much goes in each jar?
 \workarea{35mm}
 :::
 ::: {.problem #p16-03}

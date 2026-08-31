@@ -13,19 +13,19 @@ footer-left: "Worked solutions"
 
 **Page 2:** 1. 4,000,000 + 300,000 + 5,000 + 70. 2. 90,000,000 + 8,000 + 600 + 4.
 
-**Page 3:** 1. 8 is in the hundred-thousands place: 800,000. 2. 7 is in the hundred-millions place: 700,000,000.
+**Page 3:** 1. 8 is in the hundred-thousands place: 800,000. 2. 7 is in the billions place: 7,000,000,000.
 
-**Page 4:** 1. 6 is in the ten-thousands place. 2. 0 is in the millions place.
+**Page 4:** 1. 6 is in the ten-thousands place. 2. 0 is in the hundred-thousands place.
 
-**Page 5:** 1. 6,030,802. 2. 900,004,070 (the tenths clue is ignored because the requested number is a whole number).
+**Page 5:** 1. 6,030,802. 2. One possible answer is 900,004,070. The unspecified places are zero in this example; other whole numbers with the three required digits in their stated places are also correct.
 
-**Page 6:** 1. 4,006,030: zeros hold the hundred-thousands, ten-thousands, and hundreds places; read “four million, six thousand thirty.” 2. 70,000,508: zeros hold the millions through thousands except the ten-millions digit; read “seventy million, five hundred eight.”
+**Page 6:** Each zero shows that its place has no units and keeps the other digits in their correct places. 1. 4,006,030: zeros hold the hundred-thousands, ten-thousands, hundreds, and ones places; read “four million, six thousand, thirty.” 2. 70,000,508: zeros hold the millions, hundred-thousands, ten-thousands, thousands, and tens places; read “seventy million, five hundred eight.”
 
 **Page 7:** 1. 7,405,018 < 7,450,018. 2. 83,000,900 > 83,000,090.
 
 **Page 8:** 1. 304,005; 304,050; 304,500; 340,050. 2. 8,000,100; 8,001,000; 8,010,000; 8,100,000.
 
-**Page 9:** 1. 5,608,971; 5,678,091; 5,678,901; 5,687,901. 2. 91,999,999; 92,000,140; 92,001,400; 92,010,040.
+**Page 9:** 1. 5,687,901; 5,678,901; 5,678,091; 5,608,971. 2. 92,010,040; 92,001,400; 92,000,140; 91,999,999.
 
 **Page 10:** 1. 41,290,876; they differ first in the ten-thousands place (9 > 0). 2. 600,070,004; they differ first in the ten-thousands place (7 > 0).
 

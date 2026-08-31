@@ -39,7 +39,7 @@ Round first. Show the rounded numbers and the estimate.
 
 :::: {.practice-page #page-03}
 # Practice 3: Estimate products
-Use a convenient place value. Write an estimate before solving.
+Use a convenient place value. Write an estimate, then calculate exactly.
 
 ::: {.problem #p03-01}
 **1.** Estimate $398\times21$ by rounding each factor to its greatest place.
@@ -193,7 +193,7 @@ Use estimation to plan, then calculate exactly.
 
 :::: {.practice-page #page-14}
 # Practice 14: Bounds and range
-Use rounding to describe a reasonable range for an answer.
+Use the given limits or rounding to describe a range of possible answers.
 
 ::: {.problem #p14-01}
 **1.** Each of 32 classrooms has between 24 and 29 students. Give a lower and upper bound for the school population.

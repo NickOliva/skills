@@ -10,7 +10,7 @@ footer-left: "Worked solutions"
 # Worked Answer Key
 
 ## Page 1
-1. $3/8$ means 3 of 8 equal parts; numerator 3, denominator 8. 2. Eaten $5/6$; left $1/6$.
+1. Divide a rectangle into 8 equal parts and shade 3; numerator 3, denominator 8. 2. Eaten $5/6$ (numerator 5, denominator 6); left $1/6$ (numerator 1, denominator 6), since $6-5=1$ piece remains.
 
 ## Page 2
 1. Divide 0–1 into fifths; $2/5$ is at the second mark and $4/5$ at the fourth. 2. $7/8$ is closer to 1 because it is $1/8$ away; $5/8$ is $3/8$ away.
@@ -19,7 +19,7 @@ footer-left: "Worked solutions"
 1. $3/7<5/7$ because 3<5 with equal denominators. 2. $9/10>6/10$ because 9>6.
 
 ## Page 4
-1. $4/5>4/9$; fifths are larger pieces than ninths. 2. $7/12<7/8$; with seven selected parts, eighths are larger pieces.
+1. $4/5>4/9$; fifths are larger pieces than ninths of the same whole. 2. $7/12<7/8$; with seven selected parts of the same whole, eighths are larger pieces. Model: draw two equal-size rectangles. Divide the first into 12 equal strips and shade 7; divide the second into 8 equal strips and shade 7. The second rectangle has more shaded area.
 
 ## Page 5
 1. $3/4=15/20$ (multiply by 5). 2. $18/24=3/4$ (divide both by 6).
@@ -46,7 +46,7 @@ footer-left: "Worked solutions"
 1. $3/4=6/8$; $6/8-1/8=5/8$. 2. $1/3=2/6$; $5/6-2/6=3/6=1/2$.
 
 ## Page 13
-1. $2\frac35=(2\times5+3)/5=13/5$. 2. $17/4=4$ remainder 1, so $4\frac14$.
+1. Each whole is $5/5$, so $2\frac35=5/5+5/5+3/5=13/5$. 2. $17/4=4/4+4/4+4/4+4/4+1/4$: four wholes and one fourth, or $4\frac14$.
 
 ## Page 14
 1. $2\frac14+1\frac24=3\frac34$. 2. $3\frac35+2\frac45=5\frac75=6\frac25$.
@@ -61,7 +61,7 @@ footer-left: "Worked solutions"
 1. $2/5+1/5=3/5$ mile. 2. $3-3/4=2\frac14$ feet.
 
 ## Page 18
-1. $2/3=4/6$; $4/6+1/6=5/6$ cup. 2. $5\frac12-2\frac34=5\frac24-2\frac34=2\frac34$ feet.
+1. $2/3=4/6$; $4/6+1/6=5/6$ cup. 2. Regroup $5\frac12=5\frac24=4\frac64$; then $4\frac64-2\frac34=2\frac34$ feet.
 
 ## Page 19
 1. No. Common denominator 12: $1/3+1/4=4/12+3/12=7/12$. 2. No. $5/8=15/24$ and $3/4=18/24$, so $5/8<3/4$.

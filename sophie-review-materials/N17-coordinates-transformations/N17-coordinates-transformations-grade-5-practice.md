@@ -7,11 +7,11 @@ header-right: "Grade 5"
 footer-left: "Practice workbook"
 ---
 
-Instructions: Use graph paper or the grids provided by your teacher. Label points with capital letters, write ordered pairs in parentheses, and show your reasoning.
-
 :::: {.practice-page #page-01}
 # Practice 1: The coordinate plane
 Name: ____________________  Date: __________
+
+Draw grids in the work area with equally spaced units from 0 to 10 on both axes unless another range is given. Graph paper is optional. Label points and show your reasoning.
 
 ::: {.problem #p01-01}
 **1.** In an ordered pair, what does the first number tell you? What does the second number tell you? Explain how you would plot $(4, 2)$.
@@ -48,13 +48,13 @@ Name: ____________________  Date: __________
 Name: ____________________  Date: __________
 
 ::: {.problem #p03-01}
-**1.** Plot $D(1,1)$, $E(1,5)$, $F(5,5)$, and $G(5,1)$ on a coordinate grid. Connect them in order. What shape is formed?
+**1.** Plot $D(1,1)$, $E(1,5)$, $F(5,5)$, and $G(5,1)$ on a coordinate grid. Connect them in order, then connect $G$ back to $D$. What shape is formed?
 
 \workarea{68mm}
 :::
 
 ::: {.problem #p03-02}
-**2.** Plot $H(2,6)$, $I(4,6)$, and $J(4,3)$. Which point is highest? Which two have the same x-coordinate?
+**2.** Plot $H(2,6)$, $I(4,6)$, and $J(4,3)$. Which points are tied for highest? Which two have the same x-coordinate?
 
 \workarea{48mm}
 :::
@@ -80,6 +80,8 @@ Name: ____________________  Date: __________
 :::: {.practice-page #page-05}
 # Practice 5: Translating points
 Name: ____________________  Date: __________
+
+Use capital letters for points and parentheses for coordinates. A prime mark, as in $M'$, names a point after a transformation.
 
 ::: {.problem #p05-01}
 **1.** Translate $M(1,4)$ 3 units right and 2 units up. Give $M'$ and show the coordinate changes.
@@ -112,34 +114,38 @@ Name: ____________________  Date: __________
 ::::
 
 :::: {.practice-page #page-07}
-# Practice 7: Reflections across the x-axis
+# Practice 7: Reflections across a horizontal line
 Name: ____________________  Date: __________
 
+Use the horizontal mirror line through 4 on the y-axis (the line $y=4$). A reflected point is the same distance from the mirror line on the opposite side.
+
 ::: {.problem #p07-01}
-**1.** Reflect $A(3,5)$ across the x-axis. Give $A'$ and describe the rule.
+**1.** Reflect $A(3,5)$ across the line $y=4$. Give $A'$ and describe how its distance from the mirror line helps you.
 
 \workarea{52mm}
 :::
 
 ::: {.problem #p07-02}
-**2.** Reflect triangle vertices $B(1,2)$, $C(4,2)$, and $D(2,6)$ across the x-axis. List the image coordinates.
+**2.** Reflect triangle vertices $B(1,2)$, $C(4,2)$, and $D(2,6)$ across the line $y=4$. List the image coordinates.
 
 \workarea{62mm}
 :::
 ::::
 
 :::: {.practice-page #page-08}
-# Practice 8: Reflections across the y-axis
+# Practice 8: Reflections across a vertical line
 Name: ____________________  Date: __________
 
+Use the vertical mirror line through 4 on the x-axis (the line $x=4$).
+
 ::: {.problem #p08-01}
-**1.** Reflect $E(6,2)$ across the y-axis. Give $E'$ and state which coordinate changes.
+**1.** Reflect $E(6,2)$ across the line $x=4$. Give $E'$ and state which coordinate changes.
 
 \workarea{52mm}
 :::
 
 ::: {.problem #p08-02}
-**2.** Reflect rectangle vertices $(1,1),(4,1),(4,3),(1,3)$ across the y-axis. List the four image vertices.
+**2.** Reflect rectangle vertices $(1,1),(4,1),(4,3),(1,3)$ across the line $x=4$. List the four image vertices.
 
 \workarea{62mm}
 :::
@@ -150,13 +156,13 @@ Name: ____________________  Date: __________
 Name: ____________________  Date: __________
 
 ::: {.problem #p09-01}
-**1.** Point $F$ is $(0,4)$. What happens when it is reflected across the y-axis? Explain.
+**1.** Point $F$ is $(4,4)$. What happens when it is reflected across the vertical line $x=4$? Explain.
 
 \workarea{50mm}
 :::
 
 ::: {.problem #p09-02}
-**2.** A point and its reflection across the x-axis are $(5,3)$ and $(5,\square)$. Fill the blank and explain.
+**2.** A point and its reflection across the horizontal line $y=4$ are $(5,3)$ and $(5,\square)$. Fill the blank and explain.
 
 \workarea{50mm}
 :::
@@ -173,7 +179,7 @@ Name: ____________________  Date: __________
 :::
 
 ::: {.problem #p10-02}
-**2.** A square corner marker has vertices $(1,1),(3,1),(3,3),(1,3)$. Sketch a quarter-turn clockwise around its center $(2,2)$ and label the image.
+**2.** Square $ABCD$ has vertices $A(1,1)$, $B(3,1)$, $C(3,3)$, and $D(1,3)$. Sketch a quarter-turn clockwise around its center $(2,2)$ and label the image vertices $A'$, $B'$, $C'$, and $D'$.
 
 \workarea{64mm}
 :::
@@ -275,7 +281,7 @@ Name: ____________________  Date: __________
 :::
 
 ::: {.problem #p16-02}
-**2.** Which transformation changes $(4,2)$ to $(-4,2)$? Name the line of reflection and explain.
+**2.** A point at $(4,2)$ is reflected to $(6,2)$. Name the vertical line of reflection and explain how you found it.
 
 \workarea{52mm}
 :::
@@ -286,13 +292,13 @@ Name: ____________________  Date: __________
 Name: ____________________  Date: __________
 
 ::: {.problem #p17-01}
-**1.** Start with $A(2,3)$. Translate 2 units right, then reflect across the y-axis. Give the final coordinate.
+**1.** Start with $A(2,3)$. Translate 2 units right, then reflect across the vertical line $x=5$. Give the final coordinate.
 
 \workarea{55mm}
 :::
 
 ::: {.problem #p17-02}
-**2.** Start with $B(5,1)$. Reflect across the x-axis, then translate 1 unit left and 2 units up. Give the final coordinate.
+**2.** Start with $B(5,1)$. Reflect across the horizontal line $y=3$, then translate 1 unit left and 2 units up. Give the final coordinate.
 
 \workarea{55mm}
 :::
@@ -309,7 +315,7 @@ Name: ____________________  Date: __________
 :::
 
 ::: {.problem #p18-02}
-**2.** A robot at $(3,4)$ moves 4 units east and 3 units south. Where does it stop?
+**2.** On a grid where east is right and north is up, a robot at $(3,4)$ moves 4 units east and 3 units south. Where does it stop?
 
 \workarea{52mm}
 :::
@@ -337,7 +343,7 @@ Name: ____________________  Date: __________
 Name: ____________________  Date: __________
 
 ::: {.problem #p20-01}
-**1.** Rectangle $WXYZ$ has vertices $(1,2),(5,2),(5,5),(1,5)$. Translate it 2 units left, then reflect it across the x-axis. List the final vertices.
+**1.** Rectangle $WXYZ$ has vertices $(1,2),(5,2),(5,5),(1,5)$. Translate it 2 units right, then reflect it across the horizontal line $y=4$. List the final vertices.
 
 \workarea{66mm}
 :::

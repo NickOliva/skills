@@ -207,7 +207,7 @@ Name: ____________________  Date: __________
 :::
 
 ::: {.problem #p12-02}
-**2.** A 10-by-9 rectangle has a 3-by-4 corner cut out. Find the remaining area.
+**2.** A rectangle 10 units by 9 units has a corner 3 units by 4 units cut out. Find the remaining area.
 
 \workarea{55mm}
 :::
@@ -218,7 +218,7 @@ Name: ____________________  Date: __________
 Name: ____________________  Date: __________
 
 ::: {.problem #p13-01}
-**1.** Plot and label $A(2,4)$, $B(6,4)$, and $C(6,1)$. Which points share a horizontal line?
+**1.** Draw a coordinate grid with both axes numbered from 0 to 6 in steps of 1. Plot and label $A(2,4)$, $B(6,4)$, and $C(6,1)$. Which points share a horizontal line?
 
 \workarea{62mm}
 :::
@@ -235,13 +235,13 @@ Name: ____________________  Date: __________
 Name: ____________________  Date: __________
 
 ::: {.problem #p14-01}
-**1.** Points $P(1,2)$ and $Q(7,2)$ are on a grid. Find $\overline{PQ}$.
+**1.** Points $P(1,2)$ and $Q(7,2)$ are on a coordinate grid. Find the length of $\overline{PQ}$ in units.
 
 \workarea{45mm}
 :::
 
 ::: {.problem #p14-02}
-**2.** Plot $(1,1)$, $(1,5)$, $(6,5)$, and $(6,1)$. Name the shape and find its perimeter.
+**2.** Draw a coordinate grid with both axes numbered from 0 to 6 in steps of 1. Plot $(1,1)$, $(1,5)$, $(6,5)$, and $(6,1)$. Connect them in order, then connect the last point to the first. Name the shape and find its perimeter.
 
 \workarea{60mm}
 :::
@@ -286,13 +286,13 @@ Name: ____________________  Date: __________
 Name: ____________________  Date: __________
 
 ::: {.problem #p17-01}
-**1.** Reflect point $(3,2)$ across the $y$-axis. Give the new ordered pair and explain the change.
+**1.** Draw a coordinate grid with both axes numbered from 0 to 6 in steps of 1. Draw a vertical fold line through $(4,0)$ and $(4,6)$. Point $(3,2)$ is 1 unit left of this line. Mark its mirror image 1 unit to the right of the line, at the same height. Give the new ordered pair and explain the change.
 
 \workarea{50mm}
 :::
 
 ::: {.problem #p17-02}
-**2.** Reflect point $(4,1)$ across the $x$-axis. Give the new ordered pair.
+**2.** Draw a coordinate grid with both axes numbered from 0 to 6 in steps of 1. Draw a horizontal fold line through $(0,3)$ and $(6,3)$. Point $(4,1)$ is 2 units below this line. Mark its mirror image 2 units above the line, directly above the original point. Give the new ordered pair.
 
 \workarea{45mm}
 :::
@@ -303,13 +303,13 @@ Name: ____________________  Date: __________
 Name: ____________________  Date: __________
 
 ::: {.problem #p18-01}
-**1.** A shape has 4 equal sides, but its angles are not right angles. Is it a square? Name the likely shape and justify.
+**1.** A quadrilateral has 4 equal sides, but its angles are not right angles. Is it a square? Name the shape and justify.
 
 \workarea{55mm}
 :::
 
 ::: {.problem #p18-02}
-**2.** A shape has four right angles and opposite sides equal. What shape is it? Could it also be a square? Explain.
+**2.** A quadrilateral has four right angles and opposite sides equal. What shape is it? Could it also be a square? Explain.
 
 \workarea{55mm}
 :::

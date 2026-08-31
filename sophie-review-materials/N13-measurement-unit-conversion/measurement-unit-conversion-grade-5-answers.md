@@ -10,12 +10,12 @@ footer-left: "Worked answers"
 # Worked Answer Key
 
 ## Page 1
-1. $6\text{ m}\times100=600\text{ cm}$.
-2. $4{,}300\text{ mm}\div1{,}000=4.3\text{ m}$.
+1. Each meter contains $100$ centimeters. $6\times100=600$, so $6\text{ m}=600\text{ cm}$.
+2. Each meter contains $1{,}000$ millimeters. $4{,}300\div1{,}000=4.3$, so $4{,}300\text{ mm}=4.3\text{ m}$.
 
 ## Page 2
-1. $7\text{ kg}\times1{,}000=7{,}000\text{ g}$.
-2. $5{,}600\text{ g}\div1{,}000=5.6\text{ kg}$.
+1. Each kilogram contains $1{,}000$ grams. $7\times1{,}000=7{,}000$, so $7\text{ kg}=7{,}000\text{ g}$.
+2. Each kilogram contains $1{,}000$ grams. $5{,}600\div1{,}000=5.6$, so $5{,}600\text{ g}=5.6\text{ kg}$.
 
 ## Page 3
 1. $9\times1{,}000=9{,}000\text{ mL}$.
@@ -75,7 +75,7 @@ footer-left: "Worked answers"
 
 ## Page 17
 1. $25-18=7^\circ$C.
-2. $-12+7=-5^\circ$C.
+2. Warming means adding: $12+7=19$. The new temperature is $19^\circ$C.
 
 ## Page 18
 1. $3\times400+250=1{,}450$ m $=1.45$ km.

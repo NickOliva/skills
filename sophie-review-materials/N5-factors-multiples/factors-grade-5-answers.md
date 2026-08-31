@@ -4,13 +4,13 @@ Solutions are keyed to the student workbook's page and problem IDs. Equivalent m
 
 ## Page 1
 
-- **P01-01:** Factor pairs: 1×36, 2×18, 3×12, 4×9, 6×6.
-- **P01-02:** Factor pairs: 1×48, 2×24, 3×16, 4×12, 6×8. There are 10 positive factors: 1, 2, 3, 4, 6, 8, 12, 16, 24, 48.
+- **P01-01:** Factor pairs: 1×36, 2×18, 3×12, 4×9, 6×6. Checking 1 through 6 finds these pairs; 5 does not divide 36. Any pair after 6×6 only reverses a pair already found.
+- **P01-02:** Factor pairs: 1×48, 2×24, 3×16, 4×12, 6×8. There are 10 positive factors: 1, 2, 3, 4, 6, 8, 12, 16, 24, 48. Checking 1 through 6 finds these pairs; 5 does not divide 48. Both factors cannot be at least 7, since 7×7 = 49 is greater than 48, so the list is complete.
 
 ## Page 2
 
-- **P02-01:** 1, 2, 3, 4, 6, 8, 12, 24.
-- **P02-02:** 1, 2, 3, 6, 9, 18, 27, 54.
+- **P02-01:** 1, 2, 3, 4, 6, 8, 12, 24. Division checks: 24÷1 = 24, 24÷2 = 12, 24÷3 = 8, 24÷4 = 6, 24÷6 = 4, 24÷8 = 3, 24÷12 = 2, 24÷24 = 1.
+- **P02-02:** 1, 2, 3, 6, 9, 18, 27, 54. Division checks: 54÷1 = 54, 54÷2 = 27, 54÷3 = 18, 54÷6 = 9, 54÷9 = 6, 54÷18 = 3, 54÷27 = 2, 54÷54 = 1.
 
 ## Page 3
 
@@ -19,12 +19,12 @@ Solutions are keyed to the student workbook's page and problem IDs. Equivalent m
 
 ## Page 4
 
-- **P04-01:** Factors of 18 and 30 overlap at 1, 2, 3, and 6.
-- **P04-02:** Factors overlap at 1, 2, 7, and 14.
+- **P04-01:** Factors of 18: 1, 2, 3, 6, 9, 18. Factors of 30: 1, 2, 3, 5, 6, 10, 15, 30. The common factors are **1, 2, 3, and 6**.
+- **P04-02:** Factors of 28: 1, 2, 4, 7, 14, 28. Factors of 42: 1, 2, 3, 6, 7, 14, 21, 42. The common factors are **1, 2, 7, and 14**.
 
 ## Page 5
 
-- **P05-01:** GCF(24, 36) = 12. For example, common factors are 1, 2, 3, 4, 6, 12; or use 24 = 2×2×2×3 and 36 = 2×2×3×3.
+- **P05-01:** GCF(24, 36) = **12**. Method 1: the common factors are 1, 2, 3, 4, 6, 12, and 12 is the greatest. Method 2: 24 = 2×2×2×3 and 36 = 2×2×3×3. The shared prime factors, counting repeats, are 2, 2, and 3, whose product is 12.
 - **P05-02:** GCF(45, 60) = 15 kits. Each kit has 45 ÷ 15 = 3 pencils and 60 ÷ 15 = 4 erasers.
 
 ## Page 6
@@ -45,17 +45,17 @@ Solutions are keyed to the student workbook's page and problem IDs. Equivalent m
 ## Page 9
 
 - **P09-01:** 1 is neither; 17 and 29 are prime; 21 and 35 are composite.
-- **P09-02:** 41, 43, 47, and 53. Each has no factor among 2, 3, 5, or any prime no greater than its square root.
+- **P09-02:** **41, 43, 47, 53, and 59**. Rule out even numbers and multiples of 5. The other composites are 49 = 7×7, 51 = 3×17, and 57 = 3×19. The five listed primes are not divisible by 2, 3, 5, or 7. These checks suffice: both factors of a composite below 60 cannot be at least 8, because 8×8 = 64, and divisibility by 4 or 6 would already be caught by the test for 2.
 
 ## Page 10
 
-- **P10-01:** 72 = 2×2×2×3 = **2³×3**.
-- **P10-02:** 210 = 2×3×5×7.
+- **P10-01:** 72 = **2×2×2×3×3** = **2³×3²**. Check: 8×9 = 72.
+- **P10-02:** 210 = **2×3×5×7**. Check: 2×3 = 6, 6×5 = 30, and 30×7 = 210.
 
 ## Page 11
 
-- **P11-01:** 84 = 2×42 = 2×2×21 = **2²×3×7**.
-- **P11-02:** 90 = 9×10 = 3×3×2×5 = **2×3²×5**. Prime factorization is unique, so a different tree reaches the same primes.
+- **P11-01:** One tree splits 84 into 2 and 42, then 42 into 2 and 21, then 21 into 3 and 7. Its prime leaves give 84 = **2×2×3×7** = **2²×3×7**. Other correct trees are acceptable.
+- **P11-02:** One tree splits 90 into 9 and 10, then 9 into 3 and 3 and 10 into 2 and 5. Another splits 90 into 2 and 45, then 45 into 5 and 9, then 9 into 3 and 3. Both have the prime leaves 2, 3, 3, and 5, giving **2×3×3×5** = **2×3²×5**. Different splits only regroup the factors; every correct tree ends with the same prime factors, possibly in a different order.
 
 ## Page 12
 
@@ -75,12 +75,12 @@ Solutions are keyed to the student workbook's page and problem IDs. Equivalent m
 ## Page 15
 
 - **P15-01:** [ ] = 13, because 117 ÷ 9 = 13; check 9×13 = 117.
-- **P15-02:** The number is **32**. Its positive factors are 1, 2, 4, 8, 16, 32; factor pairs are 1×32, 2×16, and 4×8.
+- **P15-02:** The number is **32**, because a positive whole number is its own greatest positive factor. Its factor pairs are 1×32, 2×16, and 4×8. Testing 1 through 5 finds these pairs; 3 and 5 do not divide 32. Both factors cannot be at least 6, since 6×6 = 36 is greater than 32, so there are no missing factors.
 
 ## Page 16
 
-- **P16-01:** 105, 120. They are multiples of 15 between 100 and 130.
-- **P16-02:** 18, 54, and 90 are the possibilities if “two-digit” is enforced: each is divisible by 4 and has digits summing to 9. (90 is not divisible by 4, so remove it.) Final answers: **18 and 54**.
+- **P16-01:** **105 and 120**. Numbers divisible by both 3 and 5 are multiples of 15. The nearby multiples are 90, 105, 120, and 135, so only 105 and 120 lie from 100 to 130. Checks: 105÷3 = 35, 105÷5 = 21; 120÷3 = 40, 120÷5 = 24.
+- **P16-02:** **36 and 72**. The two-digit numbers with digit sum 9 are 18, 27, 36, 45, 54, 63, 72, 81, and 90. Only 36 = 4×9 and 72 = 4×18 are divisible by 4. Both are composite, and 3+6 = 7+2 = 9.
 
 ## Page 17
 
@@ -94,10 +94,10 @@ Solutions are keyed to the student workbook's page and problem IDs. Equivalent m
 
 ## Page 19
 
-- **P19-01:** Common factors of 18 and 24 are 1, 2, 3, and 6, so GCF = **6**. The first common multiple is 72, so LCM = **72**.
+- **P19-01:** Factors of 18: 1, 2, 3, 6, 9, 18. Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24. Their greatest shared factor is **6**, the GCF. Multiples of 18: 18, 36, 54, 72; multiples of 24: 24, 48, 72. Their smallest shared positive multiple is **72**, the LCM.
 - **P19-02:** Divisible by 2 (even), 3 (digit sum 9), 4 (last two digits 08), 8 (last three digits 008), and 9 (digit sum 9). Not divisible by 5 or 10 because it does not end in 0 or 5.
 
 ## Page 20
 
-- **P20-01:** For three distinct primes with 24 factors, exponents must give (2+1)(1+1)(1+1) = 12 or (3+1)(2+1)(1+1) = 24. The smallest is 2³×3²×5 = **360**, which has (3+1)(2+1)(1+1) = 24 factors.
+- **P20-01:** **30 = 2×3×5**. The three smallest distinct primes are 2, 3, and 5. Any number with three distinct prime factors must contain at least these three smallest primes or larger ones; adding repeated factors or using larger primes increases the product. Thus 30 is the smallest. Its factor pairs are 1×30, 2×15, 3×10, and 5×6, so all its positive factors are **1, 2, 3, 5, 6, 10, 15, and 30**.
 - **P20-02:** False: 2 is even and prime. Correct statement: **Every even number greater than 2 is composite**, because it has factors 1, 2, and itself.

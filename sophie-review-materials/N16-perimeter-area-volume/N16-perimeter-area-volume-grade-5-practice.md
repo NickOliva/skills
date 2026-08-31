@@ -27,7 +27,7 @@ Find the perimeter. Show your work.
 
 :::: {.practice-page #page-02}
 # Practice 2: Missing side lengths
-Find each perimeter. Use matching opposite sides when needed.
+Find the perimeter or missing side length. Use equal side lengths when needed.
 
 ::: {.problem #p02-01}
 **1.** A rectangle is 14 ft long and 5 ft wide. Find its perimeter.
@@ -169,7 +169,7 @@ Break each shape into rectangles, then add the smaller areas.
 
 :::: {.practice-page #page-11}
 # Practice 11: Volume with unit cubes
-Volume measures the space inside a solid. Find each volume.
+Volume measures the space a solid occupies. For all volume problems in this workbook, assume the solids and containers are rectangular prisms. Find each volume.
 
 ::: {.problem #p11-01}
 **1.** A rectangular prism is 5 cubes long, 3 cubes wide, and 2 cubes high. How many unit cubes fill it?
@@ -231,7 +231,7 @@ Use volume = length × width × height.
 
 :::: {.practice-page #page-15}
 # Practice 15: Volume and layers
-Think of volume as the number of cubes in one layer times the number of layers.
+Each cube on this page is a unit cube. Think of volume as the number of cubes in one layer times the number of layers.
 
 ::: {.problem #p15-01}
 **1.** A prism has a base of 6 cubes by 4 cubes and 3 layers. Find its volume.
@@ -265,7 +265,7 @@ Use 1 foot = 12 inches and 1 meter = 100 centimeters.
 # Practice 17: Mixed measurement reasoning
 
 ::: {.problem #p17-01}
-**1.** A 9 m by 6 m garden has a 1 m by 2 m gate opening in its fence. How many meters of fence are needed?
+**1.** A rectangular garden is 9 m by 6 m. Its fence has a gate opening 2 m wide and 1 m high. How many meters of fence are needed, excluding the gate opening?
 
 \workarea{58mm}
 :::

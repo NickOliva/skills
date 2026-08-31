@@ -10,7 +10,7 @@ footer-left: "Worked answers"
 # Worked Answer Key
 
 ## Page 1
-1. Diego read the most, with 7 books. He read $7-4=3$ more than Chloe.
+1. Ben read the most, with 9 books. He read $9-4=5$ more than Chloe.
 2. $6+9+4+7=26$ books.
 
 ## Page 2

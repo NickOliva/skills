@@ -77,7 +77,7 @@ Use a standard algorithm or an area model.
 ::::
 
 :::: {.practice-page #page-08}
-# Practice 8: Three-digit by one-digit
+# Practice 8: Three- and four-digit by one-digit
 **1.** Find $945 \times 7$.
 \workarea{65mm}
 
@@ -201,6 +201,6 @@ Show a clear strategy for each problem.
 **1.** Find $2{,}406 \times 17$.
 \workarea{65mm}
 
-**2.** A $7.5$-meter ribbon is cut into 6 equal-length pieces. What is the total length represented by 6 ribbons of that size? (Use multiplication.)
+**2.** A $7.5$-meter ribbon is cut into 6 equal-length pieces. Find the length of one piece, then use multiplication to find the total length of 6 pieces of that size.
 \workarea{65mm}
 ::::

@@ -10,8 +10,8 @@ footer-left: "Worked solutions"
 # Worked solutions
 
 ## Page 1
-1. $48,736+25,489=74,225$ (add by place value, regrouping as needed).
-2. $90,004-37,586=52,418$.
+1. $48,736+25,489=74,225$. From right to left: $6+9=15$ (write 5, carry 1); $3+8+1=12$ (write 2, carry 1); $7+4+1=12$ (write 2, carry 1); $8+5+1=14$ (write 4, carry 1); $4+2+1=7$.
+2. Regroup $90,004$ as $80,000+9,000+900+90+14$. Subtract by place: $14-6=8$, $9-8=1$, $9-5=4$, $9-7=2$, and $8-3=5$. Thus $90,004-37,586=52,418$.
 
 ## Page 2
 1. $607,205+98,769=705,974$.
@@ -62,8 +62,8 @@ footer-left: "Worked solutions"
 2. $92.400-17.856=74.544$.
 
 ## Page 14
-1. $12.95+$8.60=$21.55$.
-2. $20.00-$13.78=$6.22$.
+1. $\$12.95+\$8.60=\$21.55$.
+2. $\$20.00-\$13.78=\$6.22$.
 
 ## Page 15
 1. $3.750+2.608=6.358$ m.
@@ -78,8 +78,8 @@ footer-left: "Worked solutions"
 2. Regroup $5\frac16=4\frac76$; $4\frac76-2\frac56=2\frac26=2\frac13$.
 
 ## Page 18
-1. Addition: $24.50+15.75=$$40.25$.
-2. Subtraction: $60.00-37.65=22.35$ L.
+1. Add because the gift increases the amount Maya already saved: $\$24.50+\$15.75=\$40.25$.
+2. Subtract the amount already in the tank from its capacity to find the empty space: $60.00-37.65=22.35$ L.
 
 ## Page 19
 1. No. $4,305+2,798=7,103$; check $7,103-2,798=4,305$.
