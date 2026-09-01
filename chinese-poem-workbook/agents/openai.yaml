@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chinese Poem Workbook"
+  short_description: "Create bilingual calligraphy and tracing workbooks"
+  default_prompt: "Use $chinese-poem-workbook to create a bilingual poem, facing-page calligraphy workbook, and slow Chinese and English audio in my Poetry vault."

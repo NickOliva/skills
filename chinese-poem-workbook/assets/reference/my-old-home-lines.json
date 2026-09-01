@@ -1,0 +1,458 @@
+[
+  {
+    "line": 1,
+    "chinese": "日月不肯遲",
+    "english": "Sun and moon refuse to slow their pace",
+    "context": "Sun and moon + refuse + to slow. The passing days are personified; Watson supplies 'their pace'.",
+    "characters": [
+      {
+        "character": "日",
+        "pinyin": "rì",
+        "meaning": "**Sun; day.** With 月 forms the subject. The celestial body also evokes the passage of days.",
+        "form": "Keep the box upright; place the middle bar inside before closing the bottom."
+      },
+      {
+        "character": "月",
+        "pinyin": "yuè",
+        "meaning": "**Moon; month.** Completes 日月, “sun and moon” or, by extension, the passing days and months.",
+        "form": "Let the left stroke curve gently; leave breathing room between the two inner bars."
+      },
+      {
+        "character": "不",
+        "pinyin": "bù",
+        "meaning": "**Not.** Negates 肯.",
+        "form": "Balance the long top bar, left-falling stroke, central vertical, and final dot."
+      },
+      {
+        "character": "肯",
+        "pinyin": "kěn",
+        "meaning": "**Be willing; consent.** 不肯 means “will not” or “refuse to,” personifying time as unwilling to wait.",
+        "form": "Keep the upper part centered above the compact lower enclosure."
+      },
+      {
+        "character": "遲",
+        "pinyin": "chí",
+        "meaning": "**Be slow; delay.** What sun and moon will not do. It functions as a verb or descriptive predicate, not a noun.",
+        "form": "Build the dense inner part first; the walking component wraps around it last."
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "chinese": "四時相催迫",
+    "english": "the four seasons press and hurry each other onward.",
+    "context": "Four seasons + mutually + hurry and press. Two verbs make the natural succession feel urgent.",
+    "characters": [
+      {
+        "character": "四",
+        "pinyin": "sì",
+        "meaning": "**Four.** Specifies the number of seasons.",
+        "form": "Write the outer sides, then the two inner strokes; close the bottom last."
+      },
+      {
+        "character": "時",
+        "pinyin": "shí",
+        "meaning": "**Season; time.** 四時 is the established expression for the year's four seasons, the subject.",
+        "form": "Keep the left sun component narrow and the right component more spacious."
+      },
+      {
+        "character": "相",
+        "pinyin": "xiāng",
+        "meaning": "**Mutually; one another.** Makes the action reciprocal, not something done by an outside agent to the seasons.",
+        "form": "Fit the narrow tree at left beside the upright eye-shaped box at right."
+      },
+      {
+        "character": "催",
+        "pinyin": "cuī",
+        "meaning": "**Urge on; hurry.** First part of the main verb expression.",
+        "form": "Keep the person component slim; stack the mountain above the right-hand body."
+      },
+      {
+        "character": "迫",
+        "pinyin": "pò",
+        "meaning": "**Press; compel; drive closely.** Reinforces 催: the seasons hurry and press one another onward.",
+        "form": "Complete the white component first, then the walking component around it."
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "chinese": "寒風拂枯條",
+    "english": "Cold wind shakes the bare branches,",
+    "context": "Cold wind + brushes + withered branches. The season is suggested by the scene, not named.",
+    "characters": [
+      {
+        "character": "寒",
+        "pinyin": "hán",
+        "meaning": "**Cold.** Qualifies 風.",
+        "form": "Center the stacked middle beneath the roof; finish with the two low dots."
+      },
+      {
+        "character": "風",
+        "pinyin": "fēng",
+        "meaning": "**Wind.** Subject of 拂.",
+        "form": "Keep the inner strokes within the broad outer sweep without crowding them."
+      },
+      {
+        "character": "拂",
+        "pinyin": "fú",
+        "meaning": "**Brush against; sweep over; stir.** Main verb. Watson's “shakes” is stronger than the most basic “brushes.”",
+        "form": "Keep the hand component narrow; make room for the turns and verticals at right."
+      },
+      {
+        "character": "枯",
+        "pinyin": "kū",
+        "meaning": "**Withered; dried; bare of living growth.** Qualifies 條.",
+        "form": "Balance a narrow tree at left with the upright cross and box at right."
+      },
+      {
+        "character": "條",
+        "pinyin": "tiáo",
+        "meaning": "**Branch; twig.** Object of 拂. Here it is a thing, not the modern counting word used before long objects.",
+        "form": "Leave clear gaps among the narrow left strokes and the stacked right-hand parts."
+      }
+    ]
+  },
+  {
+    "line": 4,
+    "chinese": "落葉掩長陌",
+    "english": "fallen leaves blanket the long lane.",
+    "context": "Fallen leaves + cover + the long path. This physical lane anticipates the later road of remaining life.",
+    "characters": [
+      {
+        "character": "落",
+        "pinyin": "luò",
+        "meaning": "**Fallen; falling.** Qualifies 葉 to form the subject “fallen leaves.”",
+        "form": "Spread the grass top across the water component and the lower-right structure."
+      },
+      {
+        "character": "葉",
+        "pinyin": "yè",
+        "meaning": "**Leaf; leaves.** Head of the subject.",
+        "form": "Keep the grass top compact; let the lower tree strokes support the middle."
+      },
+      {
+        "character": "掩",
+        "pinyin": "yǎn",
+        "meaning": "**Cover; conceal.** Main verb; “blanket” is Watson's vivid English equivalent.",
+        "form": "Keep the hand component slim; allow the broad right-hand part to open out."
+      },
+      {
+        "character": "長",
+        "pinyin": "cháng",
+        "meaning": "**Long.** Qualifies 陌.",
+        "form": "Separate the close upper bars and give the long lower sweep enough room."
+      },
+      {
+        "character": "陌",
+        "pinyin": "mò",
+        "meaning": "**Path; field-road; lane.** Object of 掩, the route covered by leaves.",
+        "form": "Keep the left ear-shaped component narrow; center the hundred component at right."
+      }
+    ]
+  },
+  {
+    "line": 5,
+    "chinese": "弱質與運頹",
+    "english": "Weak by nature, I feel myself decay with time's passing,",
+    "context": "[My] frail constitution + with time's course + declines. Bodily weakness, not a moral judgment; Watson makes the personal experience explicit.",
+    "characters": [
+      {
+        "character": "弱",
+        "pinyin": "ruò",
+        "meaning": "**Weak; frail.** Qualifies 質.",
+        "form": "Balance the two bent forms; keep their small lower strokes distinct."
+      },
+      {
+        "character": "質",
+        "pinyin": "zhì",
+        "meaning": "**Constitution; bodily substance; inherent make-up.** 弱質 refers here to the speaker's frail person or body, the subject.",
+        "form": "Balance the paired upper parts above the shell component; leave its inner bars clear."
+      },
+      {
+        "character": "與",
+        "pinyin": "yǔ",
+        "meaning": "**With; along with.** Introduces what the decline accompanies. It is not “give” here.",
+        "form": "Follow the numbered interlocking strokes carefully; do not treat the top as a closed box."
+      },
+      {
+        "character": "運",
+        "pinyin": "yùn",
+        "meaning": "**Course; turning or passage; allotment of time or fortune.** Here the course of time or one's life, accompanying the body's decline.",
+        "form": "Build the capped inner component first; finish with the enclosing walking component."
+      },
+      {
+        "character": "頹",
+        "pinyin": "tuí",
+        "meaning": "**Decline; deteriorate; fall away.** Main predicate of 弱質.",
+        "form": "Balance the grain-and-legs structure at left with the page-shaped component at right."
+      }
+    ]
+  },
+  {
+    "line": 6,
+    "chinese": "玄鬢早已白",
+    "english": "the black hair at my temples already turned white.",
+    "context": "Black temple-hair + long since already + [has become] white. Some editions have 'hair' rather than 'temple-hair'; this follows the existing guide.",
+    "characters": [
+      {
+        "character": "玄",
+        "pinyin": "xuán",
+        "meaning": "**Black; very dark.** Qualifies 鬢. It is not “mysterious” in this phrase.",
+        "form": "Center the top dot and bar above the two lower turns and final dot."
+      },
+      {
+        "character": "鬢",
+        "pinyin": "bìn",
+        "meaning": "**Hair at the temples.** Head of the subject: the once-black temple-hair.",
+        "form": "Keep the hair component above the dense lower part; use both rows of steps in sequence."
+      },
+      {
+        "character": "早",
+        "pinyin": "zǎo",
+        "meaning": "**Early; long since.** Adds that the change has occurred already, earlier than the speaker might wish.",
+        "form": "Center the sun-shaped box over the lower cross; keep both upright."
+      },
+      {
+        "character": "已",
+        "pinyin": "yǐ",
+        "meaning": "**Already.** Marks the state as attained. 早已 works together as “long since/already.”",
+        "form": "Notice how high the final turn rises at left; this distinguishes similar-looking forms."
+      },
+      {
+        "character": "白",
+        "pinyin": "bái",
+        "meaning": "**White; become white.** Predicate of 鬢. English supplies “turned” or “become.”",
+        "form": "Place the short slant above the box; keep the interior bar separate from its base."
+      }
+    ]
+  },
+  {
+    "line": 7,
+    "chinese": "素標插人頭",
+    "english": "Flecks of gray find their way into my head,",
+    "context": "A white marker + is planted in + one's head. Watson unpacks white hair as a sign of age across this and the following line; no particular funeral object is named.",
+    "characters": [
+      {
+        "character": "素",
+        "pinyin": "sù",
+        "meaning": "**White; uncolored.** Qualifies 標. It does not mean “vegetarian” or “simple living” here.",
+        "form": "Center the narrow upper stack over the silk-shaped lower part and its spreading strokes."
+      },
+      {
+        "character": "標",
+        "pinyin": "biāo",
+        "meaning": "**Mark; marker; sign.** Head of 素標, “white marker,” referring to white hair as a sign of age.",
+        "form": "Keep the left tree slender; align the stacked right-hand parts on one center line."
+      },
+      {
+        "character": "插",
+        "pinyin": "chā",
+        "meaning": "**Insert; stick into; plant.** Main verb. The image is of the marker standing or being stuck in the head.",
+        "form": "Keep the hand slim; preserve the small gaps within the mortar-shaped lower-right part."
+      },
+      {
+        "character": "人",
+        "pinyin": "rén",
+        "meaning": "**Person; one.** Possessor of 頭: “a person's head.” In context the general wording includes the speaker.",
+        "form": "Let the left-falling stroke and right-falling stroke support one another without symmetry."
+      },
+      {
+        "character": "頭",
+        "pinyin": "tóu",
+        "meaning": "**Head.** The place into which the marker is set; 人頭 is “one's head.”",
+        "form": "Balance the bean-shaped left side with the taller page-shaped right side."
+      }
+    ]
+  },
+  {
+    "line": 8,
+    "chinese": "前途漸就窄",
+    "english": "signs that the road ahead will grow more and more narrow.",
+    "context": "The road ahead + gradually + approaches narrowness. The context is diminishing life, not success or failure in a career.",
+    "characters": [
+      {
+        "character": "前",
+        "pinyin": "qián",
+        "meaning": "**Ahead; in front.** Qualifies 途.",
+        "form": "Place the paired top marks above the body; leave room for the narrow right-hand knife."
+      },
+      {
+        "character": "途",
+        "pinyin": "tú",
+        "meaning": "**Road; route.** 前途 is the road ahead, and by extension the remainder of one's life or future.",
+        "form": "Complete the inner part first; let the last walking stroke carry it from below."
+      },
+      {
+        "character": "漸",
+        "pinyin": "jiàn",
+        "meaning": "**Gradually.** Adverb describing the change.",
+        "form": "Keep the three water strokes slim; separate the two denser components to their right."
+      },
+      {
+        "character": "就",
+        "pinyin": "jiù",
+        "meaning": "**Approach; move toward; come to.** Leads into the state expressed by 窄. It is not the modern conversational “just.”",
+        "form": "Balance the tall capital-shaped left part with the open, sweeping strokes at right."
+      },
+      {
+        "character": "窄",
+        "pinyin": "zhǎi",
+        "meaning": "**Narrow.** The state toward which the road is moving.",
+        "form": "Center the lower part beneath the cave-like roof; keep its short bars parallel."
+      }
+    ]
+  },
+  {
+    "line": 9,
+    "chinese": "家為逆旅舍",
+    "english": "What is a house but an inn on a journey,",
+    "context": "Home + is + a travelers' inn. Read 逆旅 as a compound meaning 'inn', not a backward journey; Watson turns the statement into a question.",
+    "characters": [
+      {
+        "character": "家",
+        "pinyin": "jiā",
+        "meaning": "**Home; household; house.** Subject. Here the place of ordinary residence is being reconsidered.",
+        "form": "Give the roof a quiet width; let the lower strokes spread without touching it."
+      },
+      {
+        "character": "為",
+        "pinyin": "wéi",
+        "meaning": "**Be; serve as.** Links “home” to “inn.” It is not wèi, “for,” here.",
+        "form": "This is the nine-stroke 為 form. Follow its three connected bends; add the four dots last."
+      },
+      {
+        "character": "逆",
+        "pinyin": "nì",
+        "meaning": "**Meet; receive; welcome.** The older sense within 逆旅. It does not make this an “opposite” or “backward” journey.",
+        "form": "Form the inner part first; finish the walking component around the lower left."
+      },
+      {
+        "character": "旅",
+        "pinyin": "lǚ",
+        "meaning": "**Traveler; traveling.** With 逆 forms the established word 逆旅, a place receiving travelers: an inn.",
+        "form": "Keep the flag-like left part narrow; balance the longer descending strokes at right."
+      },
+      {
+        "character": "舍",
+        "pinyin": "shè",
+        "meaning": "**Lodging; dwelling.** Completes 逆旅舍, “travelers' lodging/inn.” It is not shě, “give up.”",
+        "form": "Center the opening pair over the middle cross and the small lower box."
+      }
+    ]
+  },
+  {
+    "line": 10,
+    "chinese": "我如當去客",
+    "english": "and I a traveler who must keep moving on?",
+    "context": "I + am like + [about-to-leave + guest]. No separate 'who' is needed in Chinese. The temporary guest answers the temporary lodging.",
+    "characters": [
+      {
+        "character": "我",
+        "pinyin": "wǒ",
+        "meaning": "**I; me.** The explicit first-person subject.",
+        "form": "Watch the crossing strokes and curved hook; follow the numbered order, not visual layers."
+      },
+      {
+        "character": "如",
+        "pinyin": "rú",
+        "meaning": "**Be like; resemble.** Main verb introducing the comparison.",
+        "form": "Give the woman component room to cross at left; keep the mouth box compact at right."
+      },
+      {
+        "character": "當",
+        "pinyin": "dāng",
+        "meaning": "**Be due to; be about to; must.** A modal element modifying 去, the departure.",
+        "form": "Center the layered top over the lower field; preserve each small enclosed space."
+      },
+      {
+        "character": "去",
+        "pinyin": "qù",
+        "meaning": "**Leave; depart; go away.** With 當 describes the guest who is due to leave.",
+        "form": "Center the lower angled form beneath the upright cross and longer middle bar."
+      },
+      {
+        "character": "客",
+        "pinyin": "kè",
+        "meaning": "**Guest; traveler; sojourner.** Object of 如, qualified by 當去: “a guest about to depart.”",
+        "form": "Center the crossing middle strokes and lower box under the roof."
+      }
+    ]
+  },
+  {
+    "line": 11,
+    "chinese": "去去欲何之",
+    "english": "Move on, move on--and where will I go?",
+    "context": "Going, going + [I] am to + where + go? The destination precedes its verb. This is a question about departure, not an arrival.",
+    "characters": [
+      {
+        "character": "去",
+        "pinyin": "qù",
+        "meaning": "**Go; depart.** Begins the repeated expression of leaving.",
+        "form": "Center the lower angled form beneath the upright cross and longer middle bar."
+      },
+      {
+        "character": "去",
+        "pinyin": "qù",
+        "meaning": "**Go on; keep going.** Repetition emphasizes departure or continued movement, rather than naming two destinations.",
+        "form": "Center the lower angled form beneath the upright cross and longer middle bar."
+      },
+      {
+        "character": "欲",
+        "pinyin": "yù",
+        "meaning": "**Wish to; intend to; be about to.** Here it introduces the question of where the departing person is to go.",
+        "form": "Balance the valley component at left with the open, falling strokes at right."
+      },
+      {
+        "character": "何",
+        "pinyin": "hé",
+        "meaning": "**What?; where?** Interrogative destination before the verb 之: “to what place?”",
+        "form": "Keep the person component slim; hang the small box beneath the long top-right bar."
+      },
+      {
+        "character": "之",
+        "pinyin": "zhī",
+        "meaning": "**Go to; proceed to.** A verb here. It is not the possessive “of,” nor the pronoun “it,” familiar from other classical sentences.",
+        "form": "Start with the dot; the turning middle leads to a long, balanced final sweep."
+      }
+    ]
+  },
+  {
+    "line": 12,
+    "chinese": "南山有舊宅",
+    "english": "My old home is there on the southern mountain.",
+    "context": "At the southern mountain + there is + an old home. 'My' is understood; neither 'reach' nor 'horseback' is written. In context the dwelling is a grave or final resting place, not a claim about an afterlife.",
+    "characters": [
+      {
+        "character": "南",
+        "pinyin": "nán",
+        "meaning": "**South; southern.** Qualifies 山.",
+        "form": "Center the top cross over the enclosure; leave the small inner strokes uncrowded."
+      },
+      {
+        "character": "山",
+        "pinyin": "shān",
+        "meaning": "**Mountain.** 南山 is “South Mountain” or “the southern mountain,” placed first as the location.",
+        "form": "Begin with the central upright; the lower turn and right upright establish the base."
+      },
+      {
+        "character": "有",
+        "pinyin": "yǒu",
+        "meaning": "**Have; there is.** Existential verb: at that place, a dwelling exists. It does not mean “reach.”",
+        "form": "Let the top crossing strokes open over the lower moon-shaped component."
+      },
+      {
+        "character": "舊",
+        "pinyin": "jiù",
+        "meaning": "**Old; former; long-established.** Qualifies 宅.",
+        "form": "Stack grass, bird, and mortar components; use both rows of numbered steps."
+      },
+      {
+        "character": "宅",
+        "pinyin": "zhái",
+        "meaning": "**Dwelling; residence; home.** The thing that is there, completing 舊宅, “old home.”",
+        "form": "Center the compact lower structure beneath the roof; leave room for the final hook."
+      }
+    ]
+  }
+]

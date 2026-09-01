@@ -1,0 +1,408 @@
+[
+  {
+    "character": "不",
+    "codepoint": "U+4E0D",
+    "stroke_count": 4,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E4%B8%8D.json",
+    "sha256": "2b4d1cabdf4af0788cba2d2e4645b87b4a56cdcc33907d2f61205bfd607572b6"
+  },
+  {
+    "character": "之",
+    "codepoint": "U+4E4B",
+    "stroke_count": 3,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E4%B9%8B.json",
+    "sha256": "f64f7268ff0d81d5e9c5f9301e628a7e427a9e0e44e3d6291fc0f15874f2be98"
+  },
+  {
+    "character": "人",
+    "codepoint": "U+4EBA",
+    "stroke_count": 2,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E4%BA%BA.json",
+    "sha256": "18ffb9fb727576b0c3e7dc44914be7ffd43164de9ba121710824b83f27bd3bb1"
+  },
+  {
+    "character": "何",
+    "codepoint": "U+4F55",
+    "stroke_count": 7,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E4%BD%95.json",
+    "sha256": "c161e5cf5518901617fcffa77921e1848e402bf85c91ec110624c6f97800d7ed"
+  },
+  {
+    "character": "催",
+    "codepoint": "U+50AC",
+    "stroke_count": 13,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E5%82%AC.json",
+    "sha256": "d7702d5de26c8a131da9fbd1e30e36cae2c14e95e360cce85249641242e5e652"
+  },
+  {
+    "character": "前",
+    "codepoint": "U+524D",
+    "stroke_count": 9,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E5%89%8D.json",
+    "sha256": "8126272afc54ca3a5bd512086901f4b3b40fcc43bcdf391fb60de3cb0dcd5c62"
+  },
+  {
+    "character": "南",
+    "codepoint": "U+5357",
+    "stroke_count": 9,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E5%8D%97.json",
+    "sha256": "94fbb129882ed5cf6b7cd19bed1bdb52b4d1eadb3e0bda8ba56acf425576d69f"
+  },
+  {
+    "character": "去",
+    "codepoint": "U+53BB",
+    "stroke_count": 5,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E5%8E%BB.json",
+    "sha256": "96e01168e8c76add5a05de734f18ef282451ca9107757977e5d83d8eea2bc281"
+  },
+  {
+    "character": "四",
+    "codepoint": "U+56DB",
+    "stroke_count": 5,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E5%9B%9B.json",
+    "sha256": "8aa7b3e16a0c3f67fc4ed3b08c7f24e80b2e90d8f6ade512d20109a625bea3b9"
+  },
+  {
+    "character": "如",
+    "codepoint": "U+5982",
+    "stroke_count": 6,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E5%A6%82.json",
+    "sha256": "94d439143d94d44b6b415cc2fa2068f062a22e0fede9ca1d155d8fc4f6af9f30"
+  },
+  {
+    "character": "宅",
+    "codepoint": "U+5B85",
+    "stroke_count": 6,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E5%AE%85.json",
+    "sha256": "a2c9a80bf0edfb476b750a0f35f031e40e2734f6366090d6bc7300210f052ff2"
+  },
+  {
+    "character": "客",
+    "codepoint": "U+5BA2",
+    "stroke_count": 9,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E5%AE%A2.json",
+    "sha256": "372961044841f9f6829d9152419b7081c9378621dfd55215c3cd067ad76368e5"
+  },
+  {
+    "character": "家",
+    "codepoint": "U+5BB6",
+    "stroke_count": 10,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E5%AE%B6.json",
+    "sha256": "390ad42ee60491df2ae9ddfd59358d4d6ff69208ccdac902aae0431b7e5f9aef"
+  },
+  {
+    "character": "寒",
+    "codepoint": "U+5BD2",
+    "stroke_count": 12,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E5%AF%92.json",
+    "sha256": "37faaefd54bde8223531063029b33a48c64768cff6be646b33dd5d46e45e4b47"
+  },
+  {
+    "character": "就",
+    "codepoint": "U+5C31",
+    "stroke_count": 12,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E5%B0%B1.json",
+    "sha256": "0da5fb2a2605c10ab629390366d9e5e27d778d907c11c17e1143650a55e4fe30"
+  },
+  {
+    "character": "山",
+    "codepoint": "U+5C71",
+    "stroke_count": 3,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E5%B1%B1.json",
+    "sha256": "c1e58c4b20cba28ae9778dfb280a93dc18fdccd3ecbec00bece20ce739c9f459"
+  },
+  {
+    "character": "已",
+    "codepoint": "U+5DF2",
+    "stroke_count": 3,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E5%B7%B2.json",
+    "sha256": "2e90e05b472bb13b936a2245cbe20dda8f10d0fa5b4e5580d6f701e598c1114d"
+  },
+  {
+    "character": "弱",
+    "codepoint": "U+5F31",
+    "stroke_count": 10,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E5%BC%B1.json",
+    "sha256": "de0d27f135c792428b433bf258a4226fec7152d9c66dc6e05e3481bce6a3d35d"
+  },
+  {
+    "character": "我",
+    "codepoint": "U+6211",
+    "stroke_count": 7,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E6%88%91.json",
+    "sha256": "08616462fc64b4c18c76a3f68a992305e98946f468bf42ec76ca9be1cd6c5ac8"
+  },
+  {
+    "character": "拂",
+    "codepoint": "U+62C2",
+    "stroke_count": 8,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E6%8B%82.json",
+    "sha256": "6f533401b14d91d5cd36531731c333d3bcfc18fa1618c40c62018df8072eb36c"
+  },
+  {
+    "character": "掩",
+    "codepoint": "U+63A9",
+    "stroke_count": 11,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E6%8E%A9.json",
+    "sha256": "746d2528eaad565b952b5a8dcaa3006cc52c8a8b2199f0bdf690d742a89579ad"
+  },
+  {
+    "character": "插",
+    "codepoint": "U+63D2",
+    "stroke_count": 12,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E6%8F%92.json",
+    "sha256": "e14f859d8c461508946bbffbf6c551ff5c2e470cd33ea978820192c302cb71d6"
+  },
+  {
+    "character": "旅",
+    "codepoint": "U+65C5",
+    "stroke_count": 10,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E6%97%85.json",
+    "sha256": "e7dac418b4784a719fa2902b50f5f6e6a4ef998362ea1a0e9e4edfa3a2e06177"
+  },
+  {
+    "character": "日",
+    "codepoint": "U+65E5",
+    "stroke_count": 4,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E6%97%A5.json",
+    "sha256": "5c6bad210149abac8bd645cb12b1394edea5681f224154c27f422134299520fb"
+  },
+  {
+    "character": "早",
+    "codepoint": "U+65E9",
+    "stroke_count": 6,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E6%97%A9.json",
+    "sha256": "4d6b2979bd1167355372cf73800a2ce13032febb989b8bf5901e6a7dbe773454"
+  },
+  {
+    "character": "時",
+    "codepoint": "U+6642",
+    "stroke_count": 10,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E6%99%82.json",
+    "sha256": "7bf841429ed2648a06a9c6965b936c4c79437a89da692229206b71b5b054a643"
+  },
+  {
+    "character": "月",
+    "codepoint": "U+6708",
+    "stroke_count": 4,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E6%9C%88.json",
+    "sha256": "441949321eb706def6e8d0c1eeca6b461141703dcc07619939a32d681e08fc46"
+  },
+  {
+    "character": "有",
+    "codepoint": "U+6709",
+    "stroke_count": 6,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E6%9C%89.json",
+    "sha256": "cee2fb732f41de30a7b0c84880d2d47af0a9fda6fda795d99c77a57f2ee4c8e4"
+  },
+  {
+    "character": "枯",
+    "codepoint": "U+67AF",
+    "stroke_count": 9,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E6%9E%AF.json",
+    "sha256": "a2403c6207b74456ca625512833d1399ce8072593a2df5f17c66bc84b752ddd8"
+  },
+  {
+    "character": "條",
+    "codepoint": "U+689D",
+    "stroke_count": 11,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E6%A2%9D.json",
+    "sha256": "9cc8a19137e504c79abb0d1058399e2f760a6ffe2b34dbe37b40cdea45ea8ecb"
+  },
+  {
+    "character": "標",
+    "codepoint": "U+6A19",
+    "stroke_count": 15,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E6%A8%99.json",
+    "sha256": "f5b16f77385584b94e6922bcfb4c71d65c43ff018e31cdeea33bfb4cb1a39300"
+  },
+  {
+    "character": "欲",
+    "codepoint": "U+6B32",
+    "stroke_count": 11,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E6%AC%B2.json",
+    "sha256": "afd18ca5983f54e6b3ed95251c1e15a48cd005e5ee4f5794d86002fda8e4af55"
+  },
+  {
+    "character": "漸",
+    "codepoint": "U+6F38",
+    "stroke_count": 14,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E6%BC%B8.json",
+    "sha256": "a735edd66b908815619b84aba24fa30f4bf8558628fe1fd379ea5f3821e159d5"
+  },
+  {
+    "character": "為",
+    "codepoint": "U+70BA",
+    "stroke_count": 12,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E7%82%BA.json",
+    "sha256": "180b22729ce4523876e65b168a3e3388d8574a5e4780eb09e0945afd127604cd"
+  },
+  {
+    "character": "玄",
+    "codepoint": "U+7384",
+    "stroke_count": 5,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E7%8E%84.json",
+    "sha256": "ff5b8f1e4b07d3c3271577ca3410a634822640bc91c32aece137cd7fb3401172"
+  },
+  {
+    "character": "當",
+    "codepoint": "U+7576",
+    "stroke_count": 13,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E7%95%B6.json",
+    "sha256": "5ddf16db40377fcdb9eb3d79edf57f0116b2b37a266b3a4c25046d5f747ffdc3"
+  },
+  {
+    "character": "白",
+    "codepoint": "U+767D",
+    "stroke_count": 5,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E7%99%BD.json",
+    "sha256": "a3858cdfb3a8d08b8046aa4e8c9161dac017119c8f7986e52c9e6752d1721f2e"
+  },
+  {
+    "character": "相",
+    "codepoint": "U+76F8",
+    "stroke_count": 9,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E7%9B%B8.json",
+    "sha256": "15130e10074ad9adb9f45a04fb5f13e7aa7df297f88adcc4c4504193a3b3888f"
+  },
+  {
+    "character": "窄",
+    "codepoint": "U+7A84",
+    "stroke_count": 10,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E7%AA%84.json",
+    "sha256": "a6146bb981116a07b05030d67d44b1121330b163ec521b98b6508a390b79e60e"
+  },
+  {
+    "character": "素",
+    "codepoint": "U+7D20",
+    "stroke_count": 10,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E7%B4%A0.json",
+    "sha256": "54c41d1d18a3d61d9645b1d830b455e5c5a01d1fed3c6c6e694e99bf84fcb663"
+  },
+  {
+    "character": "肯",
+    "codepoint": "U+80AF",
+    "stroke_count": 8,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E8%82%AF.json",
+    "sha256": "b8971621d3d78485122f20251dde9eb99244177b1834ad90c0a0695f6d30004f"
+  },
+  {
+    "character": "與",
+    "codepoint": "U+8207",
+    "stroke_count": 13,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E8%88%87.json",
+    "sha256": "6e7ed574cb67b099ba87d269ce1892b9ddddcf059588c1d5a5a93165ff70713f"
+  },
+  {
+    "character": "舊",
+    "codepoint": "U+820A",
+    "stroke_count": 18,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E8%88%8A.json",
+    "sha256": "27d30e8e06a25b583d02ead123260c9019376bd07e2046bd368442701def7644"
+  },
+  {
+    "character": "舍",
+    "codepoint": "U+820D",
+    "stroke_count": 8,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E8%88%8D.json",
+    "sha256": "ebbe1b884c6f7e4ce934a1e6cfe2223ce4a0daa00a42f06fe77464e7bf936a77"
+  },
+  {
+    "character": "落",
+    "codepoint": "U+843D",
+    "stroke_count": 12,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E8%90%BD.json",
+    "sha256": "c93bc437ce73e27706aa245a7431e5e0df3747922180a7cb0c1b4e9132904bfa"
+  },
+  {
+    "character": "葉",
+    "codepoint": "U+8449",
+    "stroke_count": 13,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E8%91%89.json",
+    "sha256": "69e7288e7a8b2e57c8d13a1c596ec97de410c5683cf54804e94ebd77b3d650b0"
+  },
+  {
+    "character": "質",
+    "codepoint": "U+8CEA",
+    "stroke_count": 15,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E8%B3%AA.json",
+    "sha256": "bf2288efb72bf1343107bf7eacf40b9fd99c5324dbd1bc70ae39a783a174bfb1"
+  },
+  {
+    "character": "迫",
+    "codepoint": "U+8FEB",
+    "stroke_count": 8,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E8%BF%AB.json",
+    "sha256": "3234b84c7b13b80cf9f0d94bad89c33a5ec654bd5fb440fa6af6732ced102245"
+  },
+  {
+    "character": "逆",
+    "codepoint": "U+9006",
+    "stroke_count": 9,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E9%80%86.json",
+    "sha256": "cbd024de4794bba5a08e2e0cc33aba8b2b3f2369fe879f8774b30271a6b61d58"
+  },
+  {
+    "character": "途",
+    "codepoint": "U+9014",
+    "stroke_count": 10,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E9%80%94.json",
+    "sha256": "c7dba33ccf6786da2a2e29e438514e0303ede651ae8695893fe6f2ceb485a564"
+  },
+  {
+    "character": "運",
+    "codepoint": "U+904B",
+    "stroke_count": 12,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E9%81%8B.json",
+    "sha256": "065e7a0a35904ba40a5c9c0ac2798fb0cdd15c58eeb7e9363459b5e942d30266"
+  },
+  {
+    "character": "遲",
+    "codepoint": "U+9072",
+    "stroke_count": 15,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E9%81%B2.json",
+    "sha256": "e0d7d4e94d55125cec031a82cabf8e15da084b365d784fac607bc65fbcc7e613"
+  },
+  {
+    "character": "長",
+    "codepoint": "U+9577",
+    "stroke_count": 8,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E9%95%B7.json",
+    "sha256": "dbf64387d05f2038c747cafc76cb2edd6296c89662e8bbb70d4397dee8ce5de4"
+  },
+  {
+    "character": "陌",
+    "codepoint": "U+964C",
+    "stroke_count": 8,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E9%99%8C.json",
+    "sha256": "80c07079a9b8d8398f3db8e3f4f255d6e4094dd809f39be63c28be9b13434ca7"
+  },
+  {
+    "character": "頭",
+    "codepoint": "U+982D",
+    "stroke_count": 16,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E9%A0%AD.json",
+    "sha256": "4074019b23cbb6fbabfa912ba3b750137fccd1218ca73babbb847bda8d07b977"
+  },
+  {
+    "character": "頹",
+    "codepoint": "U+9839",
+    "stroke_count": 16,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E9%A0%B9.json",
+    "sha256": "14498c146cd2768ffc594b5d8263674c1869ba278ab39ba825533922fc8ab0b0"
+  },
+  {
+    "character": "風",
+    "codepoint": "U+98A8",
+    "stroke_count": 9,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E9%A2%A8.json",
+    "sha256": "007e7c0f4769a409732ef6a9882dafd01ee5ce59a34616431f3bd2a37cfe6375"
+  },
+  {
+    "character": "鬢",
+    "codepoint": "U+9B22",
+    "stroke_count": 24,
+    "source": "https://cdn.jsdelivr.net/npm/hanzi-writer-data@2.0.1/%E9%AC%A2.json",
+    "sha256": "db0c7a35296ec640373accdad307f05f9f3e88846544360643ed07147c7d69a2"
+  }
+]

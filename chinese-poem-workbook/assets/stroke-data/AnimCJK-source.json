@@ -1,0 +1,7 @@
+{
+  "character": "為",
+  "stroke_count": 9,
+  "source": "https://raw.githubusercontent.com/parsimonhi/animCJK/ec5e17cca76c87587790bcbce5ea0b4d4fb753d6/svgsZhHant/28858.svg",
+  "sha256": "d015d944c61413c3e01e09ab7ecd7cad3a7018aa21b834c8abc5327ad27a1f9b",
+  "note": "Use this nine-stroke model, not Hanzi Writer's twelve-stroke model, for 為."
+}
