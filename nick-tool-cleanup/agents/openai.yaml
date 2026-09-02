@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nick Tool Cleanup"
+  short_description: "Audit installed tools and unwanted telemetry"
+  default_prompt: "Use $nick-tool-cleanup to inventory this computer, flag unapproved telemetry, and compare it with other device inventories."
