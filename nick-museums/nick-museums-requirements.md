@@ -1,3 +1,10 @@
+---
+skill_name: nick-museums
+installation_scope: repo
+installation_target: .agents/skills/nick-museums
+installation_method: symlink
+---
+
 # Museum Discovery and Visit Planning
 
 **Status:** Ready for review

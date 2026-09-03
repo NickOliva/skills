@@ -9,7 +9,7 @@ Turn Nick's available time or museum interest into a short, verified, taste-awar
 
 ## Required context
 
-Read [references/museum-requirements.md](references/museum-requirements.md) completely before researching or producing an output. It is the authoritative contract and contains Nick's art profile, travel context, registry, thresholds, output rules, behavioral tests, and authorization boundaries. Apply every applicable requirement; do not silently weaken or replace it. Then read `references/private.local.md` when present for more precise private travel context.
+Read [references/museum-profile.md](references/museum-profile.md) completely before researching or producing an output. It contains Nick's art profile, travel context, ranking thresholds, and baseline museum registry. Then read `references/private.local.md` when present for more precise private travel context.
 
 The optional local profile may contain a private street address. Use it only for local routing calculations. Never reproduce it in a report, citation, browser form, third-party request, or conversation; identify the origin publicly as `Mamaroneck, NY`. Prefer city-, station-, or ZIP-level routing unless Nick explicitly authorizes the street address for a specific transaction. If the local profile is absent, use `Mamaroneck, NY` as the origin.
 
@@ -32,8 +32,8 @@ Use when Nick supplies a date/window, asks what is worth seeing, names an instit
 Use for the separate scheduled Sunday task or when Nick asks to refresh the forward calendar.
 
 1. Load the prior digest and state from `~/Vaults/Knowledge/Art/Museum Briefings/state/` when present. Preserve first-seen dates and prior details so unchanged entries are not labeled new.
-2. Audit every registry institution in the requirements reference and discover material openings, closures, relocations, or newly relevant institutions.
-3. Separately search worldwide for the high-priority artists, works, schools, canonical Chinese handscrolls, and photography interests specified in the requirements. Apply the higher worldwide threshold and distinguish awareness from a travel recommendation.
+2. Audit every registry institution in the museum profile and discover material openings, closures, relocations, or newly relevant institutions.
+3. Separately search worldwide for the high-priority artists, works, schools, canonical Chinese handscrolls, and photography interests specified in the museum profile. Apply the higher worldwide threshold and distinguish awareness from a travel recommendation.
 4. Include every announced future regional match without an arbitrary end horizon. Organize by month and opening date; mark new, changed, opening soon, and closing soon. Add `Worldwide highlights` and `Closing soon and reasonably accessible` exactly as required.
 5. Include a compact source-audit appendix naming every institution checked, failures, and material uncertainties. Completeness means an auditable sweep, not an unsupported claim.
 6. Write `YYYY-MM-DD-museum-calendar.md` and its PDF under the year folder. Update durable state only after the report is successfully written and verified.
@@ -49,7 +49,7 @@ Calendar free/busy reading requires Nick's authorization. Event creation or modi
 - Browse every time; hours, display status, schedules, tickets, prices, parking, and construction are volatile.
 - Prefer official museum exhibition, collection, visit, and ticket pages. Use reputable secondary sources to discover leads or add context, not as the sole support for consequential facts when first-party evidence exists.
 - Cite every recommended exhibition and consequential logistical fact near the claim. State when a fragile or rotating object's on-view status cannot be confirmed.
-- Optimize for the art, not the institution's label. Exclude commercial galleries by default, reject AI-generated imagery, and apply the exact taste thresholds in the requirements reference.
+- Optimize for the art, not the institution's label. Exclude commercial galleries by default, reject AI-generated imagery, and apply the taste priorities in the museum profile.
 - Lead with the recommendation. Keep the decision section phone-friendly; put detailed research and the source audit in an appendix.
 
 ## PDF production and verification
@@ -64,4 +64,4 @@ The builder requires Pandoc, an available TeX engine, and the vendored Eisvogel 
 
 ## Authorization boundaries
 
-Research and report generation are read-only. Never buy tickets; book travel, lodging, or parking; join a membership; contact an institution; publish or share a report; sign in to a travel provider; or create, edit, or delete calendar events without the separate authorization required by the requirements reference.
+Research and report generation are read-only. Never buy tickets; book travel, lodging, or parking; join a membership; contact an institution; publish or share a report; sign in to a travel provider; or create, edit, or delete calendar events without separate explicit authorization.

@@ -1,3 +1,10 @@
+---
+skill_name: nick-money
+installation_scope: machine
+installation_target: ~/.codex/skills/nick-money
+installation_method: symlink
+---
+
 # All Nick Money — Skill Requirements
 
 ## Purpose

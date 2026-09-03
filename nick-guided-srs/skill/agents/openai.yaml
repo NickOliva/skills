@@ -1,0 +1,4 @@
+interface:
+  display_name: "Nick Guided SRS"
+  short_description: "Create atomic source data for guided SRS"
+  default_prompt: "Use $nick-guided-srs to auto-ingest this learning source into its SRS source note."
