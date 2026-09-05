@@ -1,0 +1,14 @@
+{
+  "authority": "Each Nick Skills skill requirements file frontmatter",
+  "requirements_pattern": "*/*requirements.md",
+  "installation_fields": [
+    "skill_name",
+    "installation_scope",
+    "installation_target",
+    "installation_method"
+  ],
+  "source_convention": "<skill-folder>/skill/SKILL.md",
+  "unbuilt_policy": "Report as pending implementation; do not invent a skill or install an empty directory.",
+  "scope_policy": "Honor each declaration independently. Nick Mac is repository-only; other skills can be machine or repository scoped.",
+  "changes": "Review missing, wrong-scope, duplicate, stale-copy, and broken installations in the combined plan before repairing them."
+}

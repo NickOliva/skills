@@ -9,6 +9,8 @@ Develop Nick's standard Mac build through repeated reviews across his computers.
 
 ## Standard and scope
 
+Nick Mac is installed only in the Nick Skills repository at `.agents/skills/nick-mac`, linked to its source here. Do not install it globally.
+
 Read [manifest.json](manifest.json) and the [component catalog](references/components.md). Load specifications and assets only for the selected components. Use paths relative to this skill directory, including when invoked through its installed symlink.
 
 The manifest records the current baseline and item review states. A provisional snapshot is a starting point for review. No computer is permanently authoritative, and observing a setting does not adopt it as standard. Use “target Mac” and “recorded standard”; keep computer names out of skill instructions and portable artifacts.
@@ -19,7 +21,7 @@ Software versions are out of scope: do not inventory, report, compare, pin, upgr
 
 ## Review, decide, apply
 
-1. **Inspect.** Compare each selected manifest item with the target's actual configuration. Include app identity/presence, settings, assets, dependencies, Login Items/background tasks, and verification gaps. On a full review, inventory installed user apps and tools as candidates for manifest additions; distinguish intentional tools from their supporting packages. Surface relevant app settings outside the captured baseline as review candidates. Use `scripts/compare-standard.py` for the supported preference comparisons and supplement it with each component's checks. An unset preference requires an effective-setting check; absence alone does not establish equivalent behavior.
+1. **Inspect.** Compare each selected manifest item with the target's actual configuration. Include app identity/presence, settings, assets, dependencies, Login Items/background tasks, Nick skill installation scopes, and verification gaps. On a full review, inventory installed user apps and tools as candidates for manifest additions; distinguish intentional tools from their supporting packages. Surface relevant app settings outside the captured baseline as review candidates. Use `scripts/compare-standard.py` for the supported preference comparisons and supplement it with each component's checks. An unset preference requires an effective-setting check; absence alone does not establish equivalent behavior.
 2. **Resolve differences.** For every differing item, show the recorded and observed alternatives. Let Nick keep the recorded standard, adopt the target's value as standard, define a new value, or defer the item. Group related questions for concise answers, but preserve individual choices. Treat missing and additional tools the same way; do not silently install, remove, or adopt them.
 3. **Present one plan.** Combine Nick's choices into a reviewable plan of proposed standard updates and target changes. Include unresolved items and any installation, replacement, restart, permission, or device-specific step that affects his decision. For an item he has not decided, show the alternatives in the plan rather than selecting one silently. He may resolve choices and accept the resulting plan in one reply.
 4. **Wait for acceptance.** Do not change target configuration or adopt proposed standards before Nick accepts the plan. Earlier acceptance of the same concrete work still counts. An inspection-only request ends with findings. If nothing differs, report that without asking for an empty approval.

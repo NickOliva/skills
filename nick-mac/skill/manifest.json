@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 4,
+  "revision": 5,
   "build_state": "evolving",
   "components": [
     {
@@ -37,6 +37,13 @@
       "initial_review_state": "accepted-review-policy",
       "specification": "references/components/background-items.md",
       "standard": "assets/background-items/standard.json"
+    },
+    {
+      "id": "skill-installations",
+      "title": "Nick skill installation scopes",
+      "initial_review_state": "declared-requirements",
+      "specification": "references/components/skill-installations.md",
+      "standard": "assets/skill-installations/standard.json"
     }
   ],
   "item_decisions": {

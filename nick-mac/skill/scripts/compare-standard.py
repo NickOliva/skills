@@ -6,6 +6,7 @@ import hashlib
 import json
 import plistlib
 import subprocess
+import sys
 from pathlib import Path
 
 
@@ -142,6 +143,12 @@ def collect(component, standard, read, applications, support):
             if requirement == "required" and app.get("configuration_status") == "awaiting-review":
                 records.append({"id": f"applications:configuration:{app['id']}", "name": app["name"],
                                 "status": "configuration-awaiting-review", "review_state": "provisional"})
+    elif component_id == "skill-installations":
+        result = subprocess.run([sys.executable, str(SKILL / "scripts/check-skill-installations.py")],
+                                capture_output=True, text=True)
+        if result.returncode not in (0, 1) or not result.stdout:
+            raise RuntimeError("Skill installation audit failed; inspect its helper directly.")
+        records.extend(json.loads(result.stdout)["items"])
     elif component_id == "background-items":
         for item in standard["items"]:
             records.append({"id": f"background-items:{item['id']}", "name": item["title"],

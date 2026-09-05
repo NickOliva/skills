@@ -27,3 +27,8 @@ The build is evolving. Record accepted changes by date and stable item ID, with 
 - Nick requested carrying these decisions into future Mac reviews. The background-items component records conditional cleanup of stale Atlas/Zoom tasks, retention of applicable Docker and installed-app helpers, and verification of the ONNX Runtime telemetry opt-out task. New targets still receive one combined plan before changes.
 - Preserve `com.nick.tool-cleanup.telemetry-optouts`, which sets `ORT_DISABLE_TELEMETRY=1` at login. Use “Telemetry opt-out (ONNX Runtime)” in reports. No simple Settings display-name override was found; the functional task remains unchanged, as Nick permitted.
 - The OneDrive uninstall required stopping its updater services and removing SyncReporter as well as the app. Keep this verification in future accepted uninstalls; do not confuse disabled background records with active services.
+
+## 2026-09-05 — Repository-only Nick Mac and skill scope checks
+
+- Nick moved Nick Mac from machine scope to this repository only. The repository discovery link points to `../../nick-mac/skill`; the previous global link was removed. An older global backup with the same skill name was preserved outside skill discovery.
+- Every full run now audits all Nick Skills installation declarations for presence, proper scope, current source links, and duplicate or stale installations. Skills without implementations remain pending. Other installation differences are findings for review, not implicit authorization to move or install those skills.

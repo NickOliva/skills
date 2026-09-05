@@ -7,6 +7,7 @@
 | Finder | [Finder](components/finder-context-menu.md) | Current configuration captured as provisional |
 | Terminal and shell | [Terminal](components/terminal-zsh.md) | Current configuration captured as provisional |
 | Applications | [Applications](components/applications.md) | Inclusion accepted; additional configurations await review |
+| Nick skill installations | [Installation scopes](components/skill-installations.md) | Each skill’s requirements declare its scope |
 | Background tasks | [Login and background items](components/background-items.md) | Review and retention policies accepted; inspect each target |
 | Voice transcription | [FluidVoice](components/voice-transcription.md) | Captured setup chosen as initial standard |
 

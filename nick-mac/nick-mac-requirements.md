@@ -1,7 +1,7 @@
 ---
 skill_name: nick-mac
-installation_scope: machine
-installation_target: ~/.codex/skills/nick-mac
+installation_scope: repo
+installation_target: .agents/skills/nick-mac
 installation_method: symlink
 ---
 
@@ -29,6 +29,8 @@ No computer is permanently authoritative. The recorded standard starts from obse
 
 10. Review Login Items and background tasks on every full run. Attribute each task by its label, executable, parent application, and current installation; duplicate names and missing icons alone are not faults. Revisit accepted cleanup and retention choices on each target, including telemetry opt-out persistence, without assuming identical paths or user IDs.
 
+11. Check every skill in the Nick Skills repository against its requirements declaration: required installation, machine or repository scope, target path, symlink method, and current repository source. Include missing, broken, duplicate, wrong-scope, stale-copy, and undeclared installations in the combined review plan. Requirements-only skills without a built SKILL.md are pending implementation, not ready to install. Discover newly added skills on every run.
+
 ## Initial baseline and component organization
 
 - **Finder and Terminal:** capture the current configuration as provisional review material. Reconsider all inherited settings; old hard-coded helpers must not enforce them. Actual Terminal profile identifiers are configuration data, not computer identities.
@@ -40,7 +42,7 @@ No computer is permanently authoritative. The recorded standard starts from obse
 
 ## Repository and review
 
-Maintain requirements outside `nick-mac/skill/`. Bundle reusable scripts, assets, and tests inside that directory so the installed skill is self-contained. Tests use synthetic settings and must not depend on a particular computer or the current chosen baseline. Preserve the installed symlink and the existing explicit-invocation policy. Standard edits update the installed skill files immediately; accepted alignment runs apply configurations to computers. Leave this revision local and uncommitted for Nick's inspection.
+Maintain requirements outside `nick-mac/skill/`. Bundle reusable scripts, assets, and tests inside that directory so the installed skill is self-contained. Tests use synthetic settings and must not depend on a particular computer or the current chosen baseline. Install Nick Mac only through `.agents/skills/nick-mac -> ../../nick-mac/skill` in this repository, with no machine-wide Nick Mac discovery copy. Preserve the existing explicit-invocation policy. Check other Nick skills against their own declared scopes, not Nick Mac’s scope. Standard edits update the installed skill files immediately; accepted alignment runs apply configurations to computers. Leave this revision local and uncommitted for Nick's inspection.
 
 ## Success evidence
 
