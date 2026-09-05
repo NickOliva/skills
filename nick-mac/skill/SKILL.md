@@ -39,11 +39,8 @@ Load `references/components.md` when you need the details.
 
 Make Finder match the service entries discovered on Nick's current Mac:
 - `New Terminal at Folder`
-- `New Terminal Tab at Folder`
-- `open in vs code`
-- `Compare Folders`
+- `Open in VS Code`
 - `Select Left Folder for Compare`
-- `Reveal in Windows`
 
 Use `scripts/apply-finder-context-menu.sh`.
 
