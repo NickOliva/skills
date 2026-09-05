@@ -32,3 +32,9 @@ The build is evolving. Record accepted changes by date and stable item ID, with 
 
 - Nick moved Nick Mac from machine scope to this repository only. The repository discovery link points to `../../nick-mac/skill`; the previous global link was removed. An older global backup with the same skill name was preserved outside skill discovery.
 - Every full run now audits all Nick Skills installation declarations for presence, proper scope, current source links, and duplicate or stale installations. Skills without implementations remain pending. Other installation differences are findings for review, not implicit authorization to move or install those skills.
+
+## 2026-09-05 — Optional peripherals, zero reporting, and independent review
+
+- `applications:app:com.elgato.StreamDeck`: previously unlisted, now explicitly optional (`not-required`), together with its Corsair helper. Nick selects targets individually in run history; monitor connection alone creates no requirement. Portable artifacts contain no computer-name lists.
+- `voice-transcription:control:reporting`: the captured detailed-analytics-off preference is insufficient. Require zero reporting, including weekly activity and helper/diagnostic uploads, with prevention before first launch and independent verification. If unproven, keep FluidVoice inactive and report blocked; no residual-reporting alternative. This changes the standard, not target configuration.
+- Every alignment now requires a full independent review by a separate sub-agent that implemented none of the changes, with evidence, findings, corrections, and independent rechecks recorded in the same alignment report.

@@ -50,6 +50,15 @@
       "configuration_status": "awaiting-review"
     },
     {
+      "id": "com.elgato.StreamDeck",
+      "name": "Elgato Stream Deck",
+      "bundle_id": "com.elgato.StreamDeck",
+      "requirement": "not-required",
+      "configuration_status": "awaiting-review",
+      "selection_policy": "Optional; Nick explicitly selects each target in run history. Monitor connection alone is not selection.",
+      "related_helper": "Corsair background helper for Elgato Stream Deck; retention does not authorize enabling background activity."
+    },
+    {
       "id": "com.FluidApp.app",
       "name": "FluidVoice",
       "bundle_id": "com.FluidApp.app",

@@ -174,5 +174,24 @@
     "remove_trailing_period": false,
     "notify_ai_failures": true,
     "notify_microphone_changes": true
+  },
+  "reporting_policy": {
+    "id": "voice-transcription:control:reporting",
+    "reporting_allowed": false,
+    "includes": [
+      "weekly and daily activity",
+      "detailed analytics",
+      "telemetry",
+      "automatic crash and diagnostic uploads",
+      "helper and enhancement-runtime reporting"
+    ],
+    "prevention_required_before_first_launch": true,
+    "independent_verification_required": true,
+    "insufficient_evidence": [
+      "ShareAnonymousAnalytics=false alone",
+      "short quiet network capture alone"
+    ],
+    "unverified_action": "Keep FluidVoice inactive and report blocked. Do not offer residual reporting.",
+    "procedure": "references/components/voice-transcription.md"
   }
 }

@@ -17,6 +17,10 @@ The manifest records the current baseline and item review states. A provisional 
 
 A normal run reviews the whole manifest on the target Mac. Honor a named subset or inspection-only request. Target the local Mac unless Nick names another accessible target. Editing this skill does not itself authorize running its configuration procedures.
 
+Elgato Stream Deck and its Corsair helper are optional. Nick selects the computers that use them; monitor connection alone does not make them required. Record target choices in run history, never a computer-name list in the portable skill or standard.
+
+FluidVoice must send no reporting at all, including weekly activity, detailed analytics, and automatic diagnostic reports. A detailed-analytics switch alone is insufficient. Follow the [voice transcription procedure](references/components/voice-transcription.md) to prevent reporting before first launch and verify the result. Do not offer residual reporting as an acceptable substitute.
+
 Software versions are out of scope: do not inventory, report, compare, pin, upgrade, or downgrade releases. Track tool identity, presence, and effective configuration. Independent application updates are allowed; updater settings remain ordinary configuration choices.
 
 ## Review, decide, apply
@@ -26,7 +30,15 @@ Software versions are out of scope: do not inventory, report, compare, pin, upgr
 3. **Present one plan.** Combine Nick's choices into a reviewable plan of proposed standard updates and target changes. Include unresolved items and any installation, replacement, restart, permission, or device-specific step that affects his decision. For an item he has not decided, show the alternatives in the plan rather than selecting one silently. He may resolve choices and accept the resulting plan in one reply.
 4. **Wait for acceptance.** Do not change target configuration or adopt proposed standards before Nick accepts the plan. Earlier acceptance of the same concrete work still counts. An inspection-only request ends with findings. If nothing differs, report that without asking for an empty approval.
 5. **Apply the accepted scope.** Update accepted standard artifacts, manifest review states, and [decision record](references/decisions.md) together, then align the target using the component procedures. Preserve unrelated configuration and back up replaced settings. Continue independent accepted work if an item is blocked. Bring back only material changes to the accepted plan.
-6. **Verify and carry forward.** Check each changed item and report a concise result with any deferred items or manual checks. Keep provisional or unresolved choices available for future computer reviews. Record item decisions without declaring the entire formula complete; only Nick decides when it is finalized.
+6. **Verify independently and carry forward.** Perform implementation checks, then require a full [post-alignment review](references/post-alignment-review.md) by a separate sub-agent that made none of the changes. The implementing agent's own checks cannot substitute for that review. Resolve findings within the accepted scope and obtain independent re-verification before declaring alignment complete. Report deferred, blocked, and unverified items explicitly. Only Nick decides when the entire formula is finalized.
+
+## Reports and review decisions
+
+Keep each run's history in this repository at `nick-mac/reports/YYYY-MM-DD/YYYY-MM-DD-<computer-name>-alignment.md`, outside the installed `skill/` directory. Read the target's actual computer name for the filename; computer names belong in run reports, not portable standards or skill instructions. Use an ordinary, Git-visible filename. Preserve earlier runs; use a distinct run suffix for a second inspection of the same computer on the same date.
+
+Use one combined Markdown table with Ref, Item, Baseline, This Mac, Recommendation, and Decision columns, one row per decision item in comparison order. Preserve recorded choices and write `Pending` in unanswered Decision cells so the preview retains all six columns in every row. Save each conversational decision immediately in this same file; do not maintain a separate decision document. A Pending or blank decision means no change: recommendations and baseline values are not authorization. Only an explicit decision for an item, or an explicitly specified group, can select a change. A recorded choice does not mean it has been applied.
+
+Keep the table concise and actionable: describe what Nick sees or can do and what the recommendation would change. Explain technical names only when needed; an incomplete baseline observation is not a defined replacement configuration. Retain supporting inspection evidence and verification in the same file, under a collapsible details section when lengthy. Avoid duplicate decision summaries and instructions.
 
 ## Maintaining the build
 

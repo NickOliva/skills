@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 5,
+  "revision": 6,
   "build_state": "evolving",
   "components": [
     {
@@ -196,7 +196,23 @@
       "review_state": "accepted",
       "choice": "define-new",
       "decided_on": "2026-09-05"
+    },
+    "applications:app:com.elgato.StreamDeck": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "voice-transcription:control:reporting": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
     }
   },
-  "software_versions": "out-of-scope"
+  "software_versions": "out-of-scope",
+  "post_alignment_review": {
+    "required": true,
+    "reviewer": "separate sub-agent that made none of the changes",
+    "scope": "full manifest, accepted plan, exceptions, functional behavior, and unintended changes",
+    "procedure": "references/post-alignment-review.md"
+  }
 }

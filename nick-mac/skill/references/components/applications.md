@@ -10,6 +10,8 @@ Use `applications:app:<bundle-id>` for inclusion decisions and `applications:con
 
 `not-required` permits either presence or absence. It never requests removal. `pending` leaves inclusion undecided and produces no installation/removal action. Keynote, Numbers, Slack, and OneDrive are not required. Other discovered tools remain candidates until reviewed.
 
+Elgato Stream Deck and its Corsair background helper are also optional (`not-required`). Nick explicitly selects the target computers; neither monitor connection nor installation on another target makes them required. Keep computer selections in individual run history, not a named-machine list in portable artifacts. Retention does not itself authorize changing the background-startup switch.
+
 ## Apply accepted choices
 
 Include proposed installations and configuration changes in the combined alignment plan. Accepted inclusion does not authorize installation during an inspection. For a missing required application, identify its official vendor or App Store source, licensing or sign-in needs, and any consequential permissions before acceptance. Use the normal supported installer without release pins or version alignment. Built-in applications may require a different availability check; do not replace system apps blindly.
