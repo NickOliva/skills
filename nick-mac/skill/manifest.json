@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 6,
+  "revision": 8,
   "build_state": "evolving",
   "components": [
     {
@@ -179,7 +179,7 @@
     },
     "background-items:telemetry-optout": {
       "review_state": "accepted",
-      "choice": "define-new",
+      "choice": "adopt-observed",
       "decided_on": "2026-09-05"
     },
     "background-items:docker-helpers": {
@@ -206,6 +206,86 @@
       "review_state": "accepted",
       "choice": "define-new",
       "decided_on": "2026-09-05"
+    },
+    "finder:com.apple.finder:ShowHardDrivesOnDesktop": {
+      "review_state": "accepted",
+      "choice": "keep-recorded",
+      "decided_on": "2026-09-05"
+    },
+    "finder:com.apple.finder:ShowExternalHardDrivesOnDesktop": {
+      "review_state": "accepted",
+      "choice": "keep-recorded",
+      "decided_on": "2026-09-05"
+    },
+    "finder:com.apple.finder:ShowRemovableMediaOnDesktop": {
+      "review_state": "accepted",
+      "choice": "keep-recorded",
+      "decided_on": "2026-09-05"
+    },
+    "finder:com.apple.finder:ShowMountedServersOnDesktop": {
+      "review_state": "accepted",
+      "choice": "keep-recorded",
+      "decided_on": "2026-09-05"
+    },
+    "finder:com.apple.finder:NewWindowTarget": {
+      "review_state": "accepted",
+      "choice": "keep-recorded",
+      "decided_on": "2026-09-05"
+    },
+    "finder:pbs:FinderActive/APPEXTENSION-com.apple.finder.TrimQuickAction": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "finder:control:quick-action-order": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "finder:workflow:Open in Codex.workflow": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "terminal:shell:framework": {
+      "review_state": "accepted",
+      "choice": "adopt-observed",
+      "decided_on": "2026-09-05"
+    },
+    "terminal:shell:theme": {
+      "review_state": "accepted",
+      "choice": "adopt-observed",
+      "decided_on": "2026-09-05"
+    },
+    "terminal:shell:plugins": {
+      "review_state": "accepted",
+      "choice": "adopt-observed",
+      "decided_on": "2026-09-05"
+    },
+    "voice-transcription:com.FluidApp.app:DictationPromptOff": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "voice-transcription:com.FluidApp.app:RewriteModeShortcutEnabled": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "voice-transcription:setting:edit_shortcut_enabled": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "voice-transcription:setting:dictation_ai_prompt": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "voice-transcription:control:ai-enhancement": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
     }
   },
   "software_versions": "out-of-scope",
@@ -213,6 +293,7 @@
     "required": true,
     "reviewer": "separate sub-agent that made none of the changes",
     "scope": "full manifest, accepted plan, exceptions, functional behavior, and unintended changes",
-    "procedure": "references/post-alignment-review.md"
+    "procedure": "references/post-alignment-review.md",
+    "start_condition": "Implementing agent believes 100% of the agreed scope and required functional checks are complete; no unresolved accepted work."
   }
 }

@@ -38,3 +38,19 @@ The build is evolving. Record accepted changes by date and stable item ID, with 
 - `applications:app:com.elgato.StreamDeck`: previously unlisted, now explicitly optional (`not-required`), together with its Corsair helper. Nick selects targets individually in run history; monitor connection alone creates no requirement. Portable artifacts contain no computer-name lists.
 - `voice-transcription:control:reporting`: the captured detailed-analytics-off preference is insufficient. Require zero reporting, including weekly activity and helper/diagnostic uploads, with prevention before first launch and independent verification. If unproven, keep FluidVoice inactive and report blocked; no residual-reporting alternative. This changes the standard, not target configuration.
 - Every alignment now requires a full independent review by a separate sub-agent that implemented none of the changes, with evidence, findings, corrections, and independent rechecks recorded in the same alignment report.
+
+## 2026-09-05 — Accepted alignment choices
+
+- Finder desktop disk visibility and new-window Documents destination: accepted recorded values. Trim: disabled in the standard. Quick Action numeric ordering: retired; preserve remaining actions' relative order. Create PDF stays enabled.
+- `finder:workflow:Open in Codex.workflow`: excluded from the standard; remove rather than repair when selected in the target plan.
+- `terminal:shell:framework`, `terminal:shell:theme`, `terminal:shell:plugins`: adopt Oh My Zsh, the bundled `nick-mac` prompt, and Git plugin. Preserve unrelated startup-file contents.
+- `background-items:telemetry-optout`: adopt the combined login task for ONNX Runtime and PowerShell opt-outs.
+- Target-specific removals and retained application exceptions remain in the approved run report; they do not become blanket removal rules or relax the portable application requirements.
+
+## 2026-09-05 — Review only after implementation is complete
+
+- Independent review must not launch during partial alignment. The implementing agent must believe all accepted changes and required checks are 100% complete first. Explain and resolve outstanding work with Nick; never silently defer an accepted requirement. A premature review does not count as the final independent review. FluidVoice installation remains required.
+
+## 2026-09-05 — AI enhancement off
+
+- `voice-transcription:control:ai-enhancement`: Nick requires AI text enhancement off on the target and in the standard. Dictation AI prompts are Off; the AI editing shortcut is disabled. Speech recognition stays enabled. Enhancement model downloads and provider selection are no longer requirements; existing files may remain inactive. Manifest revision 8 records this replacement of the original enhancement-enabled baseline.

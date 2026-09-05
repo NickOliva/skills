@@ -1,23 +1,67 @@
 # Mac comparison and decisions — pro — 2026-09-05
 
-**Pending or blank decision = no change.** Recommendations are proposals. Computer alignment changes have not yet been applied.
+**Pending or blank decision = no change.** Recommendations are proposals. The plan was approved on 2026-09-05; alignment and fresh independent review are complete for the agreed scope. Nick explicitly deferred the Stream Deck hardware test. Original comparison values below are retained as inspection history.
 
-Inspection: repository commit `27d7d76`, baseline revision 5. The repository standard is now revision 6 for the explicitly requested optional Elgato/Corsair policy, mandatory zero reporting, and independent review. These policy edits do not configure this Mac.
+Inspection: repository commit `27d7d76`, baseline revision 5. Revision 6 added the optional Elgato/Corsair policy, mandatory zero reporting, and independent review. The approved alignment advances the standard to revision 8, including Nick’s later decision to turn AI enhancement off; implementation status is below.
 
-## Plan for approval
+## Alignment results
 
-**Not yet approved or applied.** This plan implements the recorded decisions. Pending or blank items receive no change. V1 requires a verified method to prevent all reporting before activation; the other work can proceed independently once approved.
+Implementation and the fresh independent review are complete for the agreed scope, with no actionable defects found. Nick explicitly deferred the Stream Deck hardware test. Backups: `~/Library/Application Support/Nick Mac/Backups/2026-09-05-pro/`.
+
+| Ref | Result | Verification or limitation |
+| --- | --- | --- |
+| F1–F5 | Applied | All four Finder desktop options checked; Command-N opens Documents. |
+| F6–F7 | Applied | Trim off in System Settings; Create PDF and the other four actions remain on. Stored ordering unchanged. Standard no longer compares numeric indexes. |
+| T1 | Retained; standard updated | Fresh login shell loads the current theme and Git shortcuts. Shell files unchanged; theme asset captured. Native Terminal window visual check unavailable through automation. |
+| V1 | Applied; implementation checks pass | Speech model active; Silero support model loaded successfully; microphone and Accessibility granted; actual launch-at-login registration on. Nick confirmed dictation and insertion with AI Off. AI prompt and editing shortcut remain off after relaunch; analytics/update checks off and analytics database absent. |
+| A1 | Retained exception | Existing 1Password installation and baseline identity requirement preserved. |
+| A2–A7 | Removed | All six app bundles are absent from Applications and present in the agreed recoverable backup; user data retained. |
+| A8 | Removed | Final sweep: no remaining Citrix-owned package paths, seven known service registrations, processes, receipts, or named support folders. Known obsolete permissions reset; recoverable backups retained. |
+| A9 | Retained; hardware test explicitly deferred by Nick | Elgato/Corsair unchanged, background activity off. Nick chose “Leave the hardware test for later.” Optional standard recorded. |
+| B1–B3 | Applied | Three stale launch plists moved to backup; exact services unregistered. Valid Zoom helpers retained. |
+| B4 | Retained; standard updated | Both effective telemetry opt-out values are `1`; combined task unchanged. |
+| S1 | Applied | Repository duplicate link removed; global link and source retained. |
+| W1 | Applied | Workflow moved to backup; Open in Codex absent from Finder folder menu. Other services retained. |
+| C1 | Applied | Homebrew uninstall succeeded with automatic dependency cleanup disabled. |
+
+FluidVoice reporting correction: the earlier blocker came from inspecting a different development snapshot. The installed official distribution corresponds to the [captured source](https://github.com/altic-dev/FluidVoice/blob/6f0684e694828b44fc643b7373f2a22d1e24eafa/Sources/Fluid/Analytics/AnalyticsService.swift), where `ShareAnonymousAnalytics=false` gates startup, activity recording, upload scheduling, and flushing, and purges queued analytics. It was set before first launch. Automatic update checks are also off. No firewall or modified app was installed.
+
+Implementation test: compiled the corresponding analytics source with isolated database/settings fixtures and a network trap. Three fresh disabled instances recorded no activity or dictation analytics, created no upload timer/task, and made zero network attempts. A synthetic older queued event was purged on opt-out, and forced flush still made zero attempts. Test traffic was trapped and constrained to loopback; no report was sent. The real app has not created an analytics database after launch. After relaunch and successful dictation, analytics remains off and the database remains absent. A passive FluidVoice connection sample after model setup showed no connections; the source-level disabled-startup/queued-retry tests provide the delayed-report evidence. Automatic update checks are off; an externally replaced application would require a new privacy check. No full logout/login was performed: actual macOS login registration and app relaunch were verified.
+
+Repository standard revision 8 records the approved Finder, prompt, workflow-exclusion, combined telemetry decisions, and AI enhancement Off. Original baseline revision 5 inspection below remains historical. All 12 bundled tests pass. Before/after comparison shows the five approved Finder settings and Trim availability changed, plus Finder navigation state from UI verification (`FXRecentFolders`, `GoToField`, `GoToFieldHistory`, and `NSWindow Frame GoToSheet`). Quick Action ordering and shell files are unchanged.
+
+## Independent review — passed
+
+Fresh reviewer `/root/final_alignment_review` independently reviewed the full revision-8 manifest, accepted plan, subsequent AI-Off decision, actual target state, functional evidence, and unintended changes. **Pass: no actionable defects found.** This reviewer made none of the changes. The earlier premature review does not count toward this result.
+
+| Scope | Independent result |
+| --- | --- |
+| Finder and workflow | Pass; native UI confirms selected settings and removed action. |
+| Terminal | Pass; fresh shell works, profiles and shell files unchanged. Native visual rendering remains unverified. |
+| FluidVoice | Pass; AI prompt/editing off, speech models ready, permissions and actual login registration verified; successful dictation/insertion evidence confirmed. |
+| Zero reporting | Pass for the installed implementation; matching source independently inspected, queued-report test rerun with zero network attempts, real analytics database absent, no current app connections. |
+| Removals and retentions | Pass; Citrix cleanup and six app removals verified, selected retentions preserved. |
+| Background tasks, skill scopes, Dapr | Pass; exact task changes and effective opt-outs verified. |
+| Standard and unintended changes | Pass; revision 8 consistent, 12 tests pass, no unintended configuration changes found. |
+
+Limits: Nick explicitly deferred Stream Deck hardware operation. No full logout/login or native Terminal visual test was performed; login registration, app relaunch, shell execution and unchanged profiles were checked. Previously undecided settings and broader helper-review candidates remain pending, not newly adopted requirements. The alternate 1Password identity remains the accepted exception. An external FluidVoice replacement requires a new privacy review.
+
+Detailed evidence is preserved locally under `~/Library/Application Support/Nick Mac/Backups/2026-09-05-pro/final-independent-review/`.
+
+## Approved plan
+
+**Approved on 2026-09-05; applied with the subsequent AI-Off decision and explicit Stream Deck hardware-test deferral.** This plan implements the recorded decisions. Pending or blank items receive no change. V1 requires a verified method to prevent all reporting before activation; the other approved work proceeds independently.
 
 | Ref | Change to this Mac | Change to the standard |
 | --- | --- | --- |
 | F1–F5 | Show hard disks, external disks, removable media, and connected servers on the desktop. Make new Finder windows open Documents. | Keep the selected baseline values and record acceptance. |
 | F6–F7 | Disable the Trim Quick Action. Keep Create PDF enabled and preserve the relative order of the remaining actions. | Require Trim to be disabled; retire the obsolete Trim/PDF ordering requirement so it does not return as a difference. |
 | T1 | Keep the current Terminal prompt and Git shortcuts. Open a fresh Terminal session to verify the captured setup. | Capture the current Oh My Zsh setup, `nick-mac` theme asset, and Git plugin selection as the standard. Do not copy unrelated startup-file contents. |
-| V1 | Install/configure the recorded FluidVoice setup only with effective reporting prevention in force before first launch. Verify all reporting is blocked, including weekly activity, then verify models, dictation, and login behavior. Keep it inactive if prevention cannot be established. | Require zero reporting, including weekly activity and helper/diagnostic uploads; independent verification is mandatory. Policy updated; target implementation remains pending. |
+| V1 | Install/configure FluidVoice with AI enhancement Off and effective reporting prevention before first launch. Verify all reporting is blocked, including weekly activity, then verify speech models, dictation, and login behavior. | Require zero reporting, including weekly activity and helper/diagnostic uploads; independent verification is mandatory. AI enhancement is now Off by Nick’s subsequent decision; speech recognition remains required. |
 | A1 | Keep 1Password exactly as it is. | Keep the existing identity requirement; record this target difference as intentionally ignored. |
 | A2–A7 | Quit and uninstall MongoDB Compass, NETGEAR Switch Discovery Tool, Nitro, Postman, Realm Studio, and Remote Desktop. Preserve their user data and move app bundles to recoverable storage where supported. | Record these as removals selected for this target; do not turn them into an automatic removal rule for every Mac. |
 | A8 | Uninstall Citrix Workspace and all Citrix-owned related components: login/background tasks, authentication and workspace helpers, Safari/browser integration, updater, USB helper, and Citrix-specific support/settings/cache files. | Record the target cleanup and its verification. |
-| A9 | Keep Elgato Stream Deck and the Corsair helper. Test recognition and operation through the desktop-monitor connection when the hardware is available. Leave the current background-activity switch unchanged for this pass. | Optional, on computers Nick explicitly selects. No computer-name lists in the portable skill or standard. Policy updated; background activation remains unselected. |
+| A9 | Keep Elgato Stream Deck and the Corsair helper. Leave the current background-activity switch unchanged. Nick subsequently explicitly deferred the physical monitor/Stream Deck test until later. | Optional, on computers Nick explicitly selects. No computer-name lists in the portable skill or standard. Policy updated; background activation remains unselected. |
 | B1–B3 | Unload the stale Atlas updater and remove its plist. Remove the two stale user-installation Zoom updater/login-check plists. Preserve valid Zoom helpers and their current enabled/disabled choices. | Record the existing conditional cleanup policy as applied to these exact tasks. |
 | B4 | Preserve both active ONNX Runtime and PowerShell telemetry opt-outs; verify their effective login-environment values. | Adopt this Mac’s combined opt-out task configuration. |
 | S1 | Remove only `.agents/skills/nick-tool-cleanup`, the duplicate repository link. Retain the working machine-wide link and its source files. | Keep the declared machine scope; verify the duplicate is gone. |
@@ -26,11 +70,11 @@ Inspection: repository commit `27d7d76`, baseline revision 5. The repository sta
 
 ### FluidVoice: mandatory zero reporting
 
-No reporting is permitted, including weekly activity, detailed analytics, telemetry, or automatic diagnostic uploads. Disabling detailed analytics alone is insufficient: the [official documentation](https://github.com/altic-dev/FluidVoice#privacy--analytics) describes residual weekly activity reporting. There is no consent question to revisit.
+No reporting is permitted, including weekly activity, detailed analytics, telemetry, or automatic diagnostic uploads. Disabling detailed analytics alone is insufficient in implementations that retain weekly activity reporting. The installed implementation’s native opt-out was separately traced and tested, as documented above. There is no consent question to revisit.
 
-The implementation must establish effective prevention before first launch, cover scheduled reports, retries, relaunch/login, and helpers, and pass independent verification. No verified prevention mechanism has yet been established on this Mac; FluidVoice is absent. Any additional control and its functional impact must be made concrete in this plan before use. If prevention cannot be established, keep FluidVoice inactive and report it blocked.
+The implementation must establish effective prevention before first launch, cover scheduled reports, retries, relaunch/login, and helpers, and pass independent verification. FluidVoice is installed and running with reporting prevention configured before its first launch and checked against the matching source. Any additional control and its functional impact must be made concrete in this plan before use. If prevention cannot be established, keep FluidVoice inactive and report it blocked.
 
-Once the plan is accepted and reporting prevention is established, use the official project distribution/Homebrew cask, configure Parakeet speech recognition and local Fluid-1 enhancement, download their required supporting models, and apply the full stored baseline. The intended setup includes Right Option toggle dictation, Escape cancellation, Option+R editing, clipboard-free insertion, the saved vocabulary/dictionary, history/audio retention with a 10 GB audio budget, debug logging on, and automatic update checks off. Use a built-in microphone when available; if unavailable, bring back the actual input choices instead of silently selecting another device. The project documents several GB of model storage and requires microphone and Accessibility permissions for dictation/insertion. No paid subscription, cloud provider, API key, or account setup is included. [Official setup instructions](https://github.com/altic-dev/FluidVoice#quick-start)
+Once the plan is accepted and reporting prevention is established, use the official project distribution/Homebrew cask, configure Parakeet speech recognition with AI enhancement off, download its required speech models, and apply the full stored baseline. The intended setup includes Right Option toggle dictation, Escape cancellation, AI editing shortcut disabled, clipboard-free insertion, the saved vocabulary/dictionary, history/audio retention with a 10 GB audio budget, debug logging on, and automatic update checks off. Use a built-in microphone when available; if unavailable, bring back the actual input choices instead of silently selecting another device. The project documents several GB of model storage and requires microphone and Accessibility permissions for dictation/insertion. No paid subscription, cloud provider, API key, or account setup is included. [Official setup instructions](https://github.com/altic-dev/FluidVoice#quick-start)
 
 ### Backups, interruptions, and verification
 
@@ -55,7 +99,7 @@ The other settings and candidates without a specific decision stay as they are. 
 | F6 | Create PDF position | Listed after Trim | Listed before Trim | Keep Create PDF enabled; retire the PDF-versus-Trim ordering question. | No ordering change needed after removing Trim; keep Create PDF enabled. |
 | F7 | Trim audio/video Quick Action | Enabled | Enabled | Disable Trim here and in the standard, as you selected. Keep the macOS component installed. | Remove Trim from this Mac’s Quick Actions and from the standard. |
 | T1 | Terminal prompt and Git shortcuts | No verified replacement prompt is defined | Customized prompt with the current folder, Git branch/change information, and Git shortcuts, provided by Oh My Zsh | Keep this setup and record it as the standard; no change to this Mac’s prompt. | Adopt this Mac’s current Terminal prompt and Git shortcuts as the standard; keep this Mac’s setup. |
-| V1 | FluidVoice dictation | Required with the recorded speech models, shortcuts, and settings | App and required models are absent | Use the recorded setup with all reporting prevented before first launch; independently verify reporting suppression and dictation. | Accept baseline with mandatory zero reporting, including weekly activity. Keep inactive until prevention is established; independent verification required. |
+| V1 | FluidVoice dictation | Required with the recorded speech models, shortcuts, and settings | App and required models were absent at inspection | Configure local speech recognition, AI enhancement Off, and zero reporting; verify dictation and insertion. | Accept baseline with zero reporting. Subsequent decision: turn AI enhancement and AI editing shortcut off here and in the standard. |
 | A1 | Which 1Password installation satisfies the standard | Requires one specific application identifier | 1Password is installed and running under a different identifier | Accept the installed 1Password identity and revise the baseline identity requirement; leave this installation in place. | Ignore — keep the installed 1Password and the baseline identity requirement unchanged. |
 | A2 | MongoDB Compass | Not part of the adopted standard | Installed | Uninstall the application, preserving user data. | Remove from this Mac. |
 | A3 | NETGEAR Switch Discovery Tool | Not part of the adopted standard | Installed | Uninstall the application, preserving user data. | Remove from this Mac. |
@@ -64,7 +108,7 @@ The other settings and candidates without a specific decision stay as they are. 
 | A6 | Realm Studio | Not part of the adopted standard | Installed | Uninstall the application, preserving user data. | Remove from this Mac. |
 | A7 | Remote Desktop | Not part of the adopted standard | Installed | Uninstall the application, preserving user data. | Remove from this Mac. |
 | A8 | Citrix and all related components | Not part of the adopted standard | Citrix Workspace plus seven launch-agent/daemon entries and related helpers are present | Remove Citrix Workspace and its related login items, background services, browser integration, updater, USB helper, and Citrix-specific support files. | Remove everything related to Citrix from this Mac. |
-| A9 | Elgato Stream Deck and Corsair helper | Optional; Nick selects targets individually | Stream Deck is installed; Corsair background activity is off | Keep on this selected Mac and verify operation through the monitor when available. Do not require them on other computers. | Keep here. Optional elsewhere; Nick will specify computers. No computer-name lists in the portable skill. |
+| A9 | Elgato Stream Deck and Corsair helper | Optional; Nick selects targets individually | Stream Deck is installed; Corsair background activity is off | Keep on this selected Mac and verify operation through the monitor when available. Do not require them on other computers. | Keep here. Optional elsewhere; Nick will specify computers. No computer-name lists in the portable skill. Hardware test explicitly deferred until later. |
 | B1 | Stale Atlas updater | Remove updater tasks when their app is absent | Task still tries to launch an updater for the missing Atlas app | Unload this exact task and move its plist to a recoverable backup. | Accept recommendation — unload the stale Atlas updater and move its plist to a recoverable backup. |
 | B2 | Stale Zoom user updater | Remove tasks pointing to an absent installation | Updater points to missing Zoom under the user Applications folder | Move this stale plist to a recoverable backup; retain helpers for the installed Zoom app. | Accept recommendation — remove the stale user Zoom updater plist; retain valid Zoom helpers. |
 | B3 | Stale Zoom user login check | Remove tasks pointing to an absent installation | Login check points to the same missing user installation | Move this stale plist to a recoverable backup; retain helpers for the installed Zoom app. | Accept recommendation — remove the stale user Zoom login-check plist; retain valid Zoom helpers. |
@@ -74,7 +118,7 @@ The other settings and candidates without a specific decision stay as they are. 
 | C1 | Dapr CLI | Not part of the adopted standard | Installed through Homebrew as `dapr-cli` | Uninstall `dapr-cli`; preserve project files and shared dependencies. | Remove from this Mac. |
 
 <details>
-<summary>Detailed inspection findings and evidence</summary>
+<summary>Original inspection findings and evidence — before alignment</summary>
 
 ## Finder
 

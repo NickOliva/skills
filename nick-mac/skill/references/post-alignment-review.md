@@ -1,6 +1,8 @@
 # Independent post-alignment review
 
-After every alignment, assign a full read-only review to a fresh sub-agent that did not implement any of the changes. This is mandatory before reporting alignment complete, including when implementation was split among agents. An implementing agent cannot review its own changes. Use a fresh context when available, supplying the accepted plan, recorded decisions, original inspection, current standard, relevant procedures, and locations of evidence. Implementation success claims are not proof.
+Only after the implementing agent believes every accepted change and required functional check is 100% complete, assign a full read-only review to a fresh sub-agent that did not implement any of the changes. This is mandatory before reporting alignment complete, including when implementation was split among agents. An implementing agent cannot review its own changes. Use a fresh context when available, supplying the accepted plan, recorded decisions, original inspection, current standard, relevant procedures, and locations of evidence. Implementation success claims are not proof.
+
+Do not start this review as a progress check on partial work. An accepted item that is blocked, awaiting authentication or hardware, uninstalled, or not yet verified keeps implementation open. Explain outstanding work to Nick and resolve it first. Only Nick may explicitly revise the scope; the agent cannot silently defer items to qualify for review. The final review must use a fresh sub-agent; an earlier premature review does not count.
 
 The reviewer must independently inspect the target and repository:
 

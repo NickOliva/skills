@@ -22,21 +22,19 @@
     },
     {
       "id": "telemetry-optout",
-      "title": "Telemetry opt-out (ONNX Runtime)",
+      "title": "Telemetry opt-outs (ONNX Runtime and PowerShell)",
       "labels": [
         "com.nick.tool-cleanup.telemetry-optouts"
       ],
-      "standard": "Preserve the login-time ORT_DISABLE_TELEMETRY=1 environment setting and review missing or different configuration. The launchctl display label is acceptable; no cosmetic replacement is required. This is an opt-out configuration, not consent to telemetry and not proof every runtime honors it.",
+      "standard": "Preserve login-time ORT_DISABLE_TELEMETRY=1 and POWERSHELL_TELEMETRY_OPTOUT=1; verify both effective environment values. The shell display label is acceptable. Opt-out settings are not consent to telemetry or proof every runtime honors them.",
       "configuration": {
         "Label": "com.nick.tool-cleanup.telemetry-optouts",
         "ProgramArguments": [
-          "/bin/launchctl",
-          "setenv",
-          "ORT_DISABLE_TELEMETRY",
-          "1"
+          "/bin/sh",
+          "-c",
+          "/bin/launchctl setenv ORT_DISABLE_TELEMETRY 1; /bin/launchctl setenv POWERSHELL_TELEMETRY_OPTOUT 1"
         ],
-        "RunAtLoad": true,
-        "ProcessType": "Background"
+        "RunAtLoad": true
       }
     },
     {

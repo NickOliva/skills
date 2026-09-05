@@ -29,10 +29,9 @@
         }
       ]
     },
-    "DictationPromptOff": false,
+    "DictationPromptOff": true,
     "EnableDebugLogs": true,
     "EnableStreamingPreview": false,
-    "FluidIntelligenceSelectedModelID": "fluid-1",
     "LiteralDictationFormattingEnabled": true,
     "NotchPresentationMode": "minimal",
     "OverlayBottomOffset": 50.0,
@@ -43,17 +42,12 @@
     "SaveAudioWithTranscriptionHistory": true,
     "SaveTranscriptionHistory": true,
     "SecondaryDictationPromptOff": true,
-    "SelectedDictationPromptID": "__FLUID_1__",
-    "SelectedModelByProvider": {
-      "fluid-1": "fluid-1",
-      "custom:fluid-1": "fluid-1"
-    },
-    "SelectedProviderID": "fluid-1",
     "SelectedSpeechModel": "parakeet-tdt",
     "ShareAnonymousAnalytics": false,
     "ShowMainWindowAtLoginLaunch": false,
     "TranscriptionSoundVolume": 0.5,
-    "TranscriptionStartSound": "fluid_sfx_0"
+    "TranscriptionStartSound": "fluid_sfx_0",
+    "RewriteModeShortcutEnabled": false
   },
   "app_controls": {
     "launch_at_startup": true,
@@ -67,8 +61,7 @@
   },
   "required_model_directories": [
     "FluidAudio/Models/parakeet-tdt-0.6b-v3-coreml",
-    "FluidAudio/Models/silero-vad-coreml",
-    "FluidIntelligence/Models/fluid-1-nvfp4-mlx"
+    "FluidAudio/Models/silero-vad-coreml"
   ],
   "vocabulary_file": "parakeet_custom_vocabulary.json",
   "excluded_state": [
@@ -136,7 +129,6 @@
     "RewriteModeLinkedToGlobal",
     "RewriteModeSelectedModel",
     "RewriteModeSelectedProviderID",
-    "RewriteModeShortcutEnabled",
     "SelectedAppleSpeechLocaleIdentifier",
     "SelectedCohereLanguage",
     "SelectedEditPromptID",
@@ -154,14 +146,18 @@
     "TranscriptionPreviewCharLimit",
     "TranscriptionSoundIndependentVolume",
     "VisualizerNoiseThreshold",
-    "VocabularyBoostingEnabled"
+    "VocabularyBoostingEnabled",
+    "SelectedDictationPromptID",
+    "SelectedProviderID",
+    "SelectedModelByProvider",
+    "FluidIntelligenceSelectedModelID"
   ],
   "effective_settings": {
     "primary_dictation_shortcut": "Right Option",
     "activation_mode": "toggle",
     "cancel_recording_shortcut": "Escape",
     "edit_shortcut": "Option+R",
-    "edit_shortcut_enabled": true,
+    "edit_shortcut_enabled": false,
     "command_mode_shortcut_enabled": false,
     "paste_last_shortcut_enabled": false,
     "text_insertion_mode": "clipboard-free insertion",
@@ -173,7 +169,8 @@
     "lowercase_first_letter": false,
     "remove_trailing_period": false,
     "notify_ai_failures": true,
-    "notify_microphone_changes": true
+    "notify_microphone_changes": true,
+    "dictation_ai_prompt": "Off"
   },
   "reporting_policy": {
     "id": "voice-transcription:control:reporting",
@@ -193,5 +190,13 @@
     ],
     "unverified_action": "Keep FluidVoice inactive and report blocked. Do not offer residual reporting.",
     "procedure": "references/components/voice-transcription.md"
+  },
+  "ai_enhancement_policy": {
+    "id": "voice-transcription:control:ai-enhancement",
+    "enabled": false,
+    "dictation_prompts": "Off for every enabled dictation shortcut",
+    "ai_editing_shortcut_enabled": false,
+    "enhancement_model_required": false,
+    "existing_models": "May remain stored; do not activate or download enhancement models during alignment."
   }
 }

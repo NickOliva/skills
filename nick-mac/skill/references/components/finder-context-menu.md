@@ -4,9 +4,9 @@ Component: `finder`. Initial state: provisional observations awaiting item-level
 
 ## Recorded baseline
 
-[standard.json](../../assets/finder/standard.json) contains observed Finder preferences, the filename-extension preference, native Quick Action availability/order, and known workflow candidates. The bundled [VS Code workflow](../../assets/open%20in%20vs%20code.workflow) matches the observed installation.
+[standard.json](../../assets/finder/standard.json) contains observed Finder preferences, the filename-extension preference, native Quick Action availability, and known workflow candidates. The bundled [VS Code workflow](../../assets/open%20in%20vs%20code.workflow) matches the observed installation.
 
-The inherited menu list is not an accepted standard. Review actual service visibility and behavior on each target. Other observed workflows are candidates; their assets and behavior have not yet been adopted.
+Trim is explicitly disabled; Create PDF remains enabled. Preserve the relative order of the other actions; numeric indexes, including inactive Trim, are no longer required. `Open in Codex.workflow` is excluded and must not be installed or repaired by the standard. Other inherited menu choices remain provisional. Review actual service visibility and behavior on each target. Other observed workflows are candidates; their assets and behavior have not yet been adopted.
 
 ## Inspect and plan
 

@@ -36,16 +36,8 @@
           "APPEXTENSION-com.apple.finder.CreatePDFQuickAction": true,
           "APPEXTENSION-com.apple.finder.MarkupQuickAction": true,
           "APPEXTENSION-com.apple.finder.RotateQuickAction": true,
-          "APPEXTENSION-com.apple.finder.TrimQuickAction": true,
+          "APPEXTENSION-com.apple.finder.TrimQuickAction": false,
           "is.workflow.actions.image.convert.finder": true
-        },
-        "FinderOrdering": {
-          "APPEXTENSION-com.apple.finder.CreatePDFQuickAction": 3,
-          "is.workflow.actions.image.removebackground": 5,
-          "APPEXTENSION-com.apple.finder.MarkupQuickAction": 1,
-          "APPEXTENSION-com.apple.finder.RotateQuickAction": 0,
-          "APPEXTENSION-com.apple.finder.TrimQuickAction": 2,
-          "is.workflow.actions.image.convert.finder": 4
         }
       },
       "review_unset_preferences": []
@@ -65,5 +57,9 @@
   ],
   "capture_environment": {
     "architecture": "arm64"
-  }
+  },
+  "quick_action_order_policy": "Preserve the target relative order of remaining actions. No required numeric indexes; inactive Trim position is irrelevant.",
+  "excluded_workflows": [
+    "Open in Codex.workflow"
+  ]
 }

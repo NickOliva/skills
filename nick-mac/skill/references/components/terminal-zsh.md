@@ -6,7 +6,7 @@ Component: `terminal`. Initial state: provisional observations awaiting item-lev
 
 [standard.json](../../assets/terminal/standard.json) records the observed startup/default profile selections and captured appearance assets. Profile names in the data identify Terminal configurations, not computers. The `.terminal` assets contain appearance settings, without startup commands or environment secrets.
 
-No shell framework or theme override was found in the inspected startup files. That observation does not authorize removing a framework from another target. All profile and shell choices remain open to review.
+The accepted shell standard is Oh My Zsh with the Git plugin and the bundled `nick-mac.zsh-theme`. Its prompt shows the current folder, Git branch/status, commit age, and a new-line prompt marker. Compare these choices separately from the provisional Terminal appearance. The theme name identifies configuration, not a computer.
 
 ## Inspect and plan
 

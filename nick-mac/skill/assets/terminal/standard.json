@@ -11,7 +11,12 @@
   },
   "shell": {
     "observed_shell": "/bin/zsh",
-    "framework_or_theme_override": "None found in the inspected startup files; inspect the target before proposing changes.",
+    "framework": "Oh My Zsh",
+    "theme": "nick-mac",
+    "theme_asset": "nick-mac.zsh-theme",
+    "plugins": [
+      "git"
+    ],
     "manage_full_shell_startup_files": false
   },
   "review_notes": [
