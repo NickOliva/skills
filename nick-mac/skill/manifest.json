@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": 1,
+  "revision": 4,
   "build_state": "evolving",
   "components": [
     {
@@ -23,7 +23,173 @@
       "initial_review_state": "accepted-baseline",
       "specification": "references/components/voice-transcription.md",
       "standard": "assets/fluidvoice/standard.json"
+    },
+    {
+      "id": "applications",
+      "title": "Required applications",
+      "initial_review_state": "accepted-inclusion",
+      "specification": "references/components/applications.md",
+      "standard": "assets/applications/standard.json"
+    },
+    {
+      "id": "background-items",
+      "title": "Login items and background tasks",
+      "initial_review_state": "accepted-review-policy",
+      "specification": "references/components/background-items.md",
+      "standard": "assets/background-items/standard.json"
     }
   ],
-  "item_decisions": {}
+  "item_decisions": {
+    "applications:app:com.1password.1password": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.amazon.Lassen": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.openai.codex": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.bloombuilt.dayone-mac": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:developer.apple.wwdc-Release": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.docker.docker": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.getdropbox.dropbox": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.FluidApp.app": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.google.Chrome": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.apple.iWork.Keynote": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.microsoft.Excel": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.microsoft.Powerpoint": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.microsoft.teams2": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.microsoft.Word": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.apple.iWork.Numbers": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:md.obsidian": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.microsoft.OneDrive": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.apple.iWork.Pages": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.apple.Safari": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.tinyspeck.slackmacgap": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.apple.TestFlight": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.microsoft.VSCode": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:com.apple.dt.Xcode": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "applications:app:us.zoom.xos": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "background-items:atlas-updater": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "background-items:zoom-updaters": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "background-items:telemetry-optout": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "background-items:docker-helpers": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "background-items:installed-app-helpers": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    },
+    "background-items:onedrive-remnants": {
+      "review_state": "accepted",
+      "choice": "define-new",
+      "decided_on": "2026-09-05"
+    }
+  },
+  "software_versions": "out-of-scope"
 }

@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "id": "atlas-updater",
+      "title": "Atlas updater",
+      "labels": [
+        "com.openai.atlas.update-helper"
+      ],
+      "standard": "Retain only when the target has an intentional Atlas installation and the task resolves to its updater; otherwise propose removing the stale task. Atlas is not required by the current application manifest."
+    },
+    {
+      "id": "zoom-updaters",
+      "title": "Zoom updater tasks",
+      "labels": [
+        "us.zoom.updater",
+        "us.zoom.updater.login.check",
+        "us.zoom.updater.gui.<uid>",
+        "us.zoom.updater.gui.<uid>.login.check",
+        "us.zoom.ZoomDaemon"
+      ],
+      "standard": "Keep helpers serving the chosen Zoom installation. Propose removing updater tasks pointing to an absent former installation. Derive the target user ID and home directory; do not require a fixed task count."
+    },
+    {
+      "id": "telemetry-optout",
+      "title": "Telemetry opt-out (ONNX Runtime)",
+      "labels": [
+        "com.nick.tool-cleanup.telemetry-optouts"
+      ],
+      "standard": "Preserve the login-time ORT_DISABLE_TELEMETRY=1 environment setting and review missing or different configuration. The launchctl display label is acceptable; no cosmetic replacement is required. This is an opt-out configuration, not consent to telemetry and not proof every runtime honors it.",
+      "configuration": {
+        "Label": "com.nick.tool-cleanup.telemetry-optouts",
+        "ProgramArguments": [
+          "/bin/launchctl",
+          "setenv",
+          "ORT_DISABLE_TELEMETRY",
+          "1"
+        ],
+        "RunAtLoad": true,
+        "ProcessType": "Background"
+      }
+    },
+    {
+      "id": "docker-helpers",
+      "title": "Docker helper groups",
+      "labels": [
+        "com.docker.vmnetd",
+        "com.docker.socket",
+        "com.docker.helper"
+      ],
+      "standard": "Keep helpers required by the chosen Docker configuration. Separate Docker rows can represent privileged networking, socket, and login helpers. Review actual executables and provenance; do not deduplicate by display name or require every historical helper."
+    },
+    {
+      "id": "installed-app-helpers",
+      "title": "Helpers for retained applications",
+      "standard": "Review and retain applicable 1Password, Dropbox, Google updater, Microsoft AutoUpdate, Microsoft Office Licensing, and Teams helpers for intentionally installed apps. Verify attribution and paths; prior recognition is not blanket approval for new helpers or telemetry."
+    },
+    {
+      "id": "onedrive-remnants",
+      "title": "OneDrive removal and leftovers",
+      "labels": [
+        "com.microsoft.OneDriveStandaloneUpdater",
+        "com.microsoft.OneDriveStandaloneUpdaterDaemon",
+        "com.microsoft.OneDriveUpdaterDaemon",
+        "com.microsoft.OneDriveLauncher",
+        "com.microsoft.SyncReporter"
+      ],
+      "standard": "OneDrive is not required. Review presence and any proposed removal on the target. If uninstall is accepted, stop its updater services before removing the app, include SyncReporter and login tasks, and verify it does not reappear. Preserve shared Office components. Distinguish disabled records or Trash references from an installed or running app."
+    }
+  ]
+}

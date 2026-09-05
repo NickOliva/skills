@@ -16,7 +16,7 @@
         "FinderSpawnTab": false,
         "NewWindowTarget": "PfDo"
       },
-      "use_os_defaults": [
+      "review_unset_preferences": [
         "AppleShowAllFiles",
         "FXEnableExtensionChangeWarning"
       ]
@@ -24,7 +24,7 @@
     {
       "domain": ".GlobalPreferences",
       "set_preferences": {},
-      "use_os_defaults": [
+      "review_unset_preferences": [
         "AppleShowAllExtensions"
       ]
     },
@@ -48,7 +48,7 @@
           "is.workflow.actions.image.convert.finder": 4
         }
       },
-      "use_os_defaults": []
+      "review_unset_preferences": []
     }
   ],
   "workflow_assets": [
@@ -64,7 +64,6 @@
     "Native service visibility and third-party Finder extensions require target inspection; a preference snapshot does not prove menu contents."
   ],
   "capture_environment": {
-    "macos_version": "26.6.2",
     "architecture": "arm64"
   }
 }

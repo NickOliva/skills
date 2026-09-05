@@ -29,11 +29,11 @@ class ComparisonTests(unittest.TestCase):
         self.assertTrue(all(r["status"] == "review-difference" for r in result))
 
     def test_unset_settings_do_not_claim_effective_equivalence(self):
-        spec = {"domain": "app", "use_version_defaults": ["Hotkey"]}
+        spec = {"domain": "app", "review_unset_preferences": ["Hotkey"]}
         absent = compare.preference_items("voice", spec, {})
         explicit = compare.preference_items("voice", spec, {"Hotkey": "different"})
-        self.assertEqual(absent[0]["status"], "verify-effective-default")
-        self.assertEqual(explicit[0]["status"], "review-override-vs-default")
+        self.assertEqual(absent[0]["status"], "check-effective-setting")
+        self.assertEqual(explicit[0]["status"], "review-unrecorded-setting")
 
     def test_unmanaged_state_is_not_exposed(self):
         spec = {"domain": "app", "set_preferences": {"Theme": "dark"}}
@@ -41,6 +41,32 @@ class ComparisonTests(unittest.TestCase):
         result = compare.preference_items("voice", spec, actual)
         self.assertNotIn("fixture-secret", json.dumps(result))
         self.assertNotIn("private", json.dumps(result))
+
+    def test_application_updates_do_not_change_comparison(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            info = root / "Renamed.app/Contents/Info.plist"
+            info.parent.mkdir(parents=True)
+            standard = {"applications": [{"id": "test.app", "bundle_id": "test.app",
+                        "name": "Example", "requirement": "required", "configuration_status": "awaiting-review"}]}
+            reports = []
+            for release in ["1.0", "99.0"]:
+                info.write_bytes(plistlib.dumps({"CFBundleIdentifier": "test.app",
+                    "CFBundleShortVersionString": release, "CFBundleVersion": release}))
+                reports.append(compare.collect({"id": "applications"}, standard, None, [root], root))
+            self.assertEqual(reports[0], reports[1])
+            self.assertEqual(reports[0][0]["status"], "matches-recorded-value")
+            self.assertEqual(reports[0][1]["status"], "configuration-awaiting-review")
+            self.assertNotIn("99.0", json.dumps(reports))
+
+    def test_missing_and_optional_applications_are_distinct(self):
+        with tempfile.TemporaryDirectory() as temp:
+            standard = {"applications": [{"id": choice, "bundle_id": choice,
+                        "name": choice, "requirement": choice}
+                        for choice in ["required", "not-required", "pending"]]}
+            report = compare.collect({"id": "applications"}, standard, None, [Path(temp)], Path(temp))
+            self.assertEqual([item["status"] for item in report],
+                             ["review-difference", "not-required", "pending"])
 
     def test_cli_compares_a_different_computer_without_mutation(self):
         with tempfile.TemporaryDirectory() as temp:
@@ -61,9 +87,9 @@ class ComparisonTests(unittest.TestCase):
                 }],
             }))
             (fixture_skill / "standard.json").write_text(json.dumps({
-                "app": {"bundle_id": "com.FluidApp.app", "version": "test-version", "build": "test-build"},
+                "app": {"bundle_id": "com.FluidApp.app"},
                 "set_preferences": {"CopyTranscriptionToClipboard": True},
-                "use_version_defaults": [], "app_controls": {},
+                "review_unset_preferences": [], "app_controls": {},
                 "required_model_directories": [], "vocabulary_file": "vocabulary.json",
             }))
             (fixture_skill / "vocabulary.json").write_text('{"terms": []}')
@@ -78,7 +104,7 @@ class ComparisonTests(unittest.TestCase):
             self.assertEqual(item["status"], "review-difference")
             self.assertIs(item["recorded"], True)
             self.assertIs(item["observed"], False)
-            self.assertTrue(any(i["id"] == "voice-transcription:app:version" for i in report["items"]))
+            self.assertTrue(any(i["id"] == "voice-transcription:app:presence" for i in report["items"]))
             self.assertEqual(fixture.read_bytes(), before)
             self.assertEqual(list(apps.iterdir()), [])
             self.assertEqual(list(support.iterdir()), [])

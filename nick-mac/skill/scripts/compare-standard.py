@@ -47,11 +47,11 @@ def preference_items(component, spec, actual):
 
     for key, value in spec.get("set_preferences", {}).items():
         compare(key, value, normalized(actual[key]) if key in actual else ABSENT)
-    for key in spec.get("use_version_defaults", spec.get("use_os_defaults", [])):
+    for key in spec.get("review_unset_preferences", []):
         records.append({
             "id": f"{component}:{domain}:{key}",
-            "status": "verify-effective-default" if key not in actual else "review-override-vs-default",
-            "recorded": {"state": "version-default"},
+            "status": "check-effective-setting" if key not in actual else "review-unrecorded-setting",
+            "recorded": {"state": "effective-setting-needs-review"},
             "observed": normalized(actual[key]) if key in actual else ABSENT,
         })
     return records
@@ -71,6 +71,17 @@ def read_domain(domain, preferences_dir=None):
     return plistlib.loads(result.stdout)
 
 
+def application_ids(applications):
+    """Identify bundles without retaining release/build metadata."""
+    found = set()
+    for directory in applications:
+        for path in directory.glob("*.app/Contents/Info.plist"):
+            info = plistlib.loads(path.read_bytes())
+            if info.get("CFBundleIdentifier"):
+                found.add(info["CFBundleIdentifier"])
+    return found
+
+
 def collect(component, standard, read, applications, support):
     component_id = component["id"]
     records = []
@@ -88,6 +99,8 @@ def collect(component, standard, read, applications, support):
             profile = plistlib.loads((asset_dir / filename).read_bytes())
             observed = actual.get("Window Settings", {}).get(name, {})
             for key, value in profile.items():
+                if key == "ProfileCurrentVersion":  # Native file format metadata.
+                    continue
                 expected = normalized(value)
                 current = normalized(observed[key]) if key in observed else ABSENT
                 records.append({"id": f"terminal:profile:{name}:{key}",
@@ -99,15 +112,10 @@ def collect(component, standard, read, applications, support):
         app = standard["app"]
         spec = dict(standard, domain=app["bundle_id"])
         records.extend(preference_items(component_id, spec, read(app["bundle_id"])))
-        found = next((p / "FluidVoice.app/Contents/Info.plist" for p in applications
-                      if (p / "FluidVoice.app/Contents/Info.plist").exists()), None)
-        actual_app = plistlib.loads(found.read_bytes()) if found else {}
-        for field, key in [("version", "CFBundleShortVersionString"), ("build", "CFBundleVersion"),
-                           ("bundle_id", "CFBundleIdentifier")]:
-            expected, observed = app[field], actual_app.get(key, ABSENT)
-            records.append({"id": f"voice-transcription:app:{field}",
-                            "status": "matches-recorded-value" if expected == observed else "review-difference",
-                            "recorded": expected, "observed": observed})
+        present = app["bundle_id"] in application_ids(applications)
+        records.append({"id": "voice-transcription:app:presence",
+                        "status": "matches-recorded-value" if present else "review-difference",
+                        "recorded": app["bundle_id"], "observed": app["bundle_id"] if present else ABSENT})
         asset_dir = (SKILL / component["standard"]).parent
         expected = json.loads((asset_dir / standard["vocabulary_file"]).read_text())
         target = support / "FluidVoice" / standard["vocabulary_file"]
@@ -120,6 +128,25 @@ def collect(component, standard, read, applications, support):
                             "status": "verify-model-readiness" if (support / path).is_dir() else "review-missing-model"})
         for key, value in standard["app_controls"].items():
             records.append({"id": f"voice-transcription:control:{key}", "status": "check-in-app", "recorded": value})
+        for key, value in standard.get("effective_settings", {}).items():
+            records.append({"id": f"voice-transcription:setting:{key}", "status": "check-in-app", "recorded": value})
+    elif component_id == "applications":
+        installed = application_ids(applications)
+        for app in standard["applications"]:
+            requirement = app["requirement"]
+            present = app["bundle_id"] in installed
+            status = ("matches-recorded-value" if present else "review-difference") if requirement == "required" else requirement
+            records.append({"id": f"applications:app:{app['id']}", "name": app["name"],
+                            "status": status, "recorded": requirement,
+                            "observed": "present" if present else "absent"})
+            if requirement == "required" and app.get("configuration_status") == "awaiting-review":
+                records.append({"id": f"applications:configuration:{app['id']}", "name": app["name"],
+                                "status": "configuration-awaiting-review", "review_state": "provisional"})
+    elif component_id == "background-items":
+        for item in standard["items"]:
+            records.append({"id": f"background-items:{item['id']}", "name": item["title"],
+                            "status": "inspect-background-item", "recorded": item["standard"],
+                            "specification": component["specification"]})
     else:
         records.append({"id": component_id, "status": "use-component-procedure",
                         "specification": component["specification"]})
@@ -140,7 +167,9 @@ def main():
     unknown = selected - {c["id"] for c in components}
     if unknown:
         parser.error("Unknown components: " + ", ".join(sorted(unknown)))
-    applications = [args.applications_dir] if args.applications_dir else [Path("/Applications"), Path.home() / "Applications"]
+    applications = [args.applications_dir] if args.applications_dir else [
+        Path("/Applications"), Path.home() / "Applications", Path("/System/Applications"),
+        Path("/System/Applications/Utilities"), Path("/Applications/Utilities")]
     records = []
     for component in components:
         if component["id"] not in selected:
@@ -150,14 +179,14 @@ def main():
             items = collect(component, standard, lambda domain: read_domain(domain, args.preferences_dir), applications, args.support_dir)
             for item in items:
                 decision = manifest.get("item_decisions", {}).get(item["id"], {})
-                item["review_state"] = decision.get("review_state", component["initial_review_state"])
+                item["review_state"] = decision.get("review_state", item.get("review_state", component["initial_review_state"]))
             records.extend(items)
         except (OSError, ValueError, RuntimeError, plistlib.InvalidFileException) as exc:
             records.append({"id": component["id"], "status": "inspection-blocked", "reason": str(exc)})
     if not args.all:
         records = [r for r in records if r["status"] != "matches-recorded-value"]
     print(json.dumps({"manifest_revision": manifest["revision"], "mode": "read-only", "items": records,
-                      "note": "Resolve differences and effective defaults before presenting one alignment plan. This helper never applies changes."}, indent=2))
+                      "note": "Resolve differences and effective settings before presenting one alignment plan. This helper never applies changes."}, indent=2))
     return 1 if any(r["status"] == "inspection-blocked" for r in records) else 0
 
 

@@ -1,0 +1,169 @@
+{
+  "applications": [
+    {
+      "id": "com.1password.1password",
+      "name": "1Password",
+      "bundle_id": "com.1password.1password",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    },
+    {
+      "id": "com.amazon.Lassen",
+      "name": "Amazon Kindle",
+      "bundle_id": "com.amazon.Lassen",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    },
+    {
+      "id": "com.openai.codex",
+      "name": "ChatGPT",
+      "bundle_id": "com.openai.codex",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    },
+    {
+      "id": "com.bloombuilt.dayone-mac",
+      "name": "Day One",
+      "bundle_id": "com.bloombuilt.dayone-mac",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    },
+    {
+      "id": "developer.apple.wwdc-Release",
+      "name": "Developer",
+      "bundle_id": "developer.apple.wwdc-Release",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    },
+    {
+      "id": "com.docker.docker",
+      "name": "Docker",
+      "bundle_id": "com.docker.docker",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    },
+    {
+      "id": "com.getdropbox.dropbox",
+      "name": "Dropbox",
+      "bundle_id": "com.getdropbox.dropbox",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    },
+    {
+      "id": "com.FluidApp.app",
+      "name": "FluidVoice",
+      "bundle_id": "com.FluidApp.app",
+      "requirement": "required",
+      "configuration_component": "voice-transcription",
+      "configuration_status": "defined"
+    },
+    {
+      "id": "com.google.Chrome",
+      "name": "Google Chrome",
+      "bundle_id": "com.google.Chrome",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    },
+    {
+      "id": "com.apple.iWork.Keynote",
+      "name": "Keynote",
+      "bundle_id": "com.apple.iWork.Keynote",
+      "requirement": "not-required"
+    },
+    {
+      "id": "com.microsoft.Excel",
+      "name": "Microsoft Excel",
+      "bundle_id": "com.microsoft.Excel",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    },
+    {
+      "id": "com.microsoft.Powerpoint",
+      "name": "Microsoft PowerPoint",
+      "bundle_id": "com.microsoft.Powerpoint",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    },
+    {
+      "id": "com.microsoft.teams2",
+      "name": "Microsoft Teams",
+      "bundle_id": "com.microsoft.teams2",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    },
+    {
+      "id": "com.microsoft.Word",
+      "name": "Microsoft Word",
+      "bundle_id": "com.microsoft.Word",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    },
+    {
+      "id": "com.apple.iWork.Numbers",
+      "name": "Numbers",
+      "bundle_id": "com.apple.iWork.Numbers",
+      "requirement": "not-required"
+    },
+    {
+      "id": "md.obsidian",
+      "name": "Obsidian",
+      "bundle_id": "md.obsidian",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    },
+    {
+      "id": "com.microsoft.OneDrive",
+      "name": "OneDrive",
+      "bundle_id": "com.microsoft.OneDrive",
+      "requirement": "not-required"
+    },
+    {
+      "id": "com.apple.iWork.Pages",
+      "name": "Pages",
+      "bundle_id": "com.apple.iWork.Pages",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    },
+    {
+      "id": "com.apple.Safari",
+      "name": "Safari",
+      "bundle_id": "com.apple.Safari",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    },
+    {
+      "id": "com.tinyspeck.slackmacgap",
+      "name": "Slack",
+      "bundle_id": "com.tinyspeck.slackmacgap",
+      "requirement": "not-required"
+    },
+    {
+      "id": "com.apple.TestFlight",
+      "name": "TestFlight",
+      "bundle_id": "com.apple.TestFlight",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    },
+    {
+      "id": "com.microsoft.VSCode",
+      "name": "Visual Studio Code",
+      "bundle_id": "com.microsoft.VSCode",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    },
+    {
+      "id": "com.apple.dt.Xcode",
+      "name": "Xcode",
+      "bundle_id": "com.apple.dt.Xcode",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    },
+    {
+      "id": "us.zoom.xos",
+      "name": "zoom.us",
+      "bundle_id": "us.zoom.xos",
+      "requirement": "required",
+      "configuration_status": "awaiting-review"
+    }
+  ]
+}

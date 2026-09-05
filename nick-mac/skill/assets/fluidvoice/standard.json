@@ -4,14 +4,11 @@
   "app": {
     "name": "FluidVoice",
     "bundle_id": "com.FluidApp.app",
-    "version": "1.6.9",
-    "build": "20",
-    "minimum_macos": "15.0",
-    "release_url": "https://github.com/altic-dev/FluidVoice/releases/tag/v1.6.9"
+    "project_url": "https://github.com/altic-dev/FluidVoice"
   },
   "sources": [
-    "https://github.com/altic-dev/FluidVoice/blob/v1.6.9/Sources/Fluid/Persistence/SettingsStore.swift",
-    "https://github.com/altic-dev/FluidVoice/blob/v1.6.9/Sources/Fluid/Networking/ModelDownloader.swift"
+    "https://github.com/altic-dev/FluidVoice/blob/6f0684e694828b44fc643b7373f2a22d1e24eafa/Sources/Fluid/Persistence/SettingsStore.swift",
+    "https://github.com/altic-dev/FluidVoice/blob/6f0684e694828b44fc643b7373f2a22d1e24eafa/Sources/Fluid/Networking/ModelDownloader.swift"
   ],
   "set_preferences": {
     "AudioHistoryBudgetGB": 10.0,
@@ -58,7 +55,36 @@
     "TranscriptionSoundVolume": 0.5,
     "TranscriptionStartSound": "fluid_sfx_0"
   },
-  "use_version_defaults": [
+  "app_controls": {
+    "launch_at_startup": true,
+    "microphone_selection_mode": "manual",
+    "preferred_input": "built-in microphone",
+    "fallback_input_order_if_present": [
+      "LG UltraFine Display Audio",
+      "Microsoft Teams Audio"
+    ],
+    "missing_input_policy": "Show an available target input in the plan for Nick to choose."
+  },
+  "required_model_directories": [
+    "FluidAudio/Models/parakeet-tdt-0.6b-v3-coreml",
+    "FluidAudio/Models/silero-vad-coreml",
+    "FluidIntelligence/Models/fluid-1-nvfp4-mlx"
+  ],
+  "vocabulary_file": "parakeet_custom_vocabulary.json",
+  "excluded_state": [
+    "credentials and Keychain items",
+    "transcription and command history",
+    "audio recordings",
+    "analytics installation identifiers",
+    "onboarding and migration markers",
+    "window geometry",
+    "source device names and identifiers",
+    "downloaded model weights"
+  ],
+  "capture_environment": {
+    "architecture": "arm64"
+  },
+  "review_unset_preferences": [
     "AccentColorOption",
     "AppPromptBindings",
     "AutoConvertPunctuationEnabled",
@@ -130,34 +156,23 @@
     "VisualizerNoiseThreshold",
     "VocabularyBoostingEnabled"
   ],
-  "app_controls": {
-    "launch_at_startup": true,
-    "microphone_selection_mode": "manual",
-    "preferred_input": "built-in microphone",
-    "fallback_input_order_if_present": [
-      "LG UltraFine Display Audio",
-      "Microsoft Teams Audio"
-    ],
-    "missing_input_policy": "Show an available target input in the plan for Nick to choose."
-  },
-  "required_model_directories": [
-    "FluidAudio/Models/parakeet-tdt-0.6b-v3-coreml",
-    "FluidAudio/Models/silero-vad-coreml",
-    "FluidIntelligence/Models/fluid-1-nvfp4-mlx"
-  ],
-  "vocabulary_file": "parakeet_custom_vocabulary.json",
-  "excluded_state": [
-    "credentials and Keychain items",
-    "transcription and command history",
-    "audio recordings",
-    "analytics installation identifiers",
-    "onboarding and migration markers",
-    "window geometry",
-    "source device names and identifiers",
-    "downloaded model weights"
-  ],
-  "capture_environment": {
-    "macos_version": "26.6.2",
-    "architecture": "arm64"
+  "effective_settings": {
+    "primary_dictation_shortcut": "Right Option",
+    "activation_mode": "toggle",
+    "cancel_recording_shortcut": "Escape",
+    "edit_shortcut": "Option+R",
+    "edit_shortcut_enabled": true,
+    "command_mode_shortcut_enabled": false,
+    "paste_last_shortcut_enabled": false,
+    "text_insertion_mode": "clipboard-free insertion",
+    "theme": "follow system",
+    "show_in_dock": true,
+    "sound_independent_volume": false,
+    "overlay_preview_characters": 150,
+    "skip_silent_recordings": false,
+    "lowercase_first_letter": false,
+    "remove_trailing_period": false,
+    "notify_ai_failures": true,
+    "notify_microphone_changes": true
   }
 }

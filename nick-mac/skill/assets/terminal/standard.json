@@ -20,7 +20,6 @@
     "Do not import environment variables, credentials, aliases, or unrelated startup commands."
   ],
   "capture_environment": {
-    "macos_version": "26.6.2",
     "architecture": "arm64"
   }
 }
