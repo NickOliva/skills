@@ -1,72 +1,35 @@
 ---
 name: nick-mac
-description: Use when the user explicitly invokes `$nick-mac` or wants to standardize Nick's personal macOS setup across computers, especially Finder context menu services and Terminal/Zsh appearance. This skill asks a yes/no question for each available component before applying anything and uses bundled scripts and assets to make the selected changes.
+description: Review and align Nick's Macs with an evolving standard build of tools, apps, and configurations. Compare every manifest item, help Nick keep the recorded value, adopt the target's alternative, or define a new standard, then apply one accepted alignment plan. Also use to extend or revise the build.
 ---
 
 # Nick Mac
 
-Apply or extend Nick's reusable Mac setup.
+Develop Nick's standard Mac build through repeated reviews across his computers. The build evolves until Nick decides the complete formula is settled. Finder, Terminal, and voice transcription are initial components; tools, apps, and configurations can be added throughout the process.
 
-## When To Use
+## Standard and scope
 
-- The user says `$nick-mac`.
-- The user wants a Mac to match Nick's preferred local setup.
-- The user wants to add another personal Mac standard to this skill.
+Read [manifest.json](manifest.json) and the [component catalog](references/components.md). Load specifications and assets only for the selected components. Use paths relative to this skill directory, including when invoked through its installed symlink.
 
-## Workflow
+The manifest records the current baseline and item review states. A provisional snapshot is a starting point for review. No computer is permanently authoritative, and observing a setting does not adopt it as standard. Use “target Mac” and “recorded standard”; keep computer names out of skill instructions and portable artifacts.
 
-1. Inspect only the selected Mac and only the components that matter.
-   - Read `references/components.md`.
-   - Check existing apps/files before changing anything.
-2. Ask one plain yes/no question per component before applying it.
-   - Current components:
-     - `finder-context-menu`
-     - `terminal-zsh`
-   - If the user already named the components they want, do not re-ask the same question.
-   - If a component depends on software that is missing, say so explicitly and ask whether to continue with the parts that can still be applied.
-3. Apply only the chosen components with the bundled scripts.
-   - `scripts/apply-selected.sh finder-context-menu`
-   - `scripts/apply-selected.sh terminal-zsh`
-4. Report exactly what changed, what was skipped, and any follow-up steps.
-   - Mention if Finder or Terminal may need to be reopened.
-   - Mention missing prerequisites such as `Beyond Compare.app` or `Parallels Desktop.app`.
+A normal run reviews the whole manifest on the target Mac. Honor a named subset or inspection-only request. Target the local Mac unless Nick names another accessible target. Editing this skill does not itself authorize running its configuration procedures.
 
-## Current Components
+## Review, decide, apply
 
-Load `references/components.md` when you need the details.
+1. **Inspect.** Compare each selected manifest item with the target's actual configuration. Include app presence/version, settings, assets, dependencies, and verification gaps. On a full review, inventory installed user apps and tools as candidates for manifest additions; distinguish intentional tools from their supporting packages. Surface relevant app settings outside the captured baseline as review candidates. Use `scripts/compare-standard.py` for the supported preference comparisons and supplement it with each component's checks. An unset preference is a version-dependent default, not necessarily the same effective value on a different app or OS version.
+2. **Resolve differences.** For every differing item, show the recorded and observed alternatives. Let Nick keep the recorded standard, adopt the target's value as standard, define a new value, or defer the item. Group related questions for concise answers, but preserve individual choices. Treat missing and additional tools the same way; do not silently install, remove, or adopt them.
+3. **Present one plan.** Combine Nick's choices into a reviewable plan of proposed standard updates and target changes. Include unresolved items and any installation, replacement, restart, permission, or device-specific step that affects his decision. For an item he has not decided, show the alternatives in the plan rather than selecting one silently. He may resolve choices and accept the resulting plan in one reply.
+4. **Wait for acceptance.** Do not change target configuration or adopt proposed standards before Nick accepts the plan. Earlier acceptance of the same concrete work still counts. An inspection-only request ends with findings. If nothing differs, report that without asking for an empty approval.
+5. **Apply the accepted scope.** Update accepted standard artifacts, manifest review states, and [decision record](references/decisions.md) together, then align the target using the component procedures. Preserve unrelated configuration and back up replaced settings. Continue independent accepted work if an item is blocked. Bring back only material changes to the accepted plan.
+6. **Verify and carry forward.** Check each changed item and report a concise result with any deferred items or manual checks. Keep provisional or unresolved choices available for future computer reviews. Record item decisions without declaring the entire formula complete; only Nick decides when it is finalized.
 
-### `finder-context-menu`
+## Maintaining the build
 
-Make Finder match the service entries discovered on Nick's current Mac:
-- `New Terminal at Folder`
-- `Open in VS Code`
-- `Select Left Folder for Compare`
+Every managed value has a stable item ID. Preference IDs use `<component-id>:<domain>:<key>`; nested dictionary keys append `/subkey`. Asset and app-control IDs are documented in the component references. In the manifest's `item_decisions`, map each reviewed ID to its `review_state` (`accepted` or `deferred`), `choice` (`keep-recorded`, `adopt-observed`, `define-new`, or `defer`), and `decided_on` date. Store the selected value in its referenced standard artifact and the rationale in the decision record. Advance the manifest revision when an accepted standard changes.
 
-Use `scripts/apply-finder-context-menu.sh`.
+When Nick adds a tool, app, or configuration, give it a component entry or add it to the appropriate existing component. Document inspection, application, verification, and any dependencies. Review newly discovered items before making them requirements.
 
-Important:
-- This script installs the bundled VS Code Quick Action and refreshes Finder services metadata.
-- `Compare Folders` and `Select Left Folder for Compare` come from Beyond Compare.
-- `Reveal in Windows` comes from Parallels Desktop.
-- Do not claim the menu will match exactly if those apps are absent.
+Keep credentials, device identity, recordings, history contents, and unrelated shell configuration out of standard artifacts. Record settings that control those features when Nick chooses them. Do not bypass macOS permission prompts or treat a stored login preference as proof of login-item registration.
 
-### `terminal-zsh`
-
-Make Terminal and Zsh match Nick's current look without copying machine-specific secrets:
-- Terminal default/startup profile: `Pro`
-- oh-my-zsh theme: bundled `nick-mac` theme based on Nick's current `avit` setup
-- no `.zshrc` secrets, database credentials, or repo-local aliases
-
-Use `scripts/apply-terminal-zsh.sh`.
-
-Important:
-- If the target Mac already uses a different Zsh framework, inspect first and warn before replacing it.
-- Preserve unrelated shell configuration when possible.
-
-## Extending This Skill
-
-When adding another standard:
-1. Add a new section to `references/components.md`.
-2. Add a dedicated `scripts/apply-<component>.sh`.
-3. Register the component in `scripts/apply-selected.sh`.
-4. Keep scripts idempotent and avoid bundling secrets or machine-specific credentials.
+When changing the comparison helper, run `python3 -m unittest discover -s <skill-directory>/tests -v`. The [bundled tests](tests/test_compare_standard.py) use synthetic settings, require only Python's standard library, and do not inspect or modify the computer's configuration.

@@ -1,7 +1,7 @@
 interface:
   display_name: "Nick Mac"
-  short_description: "Standardize Nick's Mac setup"
-  default_prompt: "Use $nick-mac to standardize this Mac with my selected Nick-specific Finder and Terminal/Zsh setup."
+  short_description: "Review and align Nick's evolving Mac build"
+  default_prompt: "Use $nick-mac to compare this Mac with my build manifest, review differing items, and prepare one alignment plan for me to accept."
 
 policy:
   allow_implicit_invocation: false

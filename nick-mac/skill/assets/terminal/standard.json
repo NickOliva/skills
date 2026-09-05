@@ -1,0 +1,26 @@
+{
+  "captured_on": "2026-09-05",
+  "review_status": "provisional",
+  "domain": "com.apple.Terminal",
+  "set_preferences": {
+    "Default Window Settings": "Nick-Mac",
+    "Startup Window Settings": "Nick-Mac"
+  },
+  "profiles": {
+    "Nick-Mac": "profile-1.terminal"
+  },
+  "shell": {
+    "observed_shell": "/bin/zsh",
+    "framework_or_theme_override": "None found in the inspected startup files; inspect the target before proposing changes.",
+    "manage_full_shell_startup_files": false
+  },
+  "review_notes": [
+    "Profile names are Terminal configuration identifiers, not computer names.",
+    "Captured appearance is a proposal. Choose a profile and shell setup through item-by-item review.",
+    "Do not import environment variables, credentials, aliases, or unrelated startup commands."
+  ],
+  "capture_environment": {
+    "macos_version": "26.6.2",
+    "architecture": "arm64"
+  }
+}

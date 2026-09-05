@@ -1,0 +1,70 @@
+{
+  "captured_on": "2026-09-05",
+  "review_status": "provisional",
+  "domains": [
+    {
+      "domain": "com.apple.finder",
+      "set_preferences": {
+        "FXPreferredViewStyle": "Nlsv",
+        "ShowPathbar": true,
+        "ShowStatusBar": true,
+        "ShowHardDrivesOnDesktop": true,
+        "ShowExternalHardDrivesOnDesktop": true,
+        "ShowRemovableMediaOnDesktop": true,
+        "ShowMountedServersOnDesktop": true,
+        "FXRemoveOldTrashItems": true,
+        "FinderSpawnTab": false,
+        "NewWindowTarget": "PfDo"
+      },
+      "use_os_defaults": [
+        "AppleShowAllFiles",
+        "FXEnableExtensionChangeWarning"
+      ]
+    },
+    {
+      "domain": ".GlobalPreferences",
+      "set_preferences": {},
+      "use_os_defaults": [
+        "AppleShowAllExtensions"
+      ]
+    },
+    {
+      "domain": "pbs",
+      "set_preferences": {
+        "FinderActive": {
+          "is.workflow.actions.image.removebackground": true,
+          "APPEXTENSION-com.apple.finder.CreatePDFQuickAction": true,
+          "APPEXTENSION-com.apple.finder.MarkupQuickAction": true,
+          "APPEXTENSION-com.apple.finder.RotateQuickAction": true,
+          "APPEXTENSION-com.apple.finder.TrimQuickAction": true,
+          "is.workflow.actions.image.convert.finder": true
+        },
+        "FinderOrdering": {
+          "APPEXTENSION-com.apple.finder.CreatePDFQuickAction": 3,
+          "is.workflow.actions.image.removebackground": 5,
+          "APPEXTENSION-com.apple.finder.MarkupQuickAction": 1,
+          "APPEXTENSION-com.apple.finder.RotateQuickAction": 0,
+          "APPEXTENSION-com.apple.finder.TrimQuickAction": 2,
+          "is.workflow.actions.image.convert.finder": 4
+        }
+      },
+      "use_os_defaults": []
+    }
+  ],
+  "workflow_assets": [
+    "../open in vs code.workflow"
+  ],
+  "other_observed_workflows": [
+    "Copy path.workflow",
+    "Send to Kindle.workflow"
+  ],
+  "review_notes": [
+    "Review all captured settings before adopting or changing them.",
+    "Other observed workflows are candidates, with their behavior and assets still to be reviewed.",
+    "Native service visibility and third-party Finder extensions require target inspection; a preference snapshot does not prove menu contents."
+  ],
+  "capture_environment": {
+    "macos_version": "26.6.2",
+    "architecture": "arm64"
+  }
+}

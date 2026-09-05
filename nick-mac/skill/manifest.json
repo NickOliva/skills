@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "revision": 1,
+  "build_state": "evolving",
+  "components": [
+    {
+      "id": "finder",
+      "title": "Finder",
+      "initial_review_state": "provisional",
+      "specification": "references/components/finder-context-menu.md",
+      "standard": "assets/finder/standard.json"
+    },
+    {
+      "id": "terminal",
+      "title": "Terminal and shell",
+      "initial_review_state": "provisional",
+      "specification": "references/components/terminal-zsh.md",
+      "standard": "assets/terminal/standard.json"
+    },
+    {
+      "id": "voice-transcription",
+      "title": "FluidVoice",
+      "initial_review_state": "accepted-baseline",
+      "specification": "references/components/voice-transcription.md",
+      "standard": "assets/fluidvoice/standard.json"
+    }
+  ],
+  "item_decisions": {}
+}

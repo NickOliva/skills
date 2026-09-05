@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "captured_on": "2026-09-05",
+  "app": {
+    "name": "FluidVoice",
+    "bundle_id": "com.FluidApp.app",
+    "version": "1.6.9",
+    "build": "20",
+    "minimum_macos": "15.0",
+    "release_url": "https://github.com/altic-dev/FluidVoice/releases/tag/v1.6.9"
+  },
+  "sources": [
+    "https://github.com/altic-dev/FluidVoice/blob/v1.6.9/Sources/Fluid/Persistence/SettingsStore.swift",
+    "https://github.com/altic-dev/FluidVoice/blob/v1.6.9/Sources/Fluid/Networking/ModelDownloader.swift"
+  ],
+  "set_preferences": {
+    "AudioHistoryBudgetGB": 10.0,
+    "AutoUpdateCheckEnabled": false,
+    "ContextAwareCapitalizationEnabled": true,
+    "ContinuousDictationSpacingEnabled": true,
+    "CopyTranscriptionToClipboard": true,
+    "CustomDictionaryEntries": {
+      "plist_data_json": [
+        {
+          "id": "2A0B1C41-42AE-4EB8-9C8D-18FA899E3714",
+          "triggers": [
+            "fluid voice, zieger, merrill, oliva, zimmermann",
+            "fluid voice zieger meryl oliva zimmerman",
+            "fluid voice zieger merrill oliva zimmerman"
+          ],
+          "replacement": "FluidVoice, Zegar, Merryl, Oliva, Zimmermann"
+        }
+      ]
+    },
+    "DictationPromptOff": false,
+    "EnableDebugLogs": true,
+    "EnableStreamingPreview": false,
+    "FluidIntelligenceSelectedModelID": "fluid-1",
+    "LiteralDictationFormattingEnabled": true,
+    "NotchPresentationMode": "minimal",
+    "OverlayBottomOffset": 50.0,
+    "OverlayPosition": "top",
+    "PauseMediaDuringTranscription": true,
+    "PrivateAIProviderContextTokenLimit": 4096,
+    "PromptModeShortcutEnabled": false,
+    "SaveAudioWithTranscriptionHistory": true,
+    "SaveTranscriptionHistory": true,
+    "SecondaryDictationPromptOff": true,
+    "SelectedDictationPromptID": "__FLUID_1__",
+    "SelectedModelByProvider": {
+      "fluid-1": "fluid-1",
+      "custom:fluid-1": "fluid-1"
+    },
+    "SelectedProviderID": "fluid-1",
+    "SelectedSpeechModel": "parakeet-tdt",
+    "ShareAnonymousAnalytics": false,
+    "ShowMainWindowAtLoginLaunch": false,
+    "TranscriptionSoundVolume": 0.5,
+    "TranscriptionStartSound": "fluid_sfx_0"
+  },
+  "use_version_defaults": [
+    "AccentColorOption",
+    "AppPromptBindings",
+    "AutoConvertPunctuationEnabled",
+    "AutomaticDictionaryLearningEnabled",
+    "BetaReleasesEnabled",
+    "CancelRecordingHotkeyShortcut",
+    "CommandModeConfirmBeforeExecute",
+    "CommandModeHotkeyShortcut",
+    "CommandModeLinkedToGlobal",
+    "CommandModeSelectedModel",
+    "CommandModeSelectedProviderID",
+    "CommandModeShortcutEnabled",
+    "ContinuousDictationModeEnabled",
+    "CustomDictationPrompt",
+    "DefaultDictationPromptOverride",
+    "DefaultEditPromptOverride",
+    "DefaultRewritePromptOverride",
+    "DefaultWritePromptOverride",
+    "DictationPromptConfigurations",
+    "DictationPromptProfiles",
+    "EditPromptOff",
+    "EnableAIStreaming",
+    "EnableTranscriptionSounds",
+    "FileTranscriptionExpectedSpeakerCount",
+    "FileTranscriptionSpeakerLabelsEnabled",
+    "FillerWords",
+    "FluidIntelligenceBackendPreference",
+    "GAAVLowercaseFirstLetterEnabled",
+    "GAAVModeEnabled",
+    "GAAVRemoveTrailingPeriodEnabled",
+    "HotkeyMode",
+    "HotkeyShortcutKey",
+    "ModelReasoningConfigs",
+    "NotifyAIProcessingFailures",
+    "OverlaySize",
+    "PasteLastTranscriptionHotkeyShortcut",
+    "PasteLastTranscriptionShortcutEnabled",
+    "PressAndHoldMode",
+    "PrimaryDictationShortcuts",
+    "PrivateAIProviderBoostEnabled",
+    "PrivateAIProviderPrefixKVCacheEnabled",
+    "PromptModeHotkeyShortcut",
+    "PromptModeSelectedPromptID",
+    "PronunciationMatchingEnabled",
+    "PunctuationDictionaryPrefix",
+    "PunctuationDictionaryRules",
+    "RemoveFillerWordsEnabled",
+    "RewriteModeHotkeyShortcut",
+    "RewriteModeLinkedToGlobal",
+    "RewriteModeSelectedModel",
+    "RewriteModeSelectedProviderID",
+    "RewriteModeShortcutEnabled",
+    "SelectedAppleSpeechLocaleIdentifier",
+    "SelectedCohereLanguage",
+    "SelectedEditPromptID",
+    "SelectedNemotronLanguage",
+    "SelectedRewritePromptID",
+    "SelectedWritePromptID",
+    "SendCustomPromptOnly",
+    "ShowInDock",
+    "ShowMicrophoneChangeAlerts",
+    "ShowThinkingTokens",
+    "SkipSilentRecordingsEnabled",
+    "SpokenFormattingActionRules",
+    "TextInsertionMode",
+    "ThemePreference",
+    "TranscriptionPreviewCharLimit",
+    "TranscriptionSoundIndependentVolume",
+    "VisualizerNoiseThreshold",
+    "VocabularyBoostingEnabled"
+  ],
+  "app_controls": {
+    "launch_at_startup": true,
+    "microphone_selection_mode": "manual",
+    "preferred_input": "built-in microphone",
+    "fallback_input_order_if_present": [
+      "LG UltraFine Display Audio",
+      "Microsoft Teams Audio"
+    ],
+    "missing_input_policy": "Show an available target input in the plan for Nick to choose."
+  },
+  "required_model_directories": [
+    "FluidAudio/Models/parakeet-tdt-0.6b-v3-coreml",
+    "FluidAudio/Models/silero-vad-coreml",
+    "FluidIntelligence/Models/fluid-1-nvfp4-mlx"
+  ],
+  "vocabulary_file": "parakeet_custom_vocabulary.json",
+  "excluded_state": [
+    "credentials and Keychain items",
+    "transcription and command history",
+    "audio recordings",
+    "analytics installation identifiers",
+    "onboarding and migration markers",
+    "window geometry",
+    "source device names and identifiers",
+    "downloaded model weights"
+  ],
+  "capture_environment": {
+    "macos_version": "26.6.2",
+    "architecture": "arm64"
+  }
+}
